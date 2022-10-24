@@ -8,7 +8,7 @@ body {
   }
 
   header {
-    display: flex;
+    display: row-reverse
     align-items: column;
     justify-content: space-evenly;
   }
