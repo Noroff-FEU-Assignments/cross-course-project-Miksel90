@@ -9,6 +9,6 @@ body {
 
   header {
     display: flex;
-    align-items: column-reverse;
+    align-items: row-reverse;
     justify-content: space-evenly;
   }
