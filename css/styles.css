@@ -8,7 +8,8 @@ body {
   }
 
   header {
-    display: row-reverse
+    display: f
     align-items: column;
     justify-content: space-evenly;
+    background-color: black;
   }
