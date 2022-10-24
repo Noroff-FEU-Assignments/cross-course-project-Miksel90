@@ -2,7 +2,13 @@ body {
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  footer2 {
+  footer {
     text-align: center;
     padding: 20px;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
