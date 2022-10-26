@@ -31,7 +31,7 @@ body {
     margin-right: 20px;
     margin-top: 0px;    /* if you want it vertically middle of the navbar. */
 }
-.navigation-bar > a {
+.navigation-bar a {
   
     display: inline-block;
     vertical-align: top;
