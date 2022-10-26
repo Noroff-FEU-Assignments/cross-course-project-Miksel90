@@ -104,7 +104,7 @@ body {
 
 /* Bottom left text */
 .bottom-left {
-  position: absolute;
+  position: left;
   bottom: 8px;
   left: 16px;
 }
