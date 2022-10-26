@@ -12,12 +12,18 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #000
-    color: white
   }
 
   <style>
   body {font-family: "Roboto", Arial, Helvetica, sans-serif;}
+
   
+  .navbar-left{
+    postion: relative;
+    width: 70;
+    height: 70;
+
+  }
   .navbar {
     width: 100%;
     background-color: #B6A696;
