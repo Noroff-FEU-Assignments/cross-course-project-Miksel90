@@ -27,37 +27,21 @@ body {
     float: left
 }
 
-.navbar {
-  width: 100%;
-  background-color: #B6A696;
-  overflow: auto;
+nav {
+  margin-left: 25px;
+  display: none;
+  position: fixed;
+  top: 45px;
+  background: var(--color-header-footer);
+  z-index: 1000;
+  right: 0px;
 }
 
-.navbar a {
-  float: left;
-  text-align: center;
-  justify-content: space-evenly;
-  padding: 10px;
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
+nav ul {
+  padding: 0px;
 }
 
-.navbar a:hover {
-  background-color: #427784;
-}
-
-.topnav input[type=text] {
-  float: left;
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
-  border: none;
-  font-size: 17px;
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
+nav li {
+  display: block;
+  padding: 20px 30px;
 }
