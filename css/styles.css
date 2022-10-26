@@ -20,7 +20,12 @@ body {
   <style>
   body {font-family: "Roboto", Arial, Helvetica, sans-serif;}
     
- 
+  .toplogo {
+
+    height : 30%;
+    width : 30%;
+    margin-top: 5px;
+}
   .navbar {
     width: 100%;
     background-color: #B6A696;
@@ -50,11 +55,5 @@ body {
     }
   }
 
-
-  .vl {
-    border-left: 6px solid green;
-    color: #427784;
-    height: 500px;
-  }
   </style>
   
