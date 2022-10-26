@@ -66,7 +66,7 @@ body {
 .container {
   position: relative;
   width: 100%;
-  height: 25%;
+max-width: 400px;
 }
 /* Make the image responsive */
 .container img {
@@ -75,7 +75,7 @@ body {
 }
 
 /* Style the button and place it in the middle of the container/image */
-.container .btn-group {
+.container .btn {
   position: absolute;
   top: 90%;
   left: 50%;
@@ -89,6 +89,7 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  text-align: center;
 }
 
 .container .btn:hover {
