@@ -38,5 +38,24 @@ body {
     margin-right: 20px;
     height: 80px;        /* if you want it to take the full height of the bar */
     line-height: 80px;    /* if you want it vertically middle of the navbar */
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navigation-bar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
 
