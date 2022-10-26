@@ -17,30 +17,21 @@ body {
     font-size: 15px;
   }
  
-  nav {
-    margin-left: 25px;
-    display: none;
-    position: fixed;
-    top: 45px;
-   background: #B6A696;
-   color: white;
-    z-index: 1000;
-    right: 0px;
+  .topnav {
+    background-color: #B6A696;
+    overflow: hidden;
   }
   
-  nav ul {
-    padding: 0px;
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
   }
   
-  nav li {
-    display: block;
-    padding: 20px 30px;
-  }
-  
-  #hamburger-menu {
-    display: none;
-  }
-  
-  #hamburger-menu:checked ~ nav {
-    display: block;
+  .topnav a:hover {
+    background-color: #427784;
+    color: black;
   }
