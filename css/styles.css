@@ -12,6 +12,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #000
+    color: white
   }
 
   <style>
@@ -19,7 +20,6 @@ body {
   
   .navbar {
     width: 100%;
-
     background-color: #B6A696;
     overflow: auto;
   }
