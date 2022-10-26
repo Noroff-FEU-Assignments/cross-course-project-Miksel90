@@ -34,7 +34,7 @@ body {
   width: 100%;
   background-color: #B6A696;
   overflow: auto;
-  max-height: 70px;
+  max-height: 100px;
 }
 
 .navbar a {
