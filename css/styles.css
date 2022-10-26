@@ -26,7 +26,6 @@ body {
   .topnav a {
     float: center;
     color: white;
-    text-align: center;
     justify-content: space-evenly;
     padding: 14px 20x;
     text-decoration: none;
