@@ -75,7 +75,7 @@ body {
 }
 
 /* Style the button and place it in the middle of the container/image */
-.container .btn {
+.container .btn-group {
   position: absolute;
   top: 90%;
   left: 50%;
