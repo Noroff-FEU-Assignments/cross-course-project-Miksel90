@@ -52,6 +52,13 @@ body {
   }
   </style>
 
-img{
-width: 100%;
-}
+  nav {
+    margin-left: 25px;
+    display: none;
+    position: fixed;
+    top: 45px;
+    background: var(--color-header-footer);
+    z-index: 1000;
+    right: 0px;
+  }
+  
