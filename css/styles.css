@@ -26,11 +26,11 @@ body {
   .topnav a {
     float: center;
     color: white;
-    justify-content: space-evenly;
+    text-align: center;
     padding: 14px 20x;
     text-decoration: none;
     font-size: 20px;
-    margin-top: -8px;
+    margin-top: 100px;
   }
   
   .topnav a:hover {
