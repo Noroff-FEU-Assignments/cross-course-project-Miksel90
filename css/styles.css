@@ -34,9 +34,10 @@ body {
   width: 100%;
   background-color: #B6A696;
   overflow: auto;
+  max-height: 70px;
 }
 
-.navbar-right {
+.navbar a {
   float: left;
   padding: 20px;
   color: white;
