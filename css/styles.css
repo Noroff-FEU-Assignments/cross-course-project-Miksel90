@@ -25,6 +25,8 @@ body {
 }
 
 .toplogo img {
+    height: fit-content;
+    width: fit-content;
     Max-height : 90px;
     max-width : 90px
     float: left
