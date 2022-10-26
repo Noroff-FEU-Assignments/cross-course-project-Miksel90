@@ -26,6 +26,7 @@ body {
     position: fixed;
     top: 45px;
    background-color: #B6A696;
+   color: white;
     z-index: 1000;
     right: 0px;
   }
