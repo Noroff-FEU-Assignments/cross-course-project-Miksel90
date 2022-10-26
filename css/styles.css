@@ -55,8 +55,6 @@ body {
   float: center;
   padding: 6px;
   border: none;
-  background-color: #B6A696;
-  color: white;
   margin-top: 25px;
   margin-right: 16px;
   font-size: 20px;
@@ -107,7 +105,7 @@ body {
 
 /* Bottom left text */
 .bottom-left {
-  position: left;
+  position: absolute;
   bottom: 8px;
   left: 16px;
 }
