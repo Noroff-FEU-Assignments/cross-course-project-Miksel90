@@ -18,8 +18,8 @@ body {
   body {font-family: "Roboto", Arial, Helvetica, sans-serif;}
 
   .navbar-left{
-    height: fit-content;
-    width: fit-content;
+    height: 50px;
+    width: 50px;
   }
  
   .navbar {
