@@ -48,9 +48,6 @@ body {
   background-color: #000;
 }
 
-.active {
-  background-color: #04AA6D;
-}
 
 @media screen and (max-width: 500px) {
   .navbar a {
