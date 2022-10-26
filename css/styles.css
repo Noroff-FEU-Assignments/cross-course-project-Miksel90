@@ -32,7 +32,7 @@ nav a {
   display: none;
   position: fixed;
   top: 45px;
-  background: var(--color-header-footer);
+  background: #B6A696
   z-index: 1000;
   right: 0px;
 }
