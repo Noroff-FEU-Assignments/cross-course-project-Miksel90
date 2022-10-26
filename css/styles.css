@@ -29,7 +29,6 @@ body {
   
   .navbar a {
     float: left;
-    justify-content: space-evenly;
     padding: 20px;
     color: white;
     text-decoration: none;
@@ -51,14 +50,5 @@ body {
     }
   }
 
-  nav {
-    margin-left: 25px;
-    display: none;
-    position: fixed;
-    top: 45px;
-    background: var(--color-header-footer);
-    z-index: 1000;
-    right: 0px;
-  }
   </style>
   
