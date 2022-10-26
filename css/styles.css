@@ -30,7 +30,7 @@ body {
     padding: 20px 20x;
     text-decoration: none;
     font-size: 20px;
-    margin-top: 100px;
+    margin-top: -100px;
   }
   
   .topnav a:hover {
@@ -58,16 +58,4 @@ body {
     
     .topnav input[type=text] {
       border: 1px solid #ccc;  
-    }
-
-    .topnav-centered a {
-      float: none;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-    .topnav-right {
-      float: right;
     }
