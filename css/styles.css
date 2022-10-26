@@ -59,3 +59,10 @@ body {
     .topnav input[type=text] {
       border: 1px solid #ccc;  
     }
+
+    .topnav-centered a {
+      float: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
