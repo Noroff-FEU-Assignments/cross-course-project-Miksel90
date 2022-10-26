@@ -54,7 +54,7 @@ body {
 .navigation-bar input[type=text] {
   float: center;
   padding: 6px;
-  border: #427784
+  border: none;
   margin-top: 25px;
   margin-right: 16px;
   font-size: 20px;
