@@ -28,7 +28,7 @@ body {
     width: 100px;
     height: 100px;
     margin-right: 20px;
-    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    margin-top: 10px;    /* if you want it vertically middle of the navbar. */
 }
 .navigation-bar > a {
     display: inline-block;
