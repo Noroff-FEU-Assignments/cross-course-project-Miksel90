@@ -70,7 +70,7 @@ body {
 }
 /* Make the image responsive */
 .container img {
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
