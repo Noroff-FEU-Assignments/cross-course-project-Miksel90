@@ -37,7 +37,7 @@ body {
 }
 
 .navbar a {
-  float: Center;
+  float: left;
   padding: 20px;
   color: white;
   text-decoration: none;
