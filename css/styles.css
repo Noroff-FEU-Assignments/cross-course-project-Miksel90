@@ -27,6 +27,7 @@ body {
 .toplogo img {
     height : 10%;
     width : 10%;
+    float: left
 }
 
 .navbar {
