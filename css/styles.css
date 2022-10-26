@@ -27,7 +27,7 @@ body {
     float: left
 }
 
-navbar-brand-toplogo {
+nav {
   margin-left: 25px;
   display: none;
   position: fixed;
