@@ -18,16 +18,13 @@ body {
   body {font-family: "Roboto", Arial, Helvetica, sans-serif;}
 
   
-  .navbar-left{
-    postion: relative;
-    width: 70;
-    height: 70;
-
-  }
+ 
   .navbar {
     width: 100%;
     background-color: #B6A696;
     overflow: auto;
+    width: 100;¨
+    height: 100;
   }
   
   .navbar a {
