@@ -62,6 +62,7 @@ body {
     }
 
     .logo-image img{
+      float: left
       width: 46px;
       height: 46px;
       border-radius: 50%;
