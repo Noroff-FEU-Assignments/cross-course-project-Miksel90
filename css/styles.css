@@ -11,7 +11,7 @@ body {
   header {
     display: center;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background: #000;
     color: white;
     font-size: 15px;
