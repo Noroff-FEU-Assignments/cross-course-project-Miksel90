@@ -35,7 +35,8 @@ body {
 
 .navbar a {
   float: left;
-  text-align: left;
+  text-align: center;
+  justify-content: space-evenly;
   padding: 10px;
   color: white;
   text-decoration: none;
