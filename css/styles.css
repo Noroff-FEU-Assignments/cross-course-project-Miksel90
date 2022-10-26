@@ -10,12 +10,12 @@ body {
 
   header {
     display: center;
-    align-items: center;
+    text-align: center;
     justify-content: space-evenly;
-    background-color: #000
-    color: white
+    background: #000;
+    color: white;
+    font-size: 15px;
   }
-
   <style>
   body {font-family: "Roboto", Arial, Helvetica, sans-serif;}
     
