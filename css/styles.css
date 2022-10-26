@@ -8,7 +8,7 @@ body {
     background-color: #B6A696;
   }
 
-  header a{
+  header {
     display: center;
     text-align: center;
     justify-content: space-evenly;
