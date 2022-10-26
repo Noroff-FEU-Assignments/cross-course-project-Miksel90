@@ -16,23 +16,15 @@ body {
     color: white;
     font-size: 15px;
   }
-    
-  .toplogo {
-    margin-top: 0px;
-}
+ 
 
-.toplogo img {
-    height: 100px;
-    width: 200px;
-    float: left
-}
 
-nav a {
+nav {
   margin-left: 25px;
   display: none;
   position: fixed;
   top: 45px;
-  background: #B6A696
+  background: var(--color-header-footer);
   z-index: 1000;
   right: 0px;
 }
@@ -44,4 +36,12 @@ nav ul {
 nav li {
   display: block;
   padding: 20px 30px;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
 }
