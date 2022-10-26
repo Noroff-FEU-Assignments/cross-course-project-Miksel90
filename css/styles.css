@@ -20,7 +20,7 @@ body {
   .topnav {
     background-color: #B6A696;
     overflow: auto;
-    height: 50px;
+    max-height: 50px;
   }
   
   .topnav a {
