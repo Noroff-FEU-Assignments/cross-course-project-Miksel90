@@ -17,7 +17,10 @@ body {
   <style>
   body {font-family: "Roboto", Arial, Helvetica, sans-serif;}
 
-  
+  .navbar-left{
+    height: fit-content;
+    width: fit-content;
+  }
  
   .navbar {
     width: 100%;
