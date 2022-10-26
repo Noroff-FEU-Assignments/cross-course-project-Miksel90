@@ -30,7 +30,7 @@ body {
     padding: 14px 20x;
     text-decoration: none;
     font-size: 25px;
-    margin-top: 8px;
+    margin-top: -8px;
   }
   
   .topnav a:hover {
