@@ -50,7 +50,6 @@ body {
       display: block;
     }
   }
-  </style>
 
   nav {
     margin-left: 25px;
@@ -61,4 +60,5 @@ body {
     z-index: 1000;
     right: 0px;
   }
+  </style>
   
