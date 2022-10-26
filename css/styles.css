@@ -16,12 +16,9 @@ body {
     color: white;
     font-size: 15px;
   }
-
-  <style>
-  body {font-family: "Roboto", Arial, Helvetica, sans-serif;}
     
   .toplogo {
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 .toplogo img {
