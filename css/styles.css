@@ -63,3 +63,8 @@ body {
 .navigation-bar a:hover {
   color: #427784;
 }
+.container {
+  position: relative;
+  width: 50%;
+  height: 50%;
+}
