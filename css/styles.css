@@ -23,7 +23,7 @@ body {
     background-color: #B6A696; /* change to desired color */
 }
 .logo {
-  float: left;
+    float: left;
     display: inline-block;
     vertical-align: top;
     width: 100px;
@@ -31,7 +31,7 @@ body {
     margin-right: 20px;
     margin-top: 0px;    /* if you want it vertically middle of the navbar. */
 }
-.navigation-bar > a {
+.navigation-bar a {
     float: center;
     display: inline-block;
     vertical-align: top;
