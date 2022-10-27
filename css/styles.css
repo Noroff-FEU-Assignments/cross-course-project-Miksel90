@@ -35,6 +35,17 @@ body {
     line-height: 80px;    /* if you want it vertically middle of the navbar */
 
 }
+
+.navigation-bar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: row-reverse;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 25;
+}
 .navigation-bar input[type=text] {
   float: center;
   padding: 6px;
