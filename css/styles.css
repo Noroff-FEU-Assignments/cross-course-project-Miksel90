@@ -40,7 +40,6 @@ body {
 
 
 .navigation-bar input[type=text] {
-  float: right;
   padding: 6px;
   border: none;
   margin-top: 25px;
@@ -54,6 +53,8 @@ body {
 }
 
 .navigation-bar a.split{
+  position: relative;
+  top: 25px;
   float: left;
   color: white;
   font-size: 25px;
