@@ -92,13 +92,13 @@ body {
   padding: 12px 24px;
   border: none;
   cursor: pointer;
-  border-radius: opx;
+  border-radius: 5px;
   text-align: center;
 
 /* Container holding the image and the text */
 .container {
   position: relative;
-  text-align: center;
+  text-align: left;
   color: white;
 }
 
