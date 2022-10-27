@@ -59,6 +59,6 @@ body {
   text-decoration: none;
 }
 
-.navigation-bar .split a:hover{
+.navigation-bar a.split a:hover{
   color: #427784;
 }
