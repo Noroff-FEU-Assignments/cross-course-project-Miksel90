@@ -49,6 +49,7 @@ body {
 
 .navigation-bar a:hover {
   color: #427784;
+  color: black;
 }
 
 .navigation-bar a.split{
