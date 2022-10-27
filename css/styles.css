@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-footer {
-  float:center
+  display:center;
   padding: 20px;
   background-color: #B6A696;
   font-size: 25px;
