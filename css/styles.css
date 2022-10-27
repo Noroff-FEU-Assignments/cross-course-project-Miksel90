@@ -54,6 +54,7 @@ body {
 }
 
 .navigation-bar a.split{
+  position: fixed;
   float: left;
   color: white;
   font-size: 25px;
