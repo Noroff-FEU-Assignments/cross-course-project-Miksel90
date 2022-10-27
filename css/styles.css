@@ -39,7 +39,7 @@ body {
 
 
 .navigation-bar input[type=text] {
-  float: center;
+  float: left;
   padding: 6px;
   border: none;
   margin-top: 40px;
