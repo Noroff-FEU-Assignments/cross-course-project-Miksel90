@@ -14,12 +14,14 @@ body {
   }
  
   .navigation-bar {
+    display: center;
+    text-align: center;
+    justify-content: space-evenly;
     background-color: #B6A696; 
     overflow: hidden;
   }
 
 .navigation-bar a {
-  float: center;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 50px;
