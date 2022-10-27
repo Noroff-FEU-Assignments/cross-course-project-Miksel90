@@ -26,12 +26,21 @@ body {
     float: left;
     display: inline-block;
     vertical-align: top;
-    margin-right: 50px;
+    margin-right: 20px;
     width: 125px;
     height: 125px;
-    margin-top: px;    /* if you want it vertically middle of the navbar. */
+    margin-right: 20px;
+    margin-top: 20px;    /* if you want it vertically middle of the navbar. */
 }
+.navigation-bar a {
+    float: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
 
+}
 
 .navigation-bar a {
   float: right;
