@@ -32,7 +32,7 @@ body {
     margin-right: 20px;
     width: 125px;
     height: 100px;
-    margin-right: 20px;
+    margin-left: 20px;
     margin-top: px;    /* if you want it vertically middle of the navbar. */
 }
 .navigation-bar a {
