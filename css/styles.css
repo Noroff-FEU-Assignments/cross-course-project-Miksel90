@@ -27,15 +27,12 @@ body {
   }
 
 .navigation-bar a {
-  float: center; 
-  position: relative;
-  top: 25px;
-  color: white;
+  float: center;
+  color: #f2f2f2;
   text-align: center;
-  padding: 14px 20px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 25px;
-  margin-top: 25px;
+  font-size: 17px;
 }
 
 
@@ -53,15 +50,8 @@ body {
   background-color: #427784;
 }
 
-.navigation-bar a.split{
+.navigation-bar a.split {
   float: left;
-  position: relative;
-  text-align: center;
-  top: 25px;
-  margin-bottom: 10px;
+  background-color: #B6A696;
   color: white;
-  font-size: 25px;
-  margin-left: 15px;
-  text-decoration: none;
-  padding: 14px 20px
 }
