@@ -57,6 +57,7 @@ body {
 .navigation-bar a.split{
   float: left;
   position: relative;
+  text-align: center;
   top: 25px;
   margin-bottom: 10px;
   color: white;
