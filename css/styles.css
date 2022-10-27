@@ -80,7 +80,8 @@ body {
 }
 
 .container .btn {
-  position: absolute;
+  position: relative;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -92,12 +93,6 @@ body {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
-
-
-
-.container .btn:hover {
-  background-color: black;
-}
 
 /* Container holding the image and the text */
 .container {
