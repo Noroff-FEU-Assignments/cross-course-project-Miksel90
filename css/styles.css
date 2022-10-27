@@ -79,6 +79,11 @@ body {
   height: auto;
 }
 
+.container-1{ 
+  position: relative;
+  width: 50%;
+  max-width: 2000px;
+}
 .container .btn {
   position: relative;
   text-align: center;
@@ -98,7 +103,7 @@ body {
 /* Container holding the image and the text */
 .container {
   position: relative;
-  text-align: left;
+  text-align: center;
   color: white;
 }
 
