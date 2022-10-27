@@ -3,14 +3,6 @@ body {
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  footer {
-    display: center;
-    text-align: center;
-    justify-content: space-evenly;
-    padding: 20px;
-    background-color: #B6A696;
-    font-size: 25px;
-  }
 
   header {
     display: center;
@@ -50,3 +42,11 @@ body {
   background-color: #427784;
 }
 
+.navbar {
+  display: center;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #B6A696;
+  font-size: 25px;
+}
