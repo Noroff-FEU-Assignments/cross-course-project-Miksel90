@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-footer a{
-  float: right;
+  float: center;
   font-size: 40px;
   text-decoration: none;
   padding: 50px 50px;
