@@ -30,6 +30,7 @@ body {
 
 .topnav a {
   float: right;
+  text-align: row-reverse;
   color: white;
   background-color: #B6A696;
   text-align: center;
