@@ -44,7 +44,7 @@ body {
 
 .navbar-footer {
   display:center;
-  justify-content: space-evenly;
+  text-align: center;
   padding: 50px 50px;
   color: white;
   background-color: #B6A696;
