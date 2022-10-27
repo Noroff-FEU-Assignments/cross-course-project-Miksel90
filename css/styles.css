@@ -60,5 +60,6 @@ body {
 .navigation-bar a.split{
   float: left;
   font-size: 25px;
+  margin-bottom: 25px;
 
 }
