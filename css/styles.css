@@ -27,7 +27,8 @@ body {
   }
 
 .navigation-bar a {
-
+  position: relative;
+  top: 25px;
   color: white;
   background-color: #B6A696;
   text-align: center;
