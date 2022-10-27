@@ -24,7 +24,6 @@ body {
   .navigation-bar {
     background-color: #B6A696; 
     overflow: hidden;
-    height: 100px;
   }
 
 .navigation-bar a {
