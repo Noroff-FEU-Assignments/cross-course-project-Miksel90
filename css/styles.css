@@ -32,7 +32,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 
@@ -54,4 +54,5 @@ body {
   float: left;
   background-color: #B6A696;
   color: white;
+  font-size: 25px;
 }
