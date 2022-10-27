@@ -96,3 +96,8 @@ body {
 .container .btn:hover {
   background-color: black;
 }
+
+.container-1{
+  position: relative;
+  width: 100%;
+}
