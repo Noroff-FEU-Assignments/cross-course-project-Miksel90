@@ -22,11 +22,13 @@ body {
   }
  
   .navigation-bar {
-    background-color: #B6A696; /* change to desired color */
+    background-color: #B6A696; 
     overflow: hidden;
   }
 
 .navigation-bar a {
+  position: relative;
+  top: 25px;
   color: white;
   background-color: #B6A696;
   text-align: center;
