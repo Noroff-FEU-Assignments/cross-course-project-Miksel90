@@ -28,7 +28,7 @@ body {
 
 .navigation-bar a {
   float: center;
-  justify-content: space-evenly;
+  margin-top: 40px;
   color: white;
   background-color: #B6A696;
   text-align: right;
