@@ -28,6 +28,7 @@ body {
 
 .navigation-bar a {
   float: center;
+  text-align: center;
   color: white;
   background-color: #B6A696;
   text-align: right;
