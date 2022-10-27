@@ -48,7 +48,9 @@ body {
 }
 
 .navbar-footer a{
-  float: center;
+ display: center;
+ text-align: center;
+ justify-content: space-between;
   font-size: 40px;
   text-decoration: none;
   text-align: center;
