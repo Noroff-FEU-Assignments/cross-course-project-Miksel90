@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  footer {
+    display: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #B6A696;
+    font-size: 25px;
+  }
+
+  header {
+    display: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background: #427784;
+    color: white;
+    font-size: 15px;
+  }
+ 
+  .navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 100px; /* change it to desired width */
+    background-color: #B6A696; /* change to desired color */
+}
+.logo {
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    width: 125px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar a {
+    float: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+
+}
+
+.navigation-bar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: row-reverse;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 25;
+}
+.navigation-bar input[type=text] {
+  float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 40px;
+  margin-right: 16px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-bar a:hover {
+  color: #427784;
+}
