@@ -76,7 +76,7 @@ body {
 }
 
 
-.container {
+.container, .container-1 {
   position: relative;
   width: 100%;
   height: 80%;
@@ -101,7 +101,3 @@ body {
   background-color: black;
 }
 
-.container-1{
-  position: relative;
-  width: 100%;
-}
