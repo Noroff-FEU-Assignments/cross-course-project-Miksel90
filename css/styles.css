@@ -21,6 +21,7 @@ body {
     justify-content: space-evenly;
     background-color: #B6A696; 
     overflow: hidden;
+    height: 150px;
   }
 
 .navigation-bar a {
