@@ -44,6 +44,7 @@ body {
 
 .navbar-footer {
   background-color: #B6A696;
+  height: 50px;
 }
 
 .navbar-footer a{
