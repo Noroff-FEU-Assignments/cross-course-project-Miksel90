@@ -27,7 +27,7 @@ body {
 }
 
 .topnav a {
-  float: right;
+  float: center;
   color: white;
   background-color: #B6A696;
   text-align: right;
@@ -38,7 +38,7 @@ body {
 
 
 .navigation-bar input[type=text] {
-  float: center;
+  float: right;
   padding: 6px;
   border: none;
   margin-top: 40px;
