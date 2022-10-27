@@ -43,14 +43,14 @@ body {
 }
 
 .navbar-footer {
+  display: center;
+  text-align: center;
+  justify-content: space-evenly;
   background-color: #B6A696;
   height: 100px;
 }
 
 .navbar-footer a{
-  display: center;
-  text-align: center;
-  justify-content: space-evenly;
   font-size: 40px;
   text-decoration: none;
   padding: 50px 50px;
