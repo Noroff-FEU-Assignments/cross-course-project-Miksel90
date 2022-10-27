@@ -1,4 +1,5 @@
 body {
+  margin: 0;
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   }
 
@@ -27,19 +28,13 @@ body {
     overflow: hidden;
 }
 
-.navigation-bar a {
-    float: right;
-    margin-right: 20px;
-    height: 80px;        /* if you want it to take the full height of the bar */
-    line-height: 80px;
-    display: block;
-    color: white;
-    text-align: row-reverse;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 25px;
-    margin-top: 25;    /* if you want it vertically middle of the navbar */
-
+.topnav a {
+  float: left;
+  color: #B6A696;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 
