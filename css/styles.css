@@ -26,7 +26,7 @@ body {
     overflow: hidden;
 }
 
-.topnav a {
+.navigation-bar a {
   float: center;
   color: white;
   background-color: #B6A696;
