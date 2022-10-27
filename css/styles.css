@@ -59,6 +59,10 @@ body {
 }
 
 .footer{
+  display: center;
+  text-align: center;
+  justify-content: space-evenly;
+  background: #427784;
   color: white;
-  background-color: #427784
+  font-size: 15px;
 }
