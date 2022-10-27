@@ -82,7 +82,7 @@ body {
   height: 80%;
 }
 
-.container .btn, .container-1 .btn, container-2 .btn {
+.container .btn, .container-1 .btn, .container-2 .btn {
   position: absolute;
   top: 50%;
   left: 50%;
