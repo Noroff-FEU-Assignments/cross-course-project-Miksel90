@@ -22,8 +22,6 @@ body {
   }
  
   .navigation-bar {
-    width: 100%;  /* i'm assuming full width */
-    height: 100px; /* change it to desired width */
     background-color: #B6A696; /* change to desired color */
     overflow: hidden;
 }
