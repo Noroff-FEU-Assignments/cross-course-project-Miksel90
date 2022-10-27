@@ -24,11 +24,9 @@ body {
   .navigation-bar {
     background-color: #B6A696; /* change to desired color */
     overflow: hidden;
-    font: "Roboto";
-}
+  }
 
 .navigation-bar a {
-  float: center;
   color: white;
   background-color: #B6A696;
   text-align: center;
