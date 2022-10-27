@@ -28,10 +28,9 @@ body {
 
 .topnav a {
   float: right;
-  text-align: row-reverse;
   color: white;
   background-color: #B6A696;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -39,7 +38,7 @@ body {
 
 
 .navigation-bar input[type=text] {
-  float: left;
+  float: center;
   padding: 6px;
   border: none;
   margin-top: 40px;
