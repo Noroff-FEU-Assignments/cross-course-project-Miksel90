@@ -25,16 +25,7 @@ body {
     height: 100px; /* change it to desired width */
     background-color: #B6A696; /* change to desired color */
 }
-.logo {
-    float: left;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
-    width: 125px;
-    height: 100px;
-    margin-left: 20px;
-    margin-top: px;    /* if you want it vertically middle of the navbar. */
-}
+
 .navigation-bar a {
     float: center;
     display: inline-block;
@@ -43,17 +34,6 @@ body {
     height: 80px;        /* if you want it to take the full height of the bar */
     line-height: 80px;    /* if you want it vertically middle of the navbar */
 
-}
-
-.navigation-bar a {
-  float: right;
-  display: block;
-  color: white;
-  text-align: row-reverse;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-size: 25px;
-  margin-top: 25;
 }
 .navigation-bar input[type=text] {
   float: center;
