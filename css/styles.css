@@ -27,6 +27,7 @@ body {
   }
 
 .navigation-bar a {
+  float: center; 
   position: relative;
   top: 25px;
   color: white;
