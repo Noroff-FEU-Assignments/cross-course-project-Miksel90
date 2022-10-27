@@ -77,3 +77,8 @@ body {
   margin: 5px;
 }
 
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
