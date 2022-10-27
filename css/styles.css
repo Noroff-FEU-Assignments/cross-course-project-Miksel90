@@ -24,28 +24,26 @@ body {
     width: 100%;  /* i'm assuming full width */
     height: 100px; /* change it to desired width */
     background-color: #B6A696; /* change to desired color */
+    overflow: hidden;
 }
 
 .navigation-bar a {
-    float: center;
-    display: inline-block;
-    vertical-align: top;
+    float: right;
     margin-right: 20px;
     height: 80px;        /* if you want it to take the full height of the bar */
-    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    line-height: 80px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: row-reverse;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 25;    /* if you want it vertically middle of the navbar */
 
 }
 
-.navigation-bar a {
-  float: right;
-  display: block;
-  color: white;
-  text-align: row-reverse;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-size: 25px;
-  margin-top: 25;
-}
+
 .navigation-bar input[type=text] {
   float: center;
   padding: 6px;
@@ -58,4 +56,8 @@ body {
 
 .navigation-bar a:hover {
   color: #427784;
+}
+
+.navigation-bar a.split{
+  float: left;
 }
