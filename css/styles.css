@@ -94,7 +94,7 @@ body {
 }
 
 .container img{
-  width:100%;
+ object-fit: contain;
 }
 .container .btn-1{
   position: absolute;
