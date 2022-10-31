@@ -37,10 +37,11 @@ body {
 
 
 .nav [type=text] {
+  position: relative;
+  top: 30px;
   float: right;
   padding: 6px;
   border: none;
-  margin-top: 8px;
   margin-right: 50px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
