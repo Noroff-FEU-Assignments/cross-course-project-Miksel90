@@ -136,7 +136,7 @@ body {
 
 .flexbox-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start
   justify-content: space-be
 }
 
