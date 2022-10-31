@@ -154,7 +154,6 @@ width: 50%;
 .column img{
   width: 100%;
   max-height: 500px;
-  object-fit: fill;
 }
 
 .row-2 {
