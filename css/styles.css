@@ -142,7 +142,7 @@ body {
 .row {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
   overflow: hidden;
   margin-top: 8px;
 }
