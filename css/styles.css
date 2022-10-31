@@ -15,7 +15,7 @@ body {
     font-size: 15px;
   }
  
-  .navigation-bar {
+  .nav {
     display: center;
     text-align: center;
     justify-content: space-evenly;
@@ -24,7 +24,13 @@ body {
     height: 100px;
   }
 
-.navigation-bar a {
+  nav .logo a{
+    background-color: red;
+    width: 300px;
+
+  }
+
+.nav a {
   position: relative;
   top: 33px;
   color: #f2f2f2;
@@ -35,7 +41,7 @@ body {
 }
 
 
-.navigation-bar input[type=text] {
+.nav input[type=text] {
   float: right;
   padding: 6px;
   border: none;
@@ -44,7 +50,7 @@ body {
   font-size: 20px;
 }
 
-.navigation-bar a:hover {
+.nav a:hover {
   background-color: #427784;
 }
 
