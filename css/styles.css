@@ -80,5 +80,7 @@ body {
   background-color:#427784
 }
 
-
+.flexbox-container{
+  display:flex;
+}
 
