@@ -89,6 +89,7 @@ body {
 }
 
 .container .btn-1 {
+  position: absolute;
   top: 85%;
   left: 7%;
   transform: translate(-50%, -50%);
@@ -103,6 +104,7 @@ body {
   text-align: center;
 }
 .container .btn-2 {
+  position: absolute;
   top: 85%;
   left: 13%;
   transform: translate(-50%, -50%);
@@ -122,6 +124,7 @@ body {
 }
 
 .centered {
+  position: absolute;
   top: 80%;
   left: 15%;
   transform: translate(-50%, -50%);
@@ -134,7 +137,7 @@ body {
 .flexbox-container {
   display: flex;
   align-items: center;
-  justify-content: space-between
+  justify-content: space-be
 }
 
 .flexbox-item{
