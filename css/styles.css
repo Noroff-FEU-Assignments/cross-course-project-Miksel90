@@ -147,6 +147,7 @@ body {
   align-items: flex-start;
   justify-content: space-evenly;
   overflow: hidden;
+  margin-top: 10px;
 }
 .column {
 float: left;
