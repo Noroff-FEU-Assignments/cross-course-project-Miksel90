@@ -107,7 +107,7 @@ body {
   border-radius: 5px;
   text-align: center;
 }
-.container .btn-2 {
+.container .btn-2, .column .btn-1 {
   position: absolute;
   top: 85%;
   left: 15%;
