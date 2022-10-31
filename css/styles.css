@@ -23,7 +23,7 @@ body {
   }
 
   nav .logo a{
-    background-color: red;
+    background-image: url("/images/RainyDays_Logo.png");
     display: inline;
     width: 300px;
     text-indent: -99999999px ;
