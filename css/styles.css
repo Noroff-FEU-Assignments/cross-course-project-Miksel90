@@ -142,14 +142,14 @@ body {
 .row {
   display: flex;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-between;
   overflow: hidden;
   margin-top: 8px;
 }
 .column {
 float: left;
 width: 50%;
-margin-right: 8px;
+padding: 0 0 0 0;
 }
 
 .column img{
