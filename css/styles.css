@@ -89,7 +89,6 @@ body {
 }
 
 .container .btn-1 {
-  position: absolute;
   top: 85%;
   left: 7%;
   transform: translate(-50%, -50%);
@@ -123,7 +122,6 @@ body {
 }
 
 .centered {
-  position: relative;
   top: 80%;
   left: 15%;
   transform: translate(-50%, -50%);
