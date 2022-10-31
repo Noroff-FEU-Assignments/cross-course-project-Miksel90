@@ -86,7 +86,6 @@ body {
 
 .container {
   position: relative;
-  height: auto;
   overflow: hidden;
 }
 
