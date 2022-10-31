@@ -89,13 +89,13 @@ background-color: white;
 }
 
 .flexbox-item-1{
-
+width: 200px;
 }
 
 .flexbox-item-2{
-  
+  width: 200px;
 }
 
-.flexbox-item-2{
-  
+.flexbox-item-3{
+  width: 200px;
 }
