@@ -184,5 +184,5 @@ width: 95%;
 }
 
 .row-3 {
-float: left;
+display: flex;
 }
