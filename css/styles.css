@@ -104,7 +104,6 @@ body {
   text-align: center;
 }
 .container .btn-2 {
-  position: relative;
   top: 85%;
   left: 13%;
   transform: translate(-50%, -50%);
