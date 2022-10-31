@@ -144,7 +144,7 @@ body {
 
 .row {
   display: flex;
-  align-items: flex-start
+  align-items: flex-start;
   justify-content: space-around;
 }
 .column {
