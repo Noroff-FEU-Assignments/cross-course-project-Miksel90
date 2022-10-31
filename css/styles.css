@@ -92,10 +92,10 @@ nav .logo a{
   height: 80%;
 }
 
-.container .btn {
+.container .btn-1 {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 10%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #B6A696;
