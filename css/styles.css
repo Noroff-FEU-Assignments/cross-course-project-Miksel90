@@ -79,6 +79,10 @@ body {
   background-color:#427784
 }
 
+.container{
+  width: 500px;
+}
+
 .flexbox-container{
   display:flex;
 }
@@ -93,9 +97,5 @@ width: 200px;
 }
 
 .flexbox-item-2{
-  width: 200px;
-}
-
-.flexbox-item-3{
   width: 200px;
 }
