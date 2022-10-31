@@ -94,7 +94,7 @@ nav .logo a{
 
 .container .btn-1 {
   position: absolute;
-  top: 90%;
+  top: 85%;
   left: 7%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -109,8 +109,8 @@ nav .logo a{
 }
 .container .btn-2 {
   position: absolute;
-  top: 90%;
-  left: 14%;
+  top: 85%;
+  left: 10%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #B6A696;
