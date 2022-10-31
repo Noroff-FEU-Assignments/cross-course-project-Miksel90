@@ -136,9 +136,9 @@ body {
 
 .flexbox-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 5px;
 }
 
 .flexbox-item{
