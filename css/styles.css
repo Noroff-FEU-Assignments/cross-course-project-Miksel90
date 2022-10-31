@@ -164,3 +164,8 @@ width: 50%;
   margin-top: 8px;
 }
 
+.column-2 img{
+  width: 100%;
+  max-height: 500px;
+  object-fit: fill;
+}
