@@ -129,7 +129,7 @@ body {
   background-color: #427784;
 }
 
-.centered, centered-2 {
+.centered, .centered-2 {
   position: absolute;
   top: 80%;
   left: 17%;
