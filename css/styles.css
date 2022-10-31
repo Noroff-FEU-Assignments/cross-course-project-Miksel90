@@ -83,7 +83,7 @@ body {
 
 
 .container {
-  position: relative;
+  position: absolute;
   max-width: 100%;
   height: auto;
 }
@@ -140,7 +140,6 @@ body {
 }
 
 .flexbox-item{
-widht: 50%;
 }
 
 .flexbox-item-1{
