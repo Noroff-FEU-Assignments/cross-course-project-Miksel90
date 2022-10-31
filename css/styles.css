@@ -51,10 +51,6 @@ body {
   background-color: #427784;
 }
 
-nav .logo a{
-  background-color: red;
-
-}
 
 .navbar-footer {
   display: center;
@@ -89,7 +85,7 @@ nav .logo a{
 .container {
   position: relative;
   max-width: 100%;
-  height: 80%;
+  height: auto;
 }
 
 .container .btn-1 {
