@@ -30,6 +30,8 @@ body {
   }
 
 .nav a {
+  display: flex;
+  flex-direction: row;
   color: white;
   text-decoration: none;
   font-size: 30px;
