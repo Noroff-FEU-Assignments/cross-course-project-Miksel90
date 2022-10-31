@@ -92,10 +92,6 @@ body {
   overflow: hidden;
 }
 
-.container img{
-  height: 1000px;
-}
-
 .container .btn-1 {
   position: absolute;
   top: 85%;
