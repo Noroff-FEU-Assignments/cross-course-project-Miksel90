@@ -145,7 +145,5 @@ body {
 .column {
 float: left;
 width: 50%;
-}
-.row{
-  display: flex;
+padding: 10px;
 }
