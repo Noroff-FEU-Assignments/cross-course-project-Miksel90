@@ -51,6 +51,11 @@ body {
   background-color: #427784;
 }
 
+nav .logo a{
+  background-color: red;
+
+}
+
 .navbar-footer {
   display: center;
   text-align: center;
