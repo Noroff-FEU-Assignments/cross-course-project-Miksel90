@@ -87,12 +87,12 @@ body {
 
 .container {
   position: relative;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   overflow: hidden;
 }
 
-.container .btn-1, .column .btn-1 {
+.container .btn-1{
   position: absolute;
   top: 85%;
   left: 7%;
@@ -107,7 +107,7 @@ body {
   border-radius: 5px;
   text-align: center;
 }
-.container .btn-2, .column .btn-1 {
+.container .btn-2{
   position: absolute;
   top: 85%;
   left: 15%;
