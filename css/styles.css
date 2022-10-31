@@ -106,7 +106,7 @@ body {
 .container .btn-2 {
   position: absolute;
   top: 85%;
-  left: 13%;
+  left: 15%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #B6A696;
