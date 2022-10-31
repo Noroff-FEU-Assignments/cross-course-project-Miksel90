@@ -15,7 +15,7 @@ body {
     font-size: 15px;
   }
  
-  .nav{
+  .nav {
     display: center;
     text-align: center;
     justify-content: space-evenly;
@@ -34,7 +34,7 @@ body {
 }
 
 
-.nav[type=text] {
+.nav [type=text] {
   float: right;
   padding: 6px;
   border: none;
