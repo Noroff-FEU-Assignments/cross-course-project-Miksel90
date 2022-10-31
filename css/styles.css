@@ -86,6 +86,7 @@ body {
 
 
 .container {
+  background-image: ;
   position: relative;
   max-width: 100%;
   height: auto;
@@ -145,8 +146,5 @@ body {
   overflow: hidden;
 }
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 50%;
-  max-width: 25%;
-  padding: 0 4px;
+
 }
