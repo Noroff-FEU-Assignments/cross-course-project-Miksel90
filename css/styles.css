@@ -142,6 +142,10 @@ body {
   padding: 5px;
 }
 
+.row {
+  display: flex;
+}
+
 /* Clear floats after image containers */
 .row::after {
   content: "";
