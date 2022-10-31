@@ -95,7 +95,9 @@ nav .logo a{
 .container .btn-1 {
   position: absolute;
   top: 90%;
-  left: 10%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   background-color: #B6A696;
   color: white;
   font-size: 30px;
