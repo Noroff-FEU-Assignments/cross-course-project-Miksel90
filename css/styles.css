@@ -162,15 +162,7 @@ padding: 0 0 0 0;
 .row-2 {
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
   overflow: hidden;
   margin-top: 8px;
 }
 
-.row-3 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  overflow: hidden;
-  margin-top: 8px;
-}
