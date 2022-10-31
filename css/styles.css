@@ -138,6 +138,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 5px;
 }
 
 .flexbox-item{
@@ -146,5 +147,5 @@ body {
 }
 
 .flexbox-item-1{
-  
+
 }
