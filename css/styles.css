@@ -79,10 +79,18 @@ body {
   background-color:#427784
 }
 
-.container{
-  width: 500px;
+.container-1{
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
+.centered{
+  position: absolute;
+  top:50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
 .flexbox-container{
   display:flex;
 }
