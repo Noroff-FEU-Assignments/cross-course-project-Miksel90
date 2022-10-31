@@ -123,6 +123,9 @@ nav .logo a{
   text-align: center;
 }
 
+.container .btn:hover {
+  background-color: #427784;
+}
 
 .centered {
   position: absolute;
