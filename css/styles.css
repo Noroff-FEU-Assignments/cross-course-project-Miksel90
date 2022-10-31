@@ -5,7 +5,10 @@ body {
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   }
 
-
+  * {
+    box-sizing: border-box;
+  }
+  
   header {
     display: center;
     text-align: center;
