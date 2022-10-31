@@ -145,7 +145,7 @@ body {
   align-items: flex-start;
   justify-content: space-around;
   overflow: hidden;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 .column {
 width: 50%;
@@ -169,7 +169,6 @@ width: 50%;
   max-height: 300px;
   display: flex;
   align-items: center;
-  border-color: #427784;
 }
 
 .rounded{
