@@ -19,7 +19,6 @@ body {
   }
  
   .nav {
-    position: absolute;
     display: center;
     text-align: center;
     justify-content: space-evenly;
