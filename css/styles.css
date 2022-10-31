@@ -166,4 +166,7 @@ width: 50%;
 
 .column-2 img{
   max-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
