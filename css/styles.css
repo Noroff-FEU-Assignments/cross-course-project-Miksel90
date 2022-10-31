@@ -148,7 +148,7 @@ body {
   justify-content: space-evenly
 }
 .column {
-
+float: left;
 }
 
 .column img{
