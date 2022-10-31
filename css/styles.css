@@ -107,6 +107,21 @@ nav .logo a{
   border-radius: 5px;
   text-align: center;
 }
+.container .btn-2 {
+  position: absolute;
+  top: 90%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #B6A696;
+  color: white;
+  font-size: 30px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
 
 
 .centered {
