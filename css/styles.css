@@ -95,6 +95,7 @@ body {
 
 .container img{
  object-fit: contain;
+ max-height: 1000px;
 }
 .container .btn-1{
   position: absolute;
