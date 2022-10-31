@@ -87,7 +87,7 @@ body {
 
 .container {
   position: relative;
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   overflow: hidden;
 }
