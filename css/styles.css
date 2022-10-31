@@ -92,7 +92,7 @@ body {
   overflow: hidden;
 }
 
-.container .btn-1 {
+.container .btn-1, .column .btn-1 {
   position: absolute;
   top: 85%;
   left: 7%;
