@@ -148,3 +148,7 @@ body {
 .column {
 
 }
+
+.column img{
+width: 50%;
+}
