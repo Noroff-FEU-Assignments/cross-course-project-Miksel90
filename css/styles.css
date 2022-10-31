@@ -18,6 +18,7 @@ body {
   nav {
     background-color: #B6A696; 
     height: 100px;
+    margin:0;
   }
 
   nav .logo a{
