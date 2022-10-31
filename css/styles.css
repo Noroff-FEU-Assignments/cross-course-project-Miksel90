@@ -104,7 +104,7 @@ body {
   text-align: center;
 }
 .container .btn-2 {
-  position: absolute;
+  position: relative;
   top: 85%;
   left: 13%;
   transform: translate(-50%, -50%);
@@ -124,7 +124,7 @@ body {
 }
 
 .centered {
-  position: absolute;
+  position: relative;
   top: 80%;
   left: 15%;
   transform: translate(-50%, -50%);
