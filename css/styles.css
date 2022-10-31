@@ -191,6 +191,7 @@ justify-content: space-evenly;
 }
 
 .column-3{
+  display: flex;
   align-items: center;
   justify-content: space-around;
 }
