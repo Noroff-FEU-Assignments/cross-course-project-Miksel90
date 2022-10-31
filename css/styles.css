@@ -129,7 +129,7 @@ body {
   background-color: #427784;
 }
 
-.centered {
+.centered, centered-2 {
   position: absolute;
   top: 80%;
   left: 17%;
@@ -157,5 +157,4 @@ padding: 0 0 0 0;
   width: 100%;
   max-height: 500px;
   object-fit: fill;
-
 }
