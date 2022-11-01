@@ -62,10 +62,10 @@ body {
   }
   
   .container img{
-    display: flex;
-  width: 50%;
-  height: 50%;
+    width: 50%;
+    height: 50%;
   }
+
   .container .btn-1{  
     position: absolute;
     top: 85%;
