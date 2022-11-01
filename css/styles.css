@@ -211,6 +211,6 @@ justify-content: space-evenly;
   text-align: center;
 }
 
-.column-4 {
-float: left;
+.row-4{
+  float: left;
 }
