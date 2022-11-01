@@ -74,6 +74,7 @@ body {
  
  .navbar-footer a:hover {
   background-color:#427784;
+  font-weight: bold;
 }
 
 .footer{
