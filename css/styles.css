@@ -190,7 +190,8 @@ width: 50%;
 }
 
 .column-2{
-  text-align: start
+  text-align: start;
+  margin-left: 3px;
 }
 
 .column-2 img{
