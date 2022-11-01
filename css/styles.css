@@ -101,7 +101,7 @@ height: 100%;
   -ms-transform: translate(-50%, -50%);
   background-color: #B6A696;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
@@ -116,7 +116,7 @@ height: 100%;
   -ms-transform: translate(-50%, -50%);
   background-color: #B6A696;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
@@ -130,7 +130,7 @@ height: 100%;
 
 .centered {
   position: absolute;
-  top: 80%;
+  top: 70%;
   left: 17%;
   transform: translate(-50%, -50%);
   color: white;
