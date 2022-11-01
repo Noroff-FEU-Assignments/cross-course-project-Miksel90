@@ -213,6 +213,5 @@ justify-content: space-evenly;
 
 .row-4{
 display: inline-block;
-justify-items: flex-start;
 margin-left: 45px;
 }
