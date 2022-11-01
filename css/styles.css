@@ -93,7 +93,7 @@ body {
 width: 100%;
 height: 100%;
 }
-.container .btn-1{   men
+.container .btn-1{  
   position: absolute;
   top: 85%;
   left: 7%;
@@ -108,7 +108,7 @@ height: 100%;
   border-radius: 5px;
   text-align: center;
 }
-.container .btn-2{   woman
+.container .btn-2{   
   position: absolute;
   top: 85%;
   left: 15%;
