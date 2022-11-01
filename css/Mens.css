@@ -107,5 +107,6 @@ body {
   
   .container .btn-1:hover, .container .btn-2:hover {
     background-color: #427784;
+    font-weight: bold;
   }
   
