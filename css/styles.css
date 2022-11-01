@@ -167,6 +167,7 @@ width: 50%;
 
 .bottom-right{
   position: absolute;
+  top: 135%;
   left: 54.5%;
   font-size: 30px;
   color: white;
