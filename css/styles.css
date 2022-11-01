@@ -211,5 +211,5 @@ justify-content: space-evenly;
 }
 
 .row-4{
-  display: flex;
+float: left;
 }
