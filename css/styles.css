@@ -189,6 +189,7 @@ width: 95%;
 .btn-3{
 font-size: 25px;
  background-color: green;
+ color: white;
  padding: 12px 24px;
  border: none;
  cursor: pointer;
