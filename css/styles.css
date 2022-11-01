@@ -193,3 +193,7 @@ justify-content: space-evenly;
 .column-3{
   text-align: center;
 }
+
+.icons{
+  size: 20px;
+}
