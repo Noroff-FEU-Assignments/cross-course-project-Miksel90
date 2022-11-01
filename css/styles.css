@@ -52,7 +52,7 @@ body {
 .nav a:hover {
   background-color: #427784;
   font-weight: bold;
-  -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;
+  border-radius: 15px;
 }
 
 
