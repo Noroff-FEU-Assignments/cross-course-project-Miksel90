@@ -77,7 +77,7 @@ body {
   .container .btn-1{  
     position: absolute;
     top: 85%;
-    left: 7%;
+    left: 45%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #B6A696;
@@ -92,7 +92,7 @@ body {
   .container .btn-2{   
     position: absolute;
     top: 85%;
-    left: 15%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #B6A696;
