@@ -214,5 +214,5 @@ justify-content: space-evenly;
 .row-4{
 display: inline-block;
 margin-left: 45px;
-
+justify-content: space-between;
 }
