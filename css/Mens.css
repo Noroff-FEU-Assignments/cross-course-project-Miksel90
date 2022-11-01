@@ -9,6 +9,12 @@ body {
       box-sizing: border-box;
     }
     
+    
+.rounded{
+    color: #427784;
+    width: 95%;
+    }
+    
     header {
       display: center;
       text-align: center;
