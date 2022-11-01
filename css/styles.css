@@ -191,7 +191,9 @@ width: 50%;
 
 .column-2{
   text-align: start;
-  margin-left: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .column-2 img{
