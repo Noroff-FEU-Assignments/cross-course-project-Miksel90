@@ -64,12 +64,10 @@ body {
 }
 
 .navbar-footer a{
-top: 25px;
   font-size: 30px;
   text-decoration: none;
   padding: 50px;
   color: white;
-  overflow: hidden;
  }
  
  .navbar-footer a:hover {
