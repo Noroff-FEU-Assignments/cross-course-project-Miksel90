@@ -76,7 +76,7 @@ body {
 
   .container .btn-1{  
     position: absolute;
-    top: 70%;
+    top: 72%;
     left: 35%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -91,7 +91,7 @@ body {
   }
   .container .btn-2{   
     position: absolute;
-    top: 70%;
+    top: 72%;
     left: 30%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
