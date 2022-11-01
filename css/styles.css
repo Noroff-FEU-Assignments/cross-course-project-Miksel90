@@ -189,6 +189,10 @@ width: 50%;
   text-align: center;
 }
 
+.column-2{
+  font-size: 30px;
+}
+
 .column-2 img{
   max-height: 300px;
   display: flex;
@@ -200,7 +204,6 @@ width: 50%;
 .rounded{
 color: #427784;
 width: 95%;
-
 }
 
 .offer-1 {
