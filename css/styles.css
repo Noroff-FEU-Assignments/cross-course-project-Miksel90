@@ -191,9 +191,11 @@ width: 50%;
 
 .column-2{
   text-align: start;
-  list-style-type: square;
 }
 
+.li {
+  list-style-type: none;
+}
 .column-2 img{
   max-height: 300px;
   display: flex;
