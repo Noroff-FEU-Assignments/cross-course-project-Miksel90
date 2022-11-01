@@ -60,6 +60,7 @@ body {
   justify-content: space-evenly;
   background-color: #B6A696;
   height: 100px;
+  margin-top: auto;
 }
 
 .navbar-footer a{
@@ -68,7 +69,10 @@ body {
   padding: 50px;
   color: white;
  }
-
+ 
+ .navbar-footer a:hover {
+  background-color:#427784
+}
 .footer{
   display: center;
   text-align: center;
@@ -77,11 +81,6 @@ body {
   color: white;
   font-size: 15px;
 }
-
-.navbar-footer a:hover {
-  background-color:#427784
-}
-
 
 .container {
   overflow: hidden;
