@@ -59,6 +59,7 @@ body {
     overflow: hidden;
     width: 100%;
     height: 800px;
+    align-items: center;
   }
   
   .container img{
