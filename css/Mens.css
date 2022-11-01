@@ -14,9 +14,6 @@ body {
     width: 95%;
     }
 
-    .h1{
-        margin-left: 15px;
-    }
 
     header {
       display: center;
@@ -72,10 +69,11 @@ body {
   }
   
   .container img{
-   margin-left: 25%;
+  margin-left: 25%;
   width: 50%;
   height: 70%;
   }
+
   .container .btn-1{  
     position: absolute;
     top: 85%;
@@ -84,7 +82,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     background-color: #B6A696;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -99,7 +97,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     background-color: #B6A696;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
