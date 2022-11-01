@@ -186,7 +186,7 @@ width: 95%;
 
 .row-3 {
 display: flex;
-align-items: flex-start;
+align-items: center;
 justify-content: space-evenly;
 }
 
