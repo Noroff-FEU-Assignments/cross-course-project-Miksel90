@@ -188,8 +188,7 @@ width: 95%;
 }
 
 input[type="checkbox"]{
-width:100px;
-height: 1.15em;
+background-color: #427784;
 }
 
 .btn-3 {
