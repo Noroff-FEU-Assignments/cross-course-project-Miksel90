@@ -249,3 +249,7 @@ justify-content: space-evenly;
 .column-2 a{
   text-decoration: none;
 }
+
+.img{
+  max-height: 750px;
+}
