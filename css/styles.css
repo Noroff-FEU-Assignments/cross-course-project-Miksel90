@@ -244,3 +244,15 @@ justify-content: space-evenly;
   text-align: center;
 }
 
+.btn-big {
+  font-size: 25px;
+   background-color:red;
+   color: white;
+   padding: 12px 24px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   text-align: center;
+   text-decoration: none;
+  }
+  
