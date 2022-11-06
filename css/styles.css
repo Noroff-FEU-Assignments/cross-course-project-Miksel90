@@ -264,26 +264,25 @@ justify-content: space-evenly;
   }
 
   .btn-group button {
-    background-color:white; /* Green background */
-    border: 1px solid #427784; /* Green border */
-    color:grey  /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
+    background-color:white; 
+    border: 1px solid #427784;
+    color:grey;
+    padding: 10px 24px;
+    cursor: pointer; 
+    float: left; 
   }
   
   .btn-group button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
+    border-right: none; 
   }
-  
-  /* Clear floats (clearfix hack) */
+ 
   .btn-group:after {
     content: "";
     clear: both;
     display: table;
   }
   
-  /* Add a background color on hover */
+
   .btn-group button:hover {
     background-color:#B6A696
   }
