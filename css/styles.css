@@ -287,3 +287,7 @@ justify-content: space-evenly;
   .btn-group button:hover {
     background-color:#B6A696
   }
+
+ .column-4{
+  float:left;
+ }
