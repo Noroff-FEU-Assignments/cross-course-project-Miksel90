@@ -251,7 +251,7 @@ justify-content: space-evenly;
    padding: 12px 24px;
    border: none;
    cursor: pointer;
-   border-radius: 15px;
+   border-radius: 5px;
    text-align: center;
    text-decoration: none;
   }
