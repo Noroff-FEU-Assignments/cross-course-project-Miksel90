@@ -288,9 +288,3 @@ justify-content: space-evenly;
     background-color:#B6A696
   }
 
- .column-4{
-  position: relative;
-  min-height: 150px;
-  text-align: center;
- }
-
