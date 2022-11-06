@@ -290,4 +290,5 @@ justify-content: space-evenly;
 
  .column-4{
   float:left;
+  width: 50%;
  }
