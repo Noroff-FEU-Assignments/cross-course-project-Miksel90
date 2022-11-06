@@ -293,8 +293,3 @@ justify-content: space-evenly;
   width: 50%;
  }
 
- .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
