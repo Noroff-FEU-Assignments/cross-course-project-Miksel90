@@ -166,7 +166,8 @@ Vertical lines
 
   /*add flexbox style*/
   display: flex;
-
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .box1{
