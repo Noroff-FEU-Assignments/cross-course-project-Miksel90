@@ -52,6 +52,10 @@ input {
   border-style:groove;
   border-color: #427784;
 }
+
+.a:link a:visited{
+  text-decoration: none;
+}
     /*==============
 Vertical lines
 ================*/
