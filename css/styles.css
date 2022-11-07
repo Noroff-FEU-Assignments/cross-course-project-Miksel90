@@ -399,7 +399,7 @@ font-size: 25px;
 
 
 .row-3 {
-display: flex;
+float: left;
 align-items: center;
 justify-content: space-evenly;
 }
@@ -457,7 +457,6 @@ Choose color
   .prodinfo {
     display: flex;
     margin-top: 20px;
-    text-decoration: overline;
   }
 
 
