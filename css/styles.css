@@ -171,6 +171,14 @@ Vertical lines
   background-image: url(../images/hp2.jpg);
   background-size: cover;
 }
+
+.box2{
+  width: 50%;
+  height:500px;
+  background-image: url(../images/hp3.jpg);
+  background-size: cover;
+
+}
 .row {
   display: flex;
   margin-top: 10px;
