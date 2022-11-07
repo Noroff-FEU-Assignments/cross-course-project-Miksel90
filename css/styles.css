@@ -178,8 +178,12 @@ Vertical lines
   height: 800px;
   background-size: cover;
   background-position: center;
+  width: 50%;
 }
   
+
+
+
 .row {
   display: flex;
   align-items: flex-start;
