@@ -577,9 +577,9 @@ Choose color
 
 .about-bottom{
   background-image: url(../images/About2.jpg);
-  height: 520px;
+  height: 1000px;
   width: 300x;
-  background-position: bottom, center;
+  background-position: center;
   margin-bottom: 5px;
   background-repeat: no-repeat;
 }
