@@ -140,6 +140,7 @@ Vertical lines
     height: 800px;
     background-size: cover;
     background-position: center;
+    margin-bottom: 5px;
   }
 
   .welcome-actions{
