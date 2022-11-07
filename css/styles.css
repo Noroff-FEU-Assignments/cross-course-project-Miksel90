@@ -349,7 +349,6 @@ Sign up section
   margin-right: 15px;
   max-height: 300px;
   display: flex;
-  justify-content: space-evenly;
   border-color: black;
   border-style:groove
 }
