@@ -433,7 +433,11 @@ icons
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  margin-top: 5px;
+ }
+
+ 
+.btn-cart {
+margin-top: 10px;
  }
 .row-2 {
 display: flex;
