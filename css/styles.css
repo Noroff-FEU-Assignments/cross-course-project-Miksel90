@@ -355,7 +355,13 @@ icons
   color:firebrick
 }
 
+.fa-square-twitter{
+  color:cornflowerblue ;
+}
 
+.fa-square-youtube{
+  color: crimson;
+}
 .column img{
   margin-left: 100px;
   margin-right: 100px;
