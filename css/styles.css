@@ -424,6 +424,7 @@ justify-content: space-evenly;
     background-color: #04AA6D;
     border:grey;
     color: white;
+    padding: 10px;
   }
 
   .btn-group button {
