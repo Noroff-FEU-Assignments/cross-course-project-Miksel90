@@ -163,6 +163,7 @@ Vertical lines
     color: #fff; 
     background: rgb(0,0,0,0.5);
     padding: 30px;
+    text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
   }
 
 .welcome-actions a{
@@ -172,16 +173,6 @@ Vertical lines
   border-radius: 5px;
 }
 
-  .container {
-    overflow: hidden;
-    width: 100%;
-    height: 800px;
-  }
-  
-  .container img{
-  width: 100%;
-  height: 100%;
-  }
   
   
 .row {
