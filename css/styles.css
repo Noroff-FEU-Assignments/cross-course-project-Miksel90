@@ -254,15 +254,6 @@ Vertical lines
   background-position: center;
 }
 
-
-
-.box3{
-  width: 50%;
-  height:500px;
-  background-image: url(../images/Skier.jpg);
-  background-size: cover;
-  background-position: right;
-}
 .mw2-actions{
   position: absolute;
   bottom: -950px; 
@@ -280,6 +271,20 @@ Vertical lines
   border-radius: 5px;
 }
 
+.box3{
+  width: 50%;
+  height:500px;
+  background-image: url(../images/Skier.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.box3 a{
+  background: #B6A696;
+  color:#fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
 .box4{
   width: 50%;
   height:500px;
