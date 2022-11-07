@@ -565,3 +565,11 @@ Choose color
   }
 
 
+/* About us*/
+.about-us{
+  background-image: url(../images/RainyDays_Logo.png);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5px;
+}
