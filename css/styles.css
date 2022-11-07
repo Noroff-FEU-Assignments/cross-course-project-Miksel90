@@ -203,6 +203,22 @@ height: 100%;
   text-align: center;
 }
 
+.btn-8{   
+  position: absolute;
+  top: 144%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #B6A696;
+  color: white;
+  font-size: 15px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
 
 
 
