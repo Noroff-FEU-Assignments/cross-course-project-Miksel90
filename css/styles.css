@@ -93,6 +93,7 @@ input {
   top: 30px;
   float: right;
   padding: 6px;
+  border: none;
   margin-right: 50px;
 }
 
