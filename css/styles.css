@@ -165,11 +165,11 @@ Vertical lines
   height: auto;
 }
 
-.box{
+.box1{
   width: 50%;
   height:500px;
-  background-image: url(../images/hp2.jpg),url(../images/hp3.jpg);
-  
+  background-image: url(../images/hp2.jpg),
+
 }
 .row {
   display: flex;
