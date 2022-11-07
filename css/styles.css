@@ -201,6 +201,7 @@ Vertical lines
   height:500px;
   background-image: url(../images/hp3.jpg);
   background-size: cover;
+  background-position: right;
 }
 
 /*media quaries*/
