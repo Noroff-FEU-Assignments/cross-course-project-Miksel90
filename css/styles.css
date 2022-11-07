@@ -1,8 +1,20 @@
 
-
-
 :root {
   --searchbarColor:white; 
+}
+
+
+/*media quaries*/
+@media screen and (max-width:1200px) {
+  .box1,.box2{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .box1,.box2{
+    width: 90%;
+  }
 }
 
   /*==============
@@ -221,18 +233,6 @@ Vertical lines
   padding: 5px 10px;
   border-radius: 5px;
 }
-/*media quaries*/
-@media screen and (max-width:1200px) {
-  .box1,.box2{
-    width: 40%;
-  }
-}
-
-@media screen and (max-width:600px) {
-  .box1,.box2{
-    width: 90%;
-  }
-}
 
 
 .row {
@@ -254,15 +254,15 @@ Vertical lines
   background-position: center;
 }
 
-.mw2{
-  background-image: url(../images/skier.jpg);
-  height: 900px;
-  background-size: cover;
-  background-position: center;
-  width: 50%;
-  height: 500px;
-}
 
+
+.box3{
+  width: 50%;
+  height:500px;
+  background-image: url(../images/Skier.jpg);
+  background-size: cover;
+  background-position: right;
+}
 .mw2-actions{
   position: absolute;
   bottom: -950px; 
@@ -280,6 +280,13 @@ Vertical lines
   border-radius: 5px;
 }
 
+.box4{
+  width: 50%;
+  height:500px;
+  background-image: url(../images/hikeing.jpg);
+  background-size: cover;
+  background-position: right;
+}
 
   /*==============
 5. Homepage Favourites
