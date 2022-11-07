@@ -21,8 +21,12 @@
 1. Global Values
 ================*/
 
-h1,h2,h4 {
+h1,h2 {
   text-align: center;
+}
+
+h4{
+  max-width: 200px;
 }
 
 ::placeholder {
