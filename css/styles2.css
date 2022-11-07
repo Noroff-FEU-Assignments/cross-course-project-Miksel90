@@ -1,112 +1,147 @@
+
+:root {
+  --textColor: #0a3641;
+  --navBackground:#B6A696;
+  --searchbarColor:white; 
+  --buyNowInactive: #d9d9d9;
+  --buyNowActive: #0a3641;
+  --checkoutButton: #8c4300;
+  --checkoutButtonInactive: #ffffff;
+  --orderNumber: #ca0000;
+  --browseBackground: #e3e3e3;
+  --productImage: #eeeeee;
+  --adBannerText: #ffffff;
+  --productColorText: #727272;
+}
+
+
+
+
+/*==============
+1. Global Values
+================*/
+
+::placeholder {
+  color: var(--textColor);
+  opacity: 0.5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
 body {
-    margin: 0;
-    width: 100%;
-    min-height: 100vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-  
-    * {
-      box-sizing: border-box;
-    }
-    
-.rounded{
-    color: #427784;
-    width: 95%;
-    }
+  margin: 0;
+  padding: 0;
+  font-family:
+  font-weight: 900;
+  color: var(--textColor);
+}
 
+input {
+  background-color: var(--searchbarColor);
+  border: none;
+  color: var(--textColor);
+  border-radius: 7px;
+  font-weight: 700;
+  padding-block: 5px;
+  padding-left: 5px;
+}
 
-    header {
-      display: center;
-      text-align: center;
-      justify-content: space-evenly;
-      background: #427784;
-      color: white;
-      font-size: 15px;
-    }
-   
-    .nav {
-      display: center;
-      text-align: center;
-      justify-content: space-evenly;
-      background-color: #B6A696; 
-      overflow: hidden;
-      height: 80px;
-    }
-  
-  .nav a {
-    position: relative;
-    top: 25px;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 50px;
-    text-decoration: none;
-    font-size: 30px;
-  }
-  
-  
-  .nav [type=text] {
-    position: relative;
-    top: 30px;
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-right: 50px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .nav a:hover {
-    background-color: #427784;
-    font-weight: bold;
-    border-radius: 15px;
-  }
-  
-  .container {
-    overflow: hidden;
-    width: 100%;
-    height: 800px;
-    align-items: center;
-  }
-  
-  .container img{
-  margin-left: 25%;
-  width: 50%;
-  height: 70%;
-  }
+/*==============
+Nav Bar Styling
+================*/
 
-  .container .btn-1{  
-    position: absolute;
-    top: 72%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #B6A696;
-    color: white;
-    font-size: 15px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-  }
-  .container .btn-2{   
-    position: absolute;
-    top: 72%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #B6A696;
-    color: white;
-    font-size: 15px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
-  .container .btn-1:hover, .container .btn-2:hover {
-    background-color: #427784;
-    font-weight: bold;
-  }
-  
+.nav-container {
+  background-color: var(--navBackground);
+  font-family: "manrope-bold", Verdana, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  box-shadow: inset 0px 8px 10px 0px rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.burger-menu,
+.burger-icon {
+  display: none;
+}
+
+.nav-logo-desktop {
+  margin-left: 10px;
+  height: 100px;
+}
+
+.nav-logo-desktop img {
+  display: flex;
+  height: 90px;
+  width: 100%;
+}
+
+.nav-collection,
+.nav-about-us {
+  color: var(--textColor);
+}
+
+form {
+  display: flex;
+  width: 40%;
+}
+
+form .nav-search {
+  width: 100%;
+  border-radius: 16px;
+  font-size: 1.3rem;
+}
+
+form .search-icon {
+  background-color: var(--searchbarColor);
+  border: none;
+  border-left: 2px solid var(--textColor);
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  margin-left: -35px;
+}
+
+.nav-contact {
+  width: 60px;
+}
+
+.nav-cart {
+  width: 45px;
+  margin-right: 50px;
+}
+
+.nav-cart img {
+  width: 45px;
+}
+
+ul {
+  display: none;
+}
+
+/* 2.1 Nav Bar Hover Styles */
+
+.nav-collection:hover,
+.nav-collection:focus,
+.nav-about-us:hover,
+.nav-about-us:focus,
+.nav-contact:hover,
+.nav-contact:focus,
+.nav-cart:hover,
+.nav-cart:focus {
+  border-bottom: 3px solid var(--textColor);
+  cursor: pointer;
+  outline: none;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}
