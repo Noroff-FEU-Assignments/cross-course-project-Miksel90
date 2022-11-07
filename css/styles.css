@@ -345,7 +345,7 @@ Vertical lines
   text-align: center;
 }
 
-.column-2{
+.column{
   text-align: center;
   display: inline-block;
   justify-content: space-evenly;
