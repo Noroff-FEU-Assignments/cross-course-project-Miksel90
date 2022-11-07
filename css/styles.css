@@ -159,23 +159,6 @@ Vertical lines
   border-radius: 5px;
 }
 
-
-.multi-image{
-  height: 400px;
-  background-image: url(../images/hp2.jpg), url(../images/hp3.jpg);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: bottom right, left, right;
-}
-
-
-
-
-
-
-
-
-
-
 .welcome2{
   background-image: url(../images/hp2.jpg);
   height: 800px;
