@@ -434,13 +434,9 @@ justify-content: space-evenly;
   border-style:groove
 }
 
-.box5 img{
+.box6{
   margin-top: 15px;
   margin-left: 400px;
-  max-height: 400px;
-  display: flex;
-  border-color: black;
-  border-style:groove
 }
 
 
