@@ -150,7 +150,7 @@ Vertical lines
   
 
   .welcome{
-    background-image:url('/images/hp1');
+    background-image: url('/images/hp1.jpg');
     height: 800px;
     background-size: cover;
     background-position: center;
