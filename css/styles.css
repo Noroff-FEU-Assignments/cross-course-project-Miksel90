@@ -79,6 +79,7 @@ input {
 .nav a {
   position: relative;
   top: 25px;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 50px;
   text-decoration: none;
