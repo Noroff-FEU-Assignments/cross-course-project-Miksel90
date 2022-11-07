@@ -422,6 +422,7 @@ icons
 display: flex;
 align-items: center;
 justify-content: space-evenly;
+margin-left: 300px;
 }
 
 .row-2 img{
