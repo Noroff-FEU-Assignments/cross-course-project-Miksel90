@@ -422,7 +422,7 @@ icons
 display: flex;
 align-items: center;
 justify-content: space-evenly;
-margin-left: 300px;
+
 }
 
 .row-2 img{
@@ -434,6 +434,7 @@ margin-left: 300px;
 
 .column-3 {
   text-align: center;
+  margin-left: 40px;
 }
 
 .btn-big {
