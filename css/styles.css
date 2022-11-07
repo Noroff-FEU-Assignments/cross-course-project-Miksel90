@@ -134,20 +134,6 @@ Vertical lines
   /*==============
 4. Homepage Images, Image Buttons and text
 ================*/
-.btn-1:hover,.btn-2:hover,.btn-6:hover,.btn-7:hover,.btn-8:hover,.btn-9:hover,
-.btn-10:hover,.btn-11:hover {
-  background-color: #427784;
-}
-
-.column {
-  width: 50%;
-  }
-  
-  .column img{
-    width: 100%;
-    max-height: 500px;
-  }
-  
 
   .welcome{
     background-image: url(../images/hp1.jpg);
@@ -181,7 +167,7 @@ Vertical lines
   width: 50%;
 }
   
-.wa2{
+.wa2-actions{
   position: absolute;
   bottom: 50px; 
   left: 50px;
