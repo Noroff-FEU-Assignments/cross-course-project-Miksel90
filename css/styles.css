@@ -434,6 +434,16 @@ justify-content: space-evenly;
   border-style:groove
 }
 
+.box6{
+  margin-top: 15px;
+  margin-right: 400px;
+  max-height: 400px;
+  display: flex;
+  border-color: black;
+  border-style:groove
+}
+
+
 .column-3 {
   text-align: center;
   margin-left: 40px;
