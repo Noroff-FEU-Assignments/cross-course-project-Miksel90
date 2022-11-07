@@ -568,8 +568,8 @@ Choose color
 /* About us*/
 .about-us{
   background-image: url(../images/RainyDays_Logo.png);
-  height: 500px;
-  width: 500x;
+  height: 300px;
+  width: 300x;
   background-size: cover;
   background-position: center;
   margin-bottom: 5px;
