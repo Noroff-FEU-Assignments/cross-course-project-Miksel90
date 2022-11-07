@@ -205,7 +205,7 @@ height: 100%;
 
 
 
-.container .btn-1:hover, .container .btn-2:hover {
+.btn-1:hover,.btn-2:hover,.btn-6:hover,.btn-7:hover {
   background-color: #427784;
 }
 
