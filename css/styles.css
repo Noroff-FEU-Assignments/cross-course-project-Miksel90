@@ -1,3 +1,20 @@
+
+
+
+:root {
+  --textColor:#ffffff; 
+  --navBackground:#B6A696;
+  --searchbarColor:white; 
+  --buyNowInactive: #d9d9d9;
+  --buyNowActive: #0a3641;
+  --checkoutButton: #8c4300;
+  --checkoutButtonInactive: #ffffff;
+  --orderNumber: #ca0000;
+  --browseBackground: #e3e3e3;
+  --productImage: #eeeeee;
+  --adBannerText: #ffffff;
+  --productColorText: #727272;
+}
 body {
   text-align: center;
   margin: 0;
@@ -17,7 +34,6 @@ body {
     text-align: center;
     justify-content: space-evenly;
     background: #427784;
-    color: white;
     font-size: 15px;
   }
  
