@@ -434,6 +434,23 @@ Choose color
     border:grey;
     color: white;
     padding: 8px;
+    border-radius: 2px;
+  }
+
+  .color3 {
+    background-color:blue;
+    border:grey;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+  }
+
+  .color4 {
+    background-color:orange;
+    border:grey;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
   }
 
   .btn-group button {
