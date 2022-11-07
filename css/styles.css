@@ -346,6 +346,7 @@ Sign up section
 
 .column img{
   margin-left: 15px;
+  margin-right: 15px;
   max-height: 300px;
   display: flex;
   align-items: center;
