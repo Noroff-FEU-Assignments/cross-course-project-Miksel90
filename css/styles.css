@@ -183,8 +183,22 @@ Vertical lines
   height:500px;
   background-image: url(../images/hp3.jpg);
   background-size: cover;
-
 }
+
+/*media quaries*/
+@media screen and (max-width:1200px) {
+  .box1,.box2{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .box1,.box2{
+    width: 90%;
+  }
+}
+
+
 .row {
   display: flex;
   margin-top: 10px;
