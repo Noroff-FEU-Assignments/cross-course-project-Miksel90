@@ -426,6 +426,7 @@ justify-content: space-evenly;
 }
 
 .box5 img{
+  margin-top: 15px;
   margin-left: 200px;
   max-height: 400px;
   display: flex;
