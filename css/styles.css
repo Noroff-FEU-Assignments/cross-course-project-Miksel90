@@ -55,6 +55,7 @@ input {
 
 .a:link a:visited{
   text-decoration: none;
+  color: #fff;
 }
     /*==============
 Vertical lines
@@ -404,7 +405,7 @@ icons
 
 
 .btn-3 {
-font-size: 25px;
+ font-size: 25px;
  background-color: green;
  color: white;
  padding: 12px 24px;
