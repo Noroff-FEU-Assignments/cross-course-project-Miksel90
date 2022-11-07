@@ -31,7 +31,6 @@ body {
 
 input {
   background-color: var(--searchbarColor);
-  border: none;
   color: var(--textColor);
   border-radius: 7px;
   font-weight: 700;
