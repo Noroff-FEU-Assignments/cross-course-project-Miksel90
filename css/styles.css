@@ -339,7 +339,7 @@ Sign up section
 }
 
   /*==============
-6.Men/woman collection  buttons 
+icons
 ================*/
 
 .fa-brands {
@@ -350,6 +350,11 @@ Sign up section
 .fa-square-facebook{
   color: blue;
 }
+fa-square-instagram{
+  color:firebrick;
+}
+
+
 .column img{
   margin-left: 100px;
   margin-right: 100px;
