@@ -173,7 +173,12 @@ Vertical lines
   border-radius: 5px;
 }
 
-  
+.welcome2{
+  background-image: url(../images/hp2.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
   
 .row {
   display: flex;
