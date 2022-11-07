@@ -490,7 +490,9 @@ Choose color
     border-radius: 2px;
   }
 
-
+.prodinfo{
+  display: flex;
+}
   .prodinfo div {
  flex: 1;
   }
