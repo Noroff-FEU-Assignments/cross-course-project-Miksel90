@@ -21,10 +21,13 @@
 1. Global Values
 ================*/
 
-h1,h2 {
+h1,h2,h4 {
   text-align: center;
 }
 
+.li {
+  text-align: center;
+}
 ::placeholder {
   color: var(--textColor);
   opacity: 0.5;
@@ -70,9 +73,6 @@ input {
   display: center;
 }
 
-.btn-3 div{
-  max-width: 500px;
-}
     /*==============
 Vertical lines
 ================*/
