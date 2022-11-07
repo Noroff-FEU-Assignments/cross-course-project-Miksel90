@@ -2,7 +2,7 @@
 
 
 :root {
-  --searchbarColor:#427784; 
+  --searchbarColor:white; 
 }
 
   /*==============
@@ -31,12 +31,15 @@ body {
 
 input {
   background-color: var(--searchbarColor);
+  border: none;
   color: var(--textColor);
   border-radius: 7px;
   font-weight: 700;
   padding-block: 5px;
   padding-left: 5px;
   font-size: 15px;
+border-style: initial;
+border-color: #427784;
 }
     /*==============
 Vertical lines
