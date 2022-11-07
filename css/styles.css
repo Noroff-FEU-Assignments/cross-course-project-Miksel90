@@ -160,59 +160,17 @@ Vertical lines
   border-radius: 5px;
 }
 
-.welcome2{
-  background-image: url(../images/hp2.jpg), url(../images/hp3.jpg);
-  display: flex;
-  height: 500px;
-  width: 50%;
-  background-repeat: no-repeat;
-
+.container{
+  width: 100%;
+  height: auto;
 }
+
+.box{
+  width: 50%;
+  height:500px;
+  background-image: url(../images/hp2.jpg),url(../images/hp3.jpg);
   
-.wa2-actions{
-  position: absolute;
-  bottom: -450px; 
-  left: 50px;
-  color: #fff; 
-  background: rgb(0,0,0,0.5);
-  padding: 30px;
-  text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
 }
-
-.wa2-actions a{
-  background: #B6A696;
-  color:#fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-
-.welcome3{
-  background-image: url(../images/HP3.jpg);
-  height: 800px;
-  background-size: cover;
-  background-position: center;
-  width: 50%;
-  height: 1000px;
-}
-
-.wa3-actions{
-  position: absolute;
-  bottom: 0px; 
-  left: 1000px;
-  color: #fff; 
-  background: rgb(0,0,0,0.5);
-  padding: 40px;
-  text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
-}
-
-.wa3-actions a{
-  background: #B6A696;
-  color:#fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
 .row {
   display: flex;
   margin-top: 10px;
