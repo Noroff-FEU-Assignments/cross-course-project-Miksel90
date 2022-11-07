@@ -29,7 +29,7 @@ body {
   text-align: center;
 }
 
-input {
+.navbar .input {
   background-color: var(--searchbarColor);
   border: none;
   color: var(--textColor);
