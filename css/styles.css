@@ -342,7 +342,9 @@ Sign up section
 6.Men/woman collection  buttons 
 ================*/
 
-
+.i {
+  font-size: 50px;
+}
 
 .column img{
   margin-left: 100px;
