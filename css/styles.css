@@ -134,12 +134,18 @@ input {
 width: 100%;
 height: 100%;
 }
+
+  /*==============
+1. Homepage buttons
+================*/
+
 .container .btn-1{  
   position: absolute;
   top: 85%;
   left: 7%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  background-color: #B6A696;
   color: white;
   font-size: 25px;
   padding: 12px 24px;
@@ -163,6 +169,24 @@ height: 100%;
   border-radius: 5px;
   text-align: center;
 }
+
+.row .btn-2{   
+  position: absolute;
+  top: 85%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #B6A696;
+  color: white;
+  font-size: 25px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
 
 .container .btn-1:hover, .container .btn-2:hover {
   background-color: #427784;
