@@ -162,7 +162,7 @@ Vertical lines
 
 .multi-image{
   height: 400px;
-  background-image: url(../images/hp2.jpg), url(../images/hp3.jpg),
+  background-image: url(../images/hp2.jpg), url(../images/hp3.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom right, left, right;
 }
