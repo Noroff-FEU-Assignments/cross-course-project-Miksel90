@@ -76,9 +76,9 @@ Vertical lines
   top: 25px;
   color: #f2f2f2;
   text-align: center;
-  padding: 0px 5px;
+  padding: 14px 50px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 
@@ -148,6 +148,28 @@ Vertical lines
     max-height: 500px;
   }
   
+
+  .welcome{
+    background-image:url('/images/hp1');
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .welcome-actions{
+    position: absolute;
+    bottom: 50px; 
+    left: 50px;
+    color: #fff; 
+  }
+
+.welcome-actions a{
+  background: #B6A696;
+  color:#fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
   .container {
     overflow: hidden;
     width: 100%;
