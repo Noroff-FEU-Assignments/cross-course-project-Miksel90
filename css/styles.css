@@ -51,7 +51,7 @@ Vertical lines
     /*==============
 2. Small header
 ================*/
-  header {
+  .top-header {
     display: center;
     text-align: center;
     justify-content: space-evenly;
