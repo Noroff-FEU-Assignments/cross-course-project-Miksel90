@@ -27,7 +27,6 @@ h1,h2 {
 
 h4{
   max-width: 500px;
- align-items: center;
 }
 
 ::placeholder {
@@ -68,12 +67,11 @@ input {
 
 .offer-1 {
   background-color: #B6A696;
-  color: white;
+  color:#427784
   font-size: 20px;
   text-align: center;
   text
   height: 100%;
-  text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
 }
 
     /*==============
