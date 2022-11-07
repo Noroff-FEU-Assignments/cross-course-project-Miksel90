@@ -228,7 +228,7 @@ height: 100%;
 .bottom-left{
   position: absolute;
   left: 4%;
-  top: 135%;
+  top: 137%;
   font-size: 30px;
   color: white;
   text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
@@ -239,7 +239,7 @@ height: 100%;
 
 .btn-8{   
   position: absolute;
-  top: 146%;
+  top: 144%;
   left: 55%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
