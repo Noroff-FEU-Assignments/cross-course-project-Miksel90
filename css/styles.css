@@ -172,8 +172,8 @@ height: 100%;
 
 .btn-6{   
   position: absolute;
-  top: 145%;
-  left: 20%;
+  top: 144%;
+  left: 10%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #B6A696;
