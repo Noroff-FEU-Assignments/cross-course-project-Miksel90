@@ -337,8 +337,8 @@ Vertical lines
 
 .btn-10{   
   position: absolute;
-  top: 160%;
-  left: 60%;
+  top: 180%;
+  left: 10%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #B6A696;
