@@ -455,7 +455,7 @@ Choose color
 
 
   .prodinfo {
-    display: flex;
+    display: inline-block;
   }
 
 
