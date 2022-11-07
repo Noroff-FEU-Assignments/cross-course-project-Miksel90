@@ -492,6 +492,9 @@ Choose color
 
 .prodinfo{
   display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 100px;
 }
   .prodinfo div {
  flex: 1;
