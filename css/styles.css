@@ -419,9 +419,17 @@ justify-content: space-evenly;
    text-align: center;
    text-decoration: none;
   }
-  
+    /*==============
+Choose color
+================*/
   .color1 {
     background-color: #04AA6D;
+    border:grey;
+    color: white;
+    padding: 8px;
+  }
+  .color2 {
+    background-color:red
     border:grey;
     color: white;
     padding: 8px;
