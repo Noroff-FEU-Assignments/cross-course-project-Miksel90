@@ -413,7 +413,8 @@ icons
   max-height: 400px;
   display: flex;
   border-color: black;
-  border-style:groove
+  border-style:groove;
+  background-color: oldlace;
 }
 
 
@@ -554,17 +555,4 @@ Choose color
     background-color:#B6A696
   }
 
-  figure.item {
-    /* To correctly align image, regardless of content height: */
-    vertical-align: top;
-    display: inline-block;
-    /* To horizontally center images and caption */
-    text-align: center;
-    /* The width of the container also implies margin around the images. */
-    width: 120px;
-}
 
-.caption {
-    /* Make the caption a block so it occupies its own line. */
-    display: block;
-}
