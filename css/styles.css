@@ -163,7 +163,7 @@ Vertical lines
   background-image: url(../images/hp2.jpg), url(../images/Skier.jpg);
   height: 800px;
   background-size: cover;
-  background-position: center,center;
+  background-position: left,right;
   background-repeat: no-repeat, no-repeat;
   width: 50%;
   height: 500px;
