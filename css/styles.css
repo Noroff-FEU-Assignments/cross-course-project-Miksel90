@@ -227,7 +227,7 @@ Vertical lines
 .mw1{
   background-image: url(../images/Amundensen.jpg);
   height: 800px;
-  background-size: cover;
+  background-size: fill;
   background-position: center;
 }
   /*==============
