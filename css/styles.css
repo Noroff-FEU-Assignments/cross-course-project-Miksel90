@@ -186,6 +186,14 @@ Vertical lines
 }
 
 
+.welcome3{
+  background-image: url(../images/HP3.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 500px;
+}
 .row {
   display: flex;
   align-items: flex-start;
