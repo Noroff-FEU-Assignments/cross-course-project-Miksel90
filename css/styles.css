@@ -70,6 +70,9 @@ input {
   display: center;
 }
 
+.offer-1 a{
+  max-width: 500px;
+}
     /*==============
 Vertical lines
 ================*/
