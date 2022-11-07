@@ -457,7 +457,6 @@ Choose color
   .prodinfo {
     display: flex;
     margin-top: 20px;
-    text-align: center;
   }
   .btn-group button {
     background-color:white; 
