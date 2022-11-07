@@ -353,7 +353,9 @@ Sign up section
   border-style:groove
 }
 
-
+.column{
+  text-align: center;
+}
 .offer-1 {
   background-color: #B6A696;
   color: white;
