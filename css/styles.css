@@ -2,7 +2,6 @@
 
 
 :root {
-  --navBackground:#B6A696;
   --searchbarColor:white; 
   --btnbackground:#b6a696;
 }
@@ -40,6 +39,13 @@ input {
   padding-left: 5px;
   font-size: 30px;
 }
+    /*==============
+Vertical lines
+================*/
+.rounded{
+  color: #427784;
+  width: 95%;
+  }
 
     /*==============
 2. Small header
@@ -124,29 +130,44 @@ input {
   font-size: 15px;
 }
 
-.container {
-  overflow: hidden;
-  width: 100%;
-  height: 800px;
-}
 
-.container img{
-width: 100%;
-height: 100%;
-}
-
-.fa {
-  size: 200%;
-}
   /*==============
-1. Homepage Image Buttons and text
+4. Homepage Images, Image Buttons and text
 ================*/
 .btn-1:hover,.btn-2:hover,.btn-6:hover,.btn-7:hover {
   background-color: #427784;
 }
 
+.column {
+  width: 50%;
+  }
+  
+  .column img{
+    width: 100%;
+    max-height: 500px;
+  }
+  
+  .container {
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
+  }
+  
+  .container img{
+  width: 100%;
+  height: 100%;
+  }
+  
+  
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
   /*==============
-1.1 Big image
+4.1 Big image
 ================*/
 
 .btn-1{  
@@ -194,7 +215,7 @@ height: 100%;
 
 
   /*==============
-1.2 small left image
+4.2 small left image
 ================*/
 
 .btn-6{   
@@ -242,7 +263,7 @@ height: 100%;
 }
 
   /*==============
-1.3 small right image
+4.3 small right image
 ================*/
 
 .btn-8{   
@@ -288,24 +309,9 @@ height: 100%;
 }
 
 
-
-.row {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  margin-top: 10px;
-}
-.column {
-width: 50%;
-}
-
-.column img{
-  width: 100%;
-  max-height: 500px;
-}
-
-
-
+  /*==============
+5. Homepage Favourites
+================*/
 
 .row-2 {
   display: flex;
@@ -331,10 +337,6 @@ width: 50%;
   border-style:double;
 }
 
-.rounded{
-color: #427784;
-width: 95%;
-}
 
 .offer-1 {
   background-color: #B6A696;
