@@ -456,7 +456,6 @@ Choose color
 
   .prodinfo {
     display: flex;
-    flex-direction: column;
   }
 
 
