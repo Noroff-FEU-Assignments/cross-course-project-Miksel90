@@ -214,7 +214,7 @@ Vertical lines
 
 .row {
   display: flex;
-  align-items: flex-start;
+  align-items: row-reverse;
   justify-content: space-around;
   margin-top: 10px;
 }
