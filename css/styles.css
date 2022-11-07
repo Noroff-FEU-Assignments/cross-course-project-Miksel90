@@ -433,6 +433,7 @@ icons
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
+  margin-top: 5px;
  }
 .row-2 {
 display: flex;
