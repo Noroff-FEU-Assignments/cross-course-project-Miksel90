@@ -57,6 +57,16 @@ input {
   text-decoration: none;
   color: #fff;
 }
+
+.offer-1 {
+  background-color: #B6A696;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+  text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
+}
+
     /*==============
 Vertical lines
 ================*/
@@ -395,14 +405,6 @@ icons
   border-color: black;
   border-style:groove
 }
-.offer-1 {
-  background-color: #B6A696;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  height: 100%;
-  text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
-}
 
 
 .btn-3 a{
@@ -508,6 +510,7 @@ Choose color
     padding: 10px 24px;
     cursor: pointer; 
     float: left; 
+    margin-bottom: 10px;
   }
   
   .btn-group button:not(:last-child) {
