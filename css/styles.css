@@ -491,7 +491,9 @@ justify-content: space-evenly;
    border-radius: 5px;
    text-align: center;
    text-decoration: none;
+   align-items: center;
   }
+  
     /*==============
 Choose color
 ================*/
