@@ -345,6 +345,7 @@ Sign up section
 
 
 .column img{
+  margin-left: 15px;
   max-height: 300px;
   display: flex;
   align-items: center;
@@ -354,7 +355,6 @@ Sign up section
 
 
 .offer-1 {
-  margin-left: 20px;
   background-color: #B6A696;
   color: white;
   font-size: 20px;
