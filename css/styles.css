@@ -15,8 +15,8 @@
   --adBannerText: #ffffff;
   --productColorText: #727272;
 }
+
 body {
-  text-align: center;
   margin: 0;
   width: 100%;
   min-height: 100vh;
@@ -34,6 +34,7 @@ body {
     text-align: center;
     justify-content: space-evenly;
     background: #427784;
+    color: white;
     font-size: 15px;
   }
  
