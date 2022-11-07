@@ -579,7 +579,7 @@ Choose color
   background-image: url(../images/About2.jpg);
   height: 520px;
   width: 300x;
-  background-position: bottom;
+  background-position: bottom, center;
   margin-bottom: 5px;
   background-repeat: no-repeat;
 }
