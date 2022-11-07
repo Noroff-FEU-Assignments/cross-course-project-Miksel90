@@ -457,7 +457,10 @@ Choose color
   .prodinfo {
     display: flex;
     margin-top: 20px;
+    text-decoration: overline;
   }
+
+
   .btn-group button {
     background-color:white; 
     border: 1px solid #427784;
