@@ -87,6 +87,12 @@ input {
 }
 
 
+.nav [type=text] {
+  position: relative;
+  top: 30px;
+  float: right;
+  margin-right: 50px;
+}
 
 .nav a:hover {
   background-color: #427784;
