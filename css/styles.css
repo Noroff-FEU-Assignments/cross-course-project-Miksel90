@@ -162,6 +162,7 @@ Vertical lines
 
 .welcome2{
   background-image: url(../images/hp2.jpg), url(../images/hp3.jpg);
+  display: flex;
   height: 500px;
   width: 50%;
   background-repeat: no-repeat;
