@@ -296,6 +296,15 @@ Vertical lines
   background-position: right;
 }
 
+.box4 a{
+  background: #B6A696;
+  color:#fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -450px; 
+  right: 700px;
+}
   /*==============
 5. Homepage Favourites
 ================*/
