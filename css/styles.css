@@ -170,7 +170,7 @@ height: 100%;
   text-align: center;
 }
 
-.btn-6{   
+.row .column .btn-6{   
   position: absolute;
   top: 85%;
   left: 15%;
