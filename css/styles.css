@@ -21,6 +21,10 @@
 1. Global Values
 ================*/
 
+.h1 {
+  text-align: center;
+}
+
 ::placeholder {
   color: var(--textColor);
   opacity: 0.5;
