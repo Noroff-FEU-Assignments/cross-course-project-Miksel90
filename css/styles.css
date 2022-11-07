@@ -163,7 +163,6 @@ Vertical lines
 .welcome2{
   background-image: url(../images/hp2.jpg),url(../images/hp3.jpg);
   height: 500px;
-  background-size: cover;
   width: 100%;
 }
   
