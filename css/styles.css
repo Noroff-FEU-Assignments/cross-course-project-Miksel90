@@ -177,6 +177,12 @@ Vertical lines
   text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
 }
 
+.wa2-actions a{
+  background: #B6A696;
+  color:#fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
 
 
 .row {
