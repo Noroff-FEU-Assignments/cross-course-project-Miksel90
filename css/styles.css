@@ -160,10 +160,10 @@ Vertical lines
 }
 
 .welcome2{
-  background-image: url(../images/hp2.jpg), url(../images/Skier.jpg);
+  background-image: url(../images/hp2.jpg), url(../images/hp3.jpg);
   height: 800px;
   background-size: cover;
-  background-position: left,right;
+  background-position:  right bottom, left top;
   background-repeat: no-repeat, no-repeat;
   width: 50%;
   height: 500px;
