@@ -491,8 +491,8 @@ Choose color
   }
 
 
-  .prodinfo {
-    display: flex;
+  .prodinfo div {
+ flex: 1;
   }
 
 
