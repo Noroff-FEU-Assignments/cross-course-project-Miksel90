@@ -2,7 +2,6 @@
 
 
 :root {
-  --textColor:#ffffff; 
   --navBackground:#B6A696;
   --searchbarColor:white; 
   --buyNowInactive: #d9d9d9;
@@ -47,6 +46,7 @@ input {
   font-weight: 700;
   padding-block: 5px;
   padding-left: 5px;
+  te
 }
 
   * {
