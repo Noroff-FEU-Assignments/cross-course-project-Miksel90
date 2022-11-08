@@ -436,7 +436,8 @@ Column img
  border-radius: 5px;
  text-align: center;
  text-decoration: none;
- display: inline-block
+ display: inline-block;
+ margin-bottom: 100px;
 }
 
 .row-2 {
