@@ -136,29 +136,6 @@ Vertical lines
 }
 
 
-.navbar-footer {
-  display: center;
-  text-align: center;
-  justify-content: space-evenly;
-  background-color: #B6A696;
-  height: 100px;
-}
-
-.navbar-footer a{
-  position: relative;
-  top: 25px;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 50px;
-  text-decoration: none;
-  font-size: 30px;
- }
- 
- .navbar-footer a:hover {
-  background-color:#427784;
-  font-weight: bold;
-}
-
 .footer{
   display: center;
   text-align: center;
