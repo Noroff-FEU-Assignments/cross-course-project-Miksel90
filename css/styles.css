@@ -579,7 +579,7 @@ Choose color
 .about-text{
   position: absolute;
   left: 100px;
-  max-width: 500px;
+  max-width: 1000px;
   color: #fff; 
   background: rgb(0,0,0,0.5);
   padding: 30px;
