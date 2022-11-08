@@ -569,6 +569,8 @@ Choose color
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .cart-img{
   background-image: url(../images/mountainering.jpg);
