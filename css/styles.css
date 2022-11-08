@@ -14,7 +14,6 @@
 
 @media screen and (max-width:700px) {
 nav {
-  height: 230px;
   flex-direction: column;
   text-align: center;
 }
