@@ -577,7 +577,7 @@ Choose color
 
 
 .about-text{
-  position: relative;
+  position: absolute;
   top: 800px;
   left: 400px;
   max-width: 1000px;
