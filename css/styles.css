@@ -580,7 +580,7 @@ Choose color
   background-repeat: no-repeat;
 }
 
-.btn.checkout {
+.btn.checkout a{
   font-size: 10px;
   background-color: green;
   color: white;
