@@ -582,9 +582,7 @@ Choose color
   margin: 0 auto;
   gap: 100px;
 }
-  pAbout.text div {
- flex: 1;
-  }
+
 /* Cart*/
 
 .container.cart{
