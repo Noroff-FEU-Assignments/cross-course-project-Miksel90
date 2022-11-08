@@ -189,7 +189,6 @@ nav a:hover {
 
   /*add flexbox style*/
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   flex-flow: wrap;
 }
@@ -464,7 +463,7 @@ justify-content: space-evenly;
   margin-top: 15px;
   max-height: 400px;
   display: flex;
-  align-self: center;
+ 
   border-color: black;
   border-style:groove
 }
