@@ -189,7 +189,6 @@ nav a:hover {
 
   /*add flexbox style*/
   display: flex;
-  justify-content: space-between;
   flex-flow: wrap;
 }
 
