@@ -126,7 +126,6 @@ display: flex;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    margin-left: 10%;
     margin-right: 10%;
   }
 
