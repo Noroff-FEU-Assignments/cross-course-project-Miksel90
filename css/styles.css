@@ -566,7 +566,7 @@ Choose color
 .cart-img{
   background-image: url(../images/mountainering.jpg);
   height: 520px;
-  background-position: left, center;
+  background-position: center;
   margin-bottom: 5px;
   background-repeat: no-repeat;
 }
