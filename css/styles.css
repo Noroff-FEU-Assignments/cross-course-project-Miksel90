@@ -109,6 +109,11 @@ Vertical lines
     /*==============
 3. Navigation
 ================*/
+
+
+.logo {
+  width: 100px;
+}
   nav {
     background-color: #B6A696; 
   }
