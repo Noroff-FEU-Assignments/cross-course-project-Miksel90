@@ -96,7 +96,7 @@ Vertical lines
     color: white;
     font-size: 15px;
     position: fixed;
-    z-index: 9999;
+    z-index: 9998;
     width: 100%;
   }
 
@@ -124,6 +124,7 @@ align-self: center;
     background-color: #B6A696;
     width: 100%;
     position: fixed;
+    z-index: 9999;
   }
 
   nav ul{
