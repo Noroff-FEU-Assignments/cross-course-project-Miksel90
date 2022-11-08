@@ -145,6 +145,7 @@ nav [type=text]{
   font-size: 18px;
   color: white;
   max-height: 30px;
+  align-self: center;
 }
 
 nav a:hover {
