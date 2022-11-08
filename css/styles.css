@@ -132,10 +132,6 @@ nav ul li a{
 
 
 nav [type=text]{
-  position: relative;
-  top: 25px;
-  float: right;
-  padding: 6px;
   font-size: 18px;
 }
 
