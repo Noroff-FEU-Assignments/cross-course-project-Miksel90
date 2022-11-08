@@ -587,7 +587,7 @@ Choose color
   gap: 100px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   flex-flow: wrap;
 }
