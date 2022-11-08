@@ -119,7 +119,8 @@ position: absolute;
   margin-left: 20px;
 }
   nav {
-    background-color: #B6A696; 
+    background-color: #B6A696;
+    height: auto; 
   }
 
   nav ul{
