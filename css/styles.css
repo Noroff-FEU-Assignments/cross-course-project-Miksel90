@@ -372,7 +372,6 @@ icons
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  flex-flow: wrap;
 }
 .column img{
   margin-left: 100px;
