@@ -612,7 +612,7 @@ Choose color
 .cartbox{
   display: flex;
   max-width: 1200px;
-  margin: 15;
+  margin: 0 auto;
   gap: 100px;
 
   display: flex;
