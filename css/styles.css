@@ -120,7 +120,7 @@ nav ul li a {
 }
 
 
-.nav [type=text] {
+nav [type=text] {
   position: relative;
   top: 25px;
   float: right;
@@ -129,7 +129,7 @@ nav ul li a {
   font-size: 18px;
 }
 
-.nav a:hover {
+nav a:hover {
   background-color: #427784;
   font-weight: bold;
   border-radius: 15px;
