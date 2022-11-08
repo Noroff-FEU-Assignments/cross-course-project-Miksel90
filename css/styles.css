@@ -575,6 +575,16 @@ Choose color
   background-repeat: no-repeat;
 }
 
+
+.About.text{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 100px;
+}
+  pAbout.text div {
+ flex: 1;
+  }
 /* Cart*/
 
 .container.cart{
