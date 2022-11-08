@@ -122,7 +122,6 @@ Vertical lines
   }
 
   nav ul{
-    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -131,7 +130,7 @@ Vertical lines
   }
 
   nav ul li{
-    padding:10px 0px;
+    padding:10px 20px;
 
   }
 
