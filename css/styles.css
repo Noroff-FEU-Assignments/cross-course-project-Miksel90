@@ -576,10 +576,11 @@ Choose color
 }
 
 
-.About.text{
+.about.text{
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
+  gap: 100px;
 }
 
 /* Cart*/
