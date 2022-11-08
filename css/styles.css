@@ -190,6 +190,7 @@ nav a:hover {
   /*add flexbox style*/
   display: flex;
   flex-flow: wrap;
+  gap: 20px;
 }
 
 .box1{
