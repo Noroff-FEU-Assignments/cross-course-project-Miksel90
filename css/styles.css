@@ -370,8 +370,12 @@ icons
   color:cornflowerblue;
 }
 
-.fa-square-youtube, .fa-cc-mastercard{
+.fa-square-youtube{
   color: crimson;
+}
+
+.fa-cc-mastercard{
+  background-color: darkgoldenrod;
 }
 
 
