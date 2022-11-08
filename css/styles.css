@@ -23,7 +23,7 @@ body {
 }
 
 input {
-  background-color: var(--searchbarColor);
+  background-color:#fff;
   color: var(--textColor);
   border-radius: 7px;
   font-weight: 700;
