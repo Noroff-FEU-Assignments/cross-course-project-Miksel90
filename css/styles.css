@@ -144,6 +144,7 @@ nav ul li a{
 nav [type=text]{
   font-size: 18px;
   color: white;
+  max-height: 30px;
 }
 
 nav a:hover {
