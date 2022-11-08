@@ -297,6 +297,7 @@ nav a:hover {
   left: 50px;
   font-size: 20px;
   text-decoration: none;
+  display: inline-block;
 }
 .box4{
   width: 50%;
@@ -316,6 +317,7 @@ nav a:hover {
   right: 775px;
   font-size: 20px;
   text-decoration: none;
+  
 }
   /*==============
 5. Homepage Favourites
