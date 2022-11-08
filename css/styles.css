@@ -115,7 +115,7 @@ Vertical lines
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    margin-left: 100px;
+    margin-left: 10%;
   }
 
   nav ul li{
