@@ -148,10 +148,12 @@ nav [type=text]{
   max-height: 30px;
   align-self: center;
 }
-
+.search-input{
+  display: none;
+}
 @media(min-width:600px){
   
-  .search{
+  .search-input{
     display: block;
   }
   }
