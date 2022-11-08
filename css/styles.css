@@ -113,14 +113,14 @@ Vertical lines
 
   }
 
-nav ul li a {
+nav ul li a{
   color: #f2f2f2;
   text-decoration: none;
   font-size: 18px;
 }
 
 
-nav [type=text] {
+nav [type=text]{
   position: relative;
   top: 25px;
   float: right;
