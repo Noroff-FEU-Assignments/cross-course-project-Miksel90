@@ -147,7 +147,6 @@ nav [type=text]{
   color: white;
   max-height: 30px;
   align-self: center;
-  display: none;
 }
 
 @media(min-width:600px){
