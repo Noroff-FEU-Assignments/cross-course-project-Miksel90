@@ -599,10 +599,11 @@ Choose color
 
 .about-text{
   position: absolute;
+  top: 800px;
+  left: 400px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
-  top: 800px;
-  max-width: 1000px;
   color: #fff; 
   background: rgb(0,0,0,0.5);
   padding: 30px;
