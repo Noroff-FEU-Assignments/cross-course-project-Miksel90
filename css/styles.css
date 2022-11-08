@@ -580,14 +580,12 @@ Choose color
   background-repeat: no-repeat;
 }
 
-.btn.checkout a{
-  font-size: 10px;
-  background-color: green;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
- }
+.cartbox{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 100px;
+}
+  .prodinfo div {
+ flex: 1;
+  }
