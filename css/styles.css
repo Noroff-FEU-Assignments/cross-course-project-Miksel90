@@ -462,15 +462,16 @@ justify-content: space-evenly;
 
 .box5 img{
   margin-top: 15px;
+  margin-left: 400px;
   max-height: 400px;
   display: flex;
-  justify-content: space-evenly;
   border-color: black;
   border-style:groove
 }
 
 .box6{
   margin-top: 15px;
+  margin-right: 400px;
 }
 
 
