@@ -181,6 +181,12 @@ nav a:hover {
   height:500px;
   background-image: url(../images/hp2.jpg);
   background-size: cover;
+
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
 }
 
 
