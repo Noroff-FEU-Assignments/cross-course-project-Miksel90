@@ -198,6 +198,7 @@ nav a:hover {
   background: rgb(0,0,0,0.5);
   padding: 30px;
   text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
+  text-decoration: none;
 }
 
 .wa2 a{
@@ -224,6 +225,7 @@ nav a:hover {
   background: rgb(0,0,0,0.5);
   padding: 30px;
   text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
+  text-decoration: none;
 }
 
 .wa3 a{
