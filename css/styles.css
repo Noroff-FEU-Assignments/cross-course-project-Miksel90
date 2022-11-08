@@ -205,12 +205,13 @@ nav a:hover {
   text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
 }
 
-.wa2 a{
+.wa2 a, .wa3 a{
   background: #B6A696;
   color:#fff;
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
+  display: inline-block
 }
 
 .box2{
@@ -238,13 +239,6 @@ nav a:hover {
   text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
 }
 
-.wa3 a{
-  background: #B6A696;
-  color:#fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  text-decoration: none;
-}
 
 
 .row {
