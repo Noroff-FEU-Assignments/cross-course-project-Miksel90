@@ -690,6 +690,15 @@ nav ul{
 }
 
   
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: none;
+    width: 40%;
+    /* Alt om utseende kan være her */
+} 
+
 @media screen and (min-width: 1200px) {
     .box1,
     .box2,
