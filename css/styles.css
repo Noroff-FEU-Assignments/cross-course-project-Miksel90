@@ -580,6 +580,7 @@ Choose color
   position: absolute;
   left: 100px;
   max-width: 1000px;
+  text-align: center;
   color: #fff; 
   background: rgb(0,0,0,0.5);
   padding: 30px;
