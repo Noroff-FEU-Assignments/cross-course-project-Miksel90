@@ -95,6 +95,8 @@ Vertical lines
     background: #427784;
     color: white;
     font-size: 15px;
+    position: fixed;
+    z-index: 9999;
   }
 
   footer{
