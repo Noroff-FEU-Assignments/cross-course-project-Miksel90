@@ -191,7 +191,8 @@ nav a:hover {
   display: flex;
   flex-flow: wrap;
   gap: 20px;
-  align-items: start;
+ justify-content: space-evenly;
+
 }
 
 .box1{
