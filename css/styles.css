@@ -535,6 +535,11 @@ Choose color
   }
 
 
+
+  .container-payment{
+    display: flex;
+  }
+
 /* About us*/
 .about-us{
   background-image: url(../images/RainyDays_Logo.png);
