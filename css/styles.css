@@ -563,6 +563,13 @@ Choose color
   background-repeat: no-repeat;
 }
 
+/* Cart*/
+
+.container.cart{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .cart-img{
   background-image: url(../images/mountainering.jpg);
   height: 520px;
