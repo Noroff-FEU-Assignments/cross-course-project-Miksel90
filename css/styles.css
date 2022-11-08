@@ -303,6 +303,7 @@ nav a:hover {
   background-image: url(../images/Skier.jpg);
   background-size: cover;
   background-position: right;
+  position: relative;
 }
 
 .box3 a{
