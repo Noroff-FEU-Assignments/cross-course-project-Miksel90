@@ -113,7 +113,7 @@ Vertical lines
   nav ul{
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
   }
 
