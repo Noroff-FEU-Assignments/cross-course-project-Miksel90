@@ -55,13 +55,13 @@ input {
   border-color: #427784;
 }
 
-.search-input{
+.search{
   display: none;
 }
 
 @media(min width:600px){
   
-.search-input{
+.search{
   display: block;
 }
 }
