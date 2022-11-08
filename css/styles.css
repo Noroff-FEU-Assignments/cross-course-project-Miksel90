@@ -55,6 +55,17 @@ input {
   border-color: #427784;
 }
 
+.search-input{
+  display: none;
+}
+
+@media(min width:600px){
+  
+.search-input{
+  display: block;
+}
+}
+
 .a:link a:visited{
   text-decoration: none;
   color: #fff;
