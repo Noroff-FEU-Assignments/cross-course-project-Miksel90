@@ -240,7 +240,6 @@ nav a:hover {
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
-  text-decoration: none;
 }
 
 
@@ -278,6 +277,7 @@ nav a:hover {
   color:#fff;
   padding: 5px 10px;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .box3{
@@ -315,6 +315,7 @@ nav a:hover {
   bottom: -1000px; 
   right: 775px;
   font-size: 20px;
+  text-decoration: none;
 }
   /*==============
 5. Homepage Favourites
