@@ -591,3 +591,18 @@ Choose color
   margin-bottom: 5px;
   background-repeat: no-repeat;
 }
+
+.cartbox{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+  .prodinfo div {
+ flex: 1;
+  }
