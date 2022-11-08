@@ -191,7 +191,6 @@ nav a:hover {
   display: flex;
   flex-flow: wrap;
  justify-content: space-evenly;
- margin-right: 1000px;
 
 }
 
@@ -539,9 +538,9 @@ Choose color
 
 
   .btn-group button {
-    background-color:white; 
+    background-color:#B6A696;
     border: 1px solid #427784;
-    color:grey;
+    color:#427784;
     padding: 10px 24px;
     cursor: pointer; 
     float: left; 
