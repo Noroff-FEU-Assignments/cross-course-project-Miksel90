@@ -115,8 +115,6 @@ Vertical lines
 display: flex;
   width: 200px;
   height: 100px;
-  margin-top: 20px;
-  margin-left: 20px;
 }
   nav {
     background-color: #B6A696;
