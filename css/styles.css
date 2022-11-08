@@ -562,3 +562,12 @@ Choose color
   margin-bottom: 5px;
   background-repeat: no-repeat;
 }
+
+.cart-img{
+  background-image: url(../images/mountainering.jpg);
+  height: 520px;
+  width: 300x;
+  background-position: center;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+}
