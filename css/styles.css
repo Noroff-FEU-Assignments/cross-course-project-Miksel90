@@ -126,7 +126,7 @@ display: flex;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    margin-right: 10%;
+    margin-right: 50%;
   }
 
   nav ul li{
