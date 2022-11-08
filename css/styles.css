@@ -98,7 +98,7 @@ align-self: center;
   height: 100px;
 }
   nav {
-    background-color: #427784;
+    background-color: #B6A696;
     width: 100%;
   }
 
@@ -115,7 +115,7 @@ align-self: center;
   }
 
 nav ul li a{
-  color: #f2f2f2;
+  color: #427784
   text-decoration: none;
   font-size: 30px;
   align-self: center;
