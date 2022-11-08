@@ -628,7 +628,6 @@ margin-bottom: 20px;
 .checkoutinfo{
   display: flex;
   max-width: 1200px;
-  margin: 0 auto;
 }
   .checkoutinfo div {
  flex: 1;
