@@ -83,9 +83,18 @@ Vertical lines
     }
 
     /*==============
-2. Small header
+2. Small header and footer
 ================*/
   .top-header {
+    display: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background: #427784;
+    color: white;
+    font-size: 15px;
+  }
+
+  footer{
     display: center;
     text-align: center;
     justify-content: space-evenly;
@@ -133,16 +142,7 @@ nav a:hover {
   background-color: #427784;
   font-weight: bold;
   border-radius: 5px;
-}
-
-
-footer{
-  display: center;
-  text-align: center;
-  justify-content: space-evenly;
-  background: #427784;
-  color: white;
-  font-size: 15px;
+  transition: 0.9s;
 }
 
   /*==============
