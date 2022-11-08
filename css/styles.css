@@ -191,6 +191,7 @@ nav a:hover {
   display: flex;
   flex-flow: wrap;
  justify-content: space-evenly;
+ margin-right: 100px;
 
 }
 
