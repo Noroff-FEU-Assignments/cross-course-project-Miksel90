@@ -101,12 +101,9 @@ Vertical lines
 ================*/
   nav {
     background-color: #B6A696; 
-    margin: 0;
-    padding:0;
   }
 
   nav ul{
-    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
