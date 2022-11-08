@@ -18,12 +18,11 @@
 }
 
 @media screen and (max-width:600px) {
-.nav a{
+.nav {
   height: 230px;
   flex-direction: column;
   text-align: center;
 }
-
 }
 
 
