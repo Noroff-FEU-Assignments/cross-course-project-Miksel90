@@ -155,7 +155,7 @@ nav a:hover {
 
   .welcome-actions{
     position: absolute;
-    bottom: 50px; 
+    bottom: 100px; 
     left: 50px;
     color: #fff; 
     background: rgb(0,0,0,0.5);
