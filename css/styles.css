@@ -125,11 +125,11 @@ display: flex;
     justify-content: space-evenly;
     list-style: none;
     margin-right: 15%;
-    margin-top: 20px;
   }
 
   nav ul li{
     padding:10px 20px;
+    margin-top: 15px;
 
   }
 
