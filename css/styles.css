@@ -370,7 +370,7 @@ icons
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 .column img{
