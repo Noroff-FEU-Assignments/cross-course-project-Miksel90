@@ -167,6 +167,10 @@ Vertical lines
   font-size: 15px;
 }
 
+.nav input{
+  margin-right: 50px;
+}
+
 
   /*==============
 4. Homepage Images, Image Buttons and text
