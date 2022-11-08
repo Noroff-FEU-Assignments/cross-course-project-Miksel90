@@ -214,6 +214,13 @@ nav a:hover {
   background-image: url(../images/hp3.jpg);
   background-size: cover;
   background-position: right;
+
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+  }
 }
 
 
