@@ -577,6 +577,7 @@ Choose color
 
 
 .About.text{
+  display: flex;
   max-width: 1200px;
 }
 
