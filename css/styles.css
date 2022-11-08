@@ -151,6 +151,13 @@ nav [type=text]{
 .search-input{
   display: none;
 }
+
+header{display: flex;
+justify-content: space-around;
+}
+
+
+
 @media(min-width:800px){
   
   .search-input{
