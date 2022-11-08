@@ -17,6 +17,16 @@
   }
 }
 
+@media screen and (max-width:600px) {
+.nav a{
+  height: 230px;
+  flex-direction: column;
+  text-align: center;
+}
+
+}
+
+
   /*==============
 1. Global Values
 ================*/
