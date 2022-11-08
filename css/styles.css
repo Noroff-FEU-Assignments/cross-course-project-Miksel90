@@ -116,6 +116,7 @@ Vertical lines
     justify-content: space-evenly;
     list-style: none;
     margin-left: 10%;
+    margin-right: 10%;
   }
 
   nav ul li{
