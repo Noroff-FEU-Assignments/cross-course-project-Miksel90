@@ -103,11 +103,6 @@ Vertical lines
     background-color: #B6A696; 
   }
 
-  nav.sticky {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
   nav ul{
     padding: 10px;
     display: flex;
