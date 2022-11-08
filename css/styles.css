@@ -544,9 +544,11 @@ Choose color
    justify-content: space-evenly;
    margin-left: 30%;
    margin-right: 30%;
-   font-size: 10px;
   }
 
+  .container-payment a{
+    font-size: 10px;
+  }
 /* About us*/
 .about-us{
   background-image: url(../images/RainyDays_Logo.png);
