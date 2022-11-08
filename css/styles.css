@@ -55,16 +55,6 @@ input {
   border-color: #427784;
 }
 
-.search{
-  display: none;
-}
-
-@media(min width:600px){
-  
-.search{
-  display: block;
-}
-}
 
 .a:link a:visited{
   text-decoration: none;
@@ -157,7 +147,16 @@ nav [type=text]{
   color: white;
   max-height: 30px;
   align-self: center;
+  display: none;
 }
+
+@media(min width:600px){
+  
+  .search{
+    display: block;
+  }
+  }
+  
 
 nav a:hover {
   background-color: #427784;
