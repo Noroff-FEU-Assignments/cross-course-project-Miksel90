@@ -539,6 +539,7 @@ Choose color
   .container-payment{
    display: flex;
    align-items: center;
+   justify-content: space-evenly;
 
    
   }
