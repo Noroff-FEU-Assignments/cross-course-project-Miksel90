@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>RainyDays | Register</title>
+    <title>RainyDays | Checkout</title>
     </head>
 <body> 
     <div class="top-header">
@@ -24,67 +24,73 @@
     </ul>
     </nav>
   <section>
-        <h1>Register</h1>
+        <h1>Checkout</h1>
         <div>
           <hr class="rounded">
         </div>
   </section>
   <main>
-    <div class="container">
-      <div Class="column"><label for="fname">First Name</label>
+    <div class="checkoutinfo">
+      <div Class="column-2"><label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Bear">
       </div>
-      <div Class="column"><label for="Sname"> Surname</label>
+      <div Class="column-2"><label for="Sname">Surname</label>
         <input type="text" id="sname" name="Surnamename" placeholder="Grillz">
       </div>
      </div>
-      <div class="row">
-        <div Class="column"><label for="email">Email</label>
+      <div class="checkoutinfo">
+        <div Class="column-2"><label for="email">Email</label>
           <input type="text" id="Email" name="email" placeholder="BigmanGrillz@example.com">
       </div>
-      <div Class="column"><label for="tlf">Phone Number</label>
-        <input type="text" id="tlf" name="Adress" placeholder="1450 14 1450">
-      </div>
-        <div Class="column"><label for="Sname"><i class="fa fa-address-card-o"></i>Address</label>
-          <input type="text" id="adr" name="Adress" placeholder="Mount Everest road 1">
+      <div Class="column-2"><label for="Sname">Number</label>
+        <input type="text" id="adr" name="Adress" placeholder="1450 14 1450">
       </div>
       </div>
-      <div class="row">
-        <div Class="column"><label for="city"><i class="fa fa-institution"></i>City</label>
+      <div class="checkoutinfo">
+        <div Class="column-2"><label for="city">City</label>
           <input type="text" id="city" name="City" placeholder="Longyearbyen">
       </div>
-      <div Class="column"><label for="city">State</label>
-        <input type="text" id="city" name="City" placeholder="Longyearbyen">
+      <div Class="column-2"><label for="Sname"><i class="fa fa-address-card-o"></i>Address</label>
+        <input type="text" id="adr" name="Adress" placeholder="Mount Everest road 1">
+    </div>
+    </div>
+      <div class="checkoutinfo">
+      <div Class="column-2"><label for="city">State</label>
+        <input type="text" id="city" name="City" placeholder="Viken">
       </div>
-      <div Class="column"><label for="Zip">Zip</label>
+      <div Class="column-2"><label for="Zip">Zip</label>
         <input type="text" id="zip" name="zip" placeholder="1450">
       </div>
       </div>
   <div>
     <hr class="rounded">
   </div>
-  <div class="container">
   <h2>Payment</h2>
   <h3>We accept these cards</h3>
-  <label for="fname">Accepted Cards</label>
-  <div class="icon-container">
-    <i class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-paypal"></i><i class="fa-brands fa-cc-amex"></i>
+    <div class="container-payment">
+    <a><i class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-paypal"></i><i class="fa-brands fa-cc-amex"></i></a>
   </div>
-  <div class="row">
-    <label for="cname">Cardholders Name</label>
+  <div class="checkoutinfo">
+    <div Class="column-2"><label for="cname">Cardholders Name</label>
     <input type="text" id="cname" name="cardname" placeholder="Bear Grillz">
-  </div>
-  <div class="row-4">
     <label for="cname">Cardnumber</label>
     <input type="text" id="cnumber" name="cardname" placeholder="123456789">
-    <label for="cname">Expires</label>
+  </div>
+  </div>
+    <div class="checkoutinfo">
+    <div Class="column-2"><label for="cname">Expires</label>
     <input type="text" id="Expires" name="Expires" placeholder="09/23">
     <label for="cname">CVC</label>
     <input type="text" id="CVC" name="CVC" placeholder="XXX">
+    <h3>DELIVERY</h3>
+    <label><input type="checkbox" checked="checked" name="sameadr"> Mailbox 10-12 buisness days</label>
+    <label><input type="checkbox" checked="checked" name="sameadr"> Pick-up point 7-10 Buisness days</label>
   </div>
-  <div>
-  <button class="btn-3"><a href="Index.html">Register</a></button>
-   </div>
+  </div>
+  <p></p>
+  <div class="checkoutinfo">
+  <div class="btn-3"><a href="Index.html">Register</a></div>
+</div>
   </main>
   <nav>
     <ul>
