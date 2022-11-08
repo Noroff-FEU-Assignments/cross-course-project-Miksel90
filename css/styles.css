@@ -537,7 +537,7 @@ Choose color
 
 
   .container-payment{
-   display: column;
+   display: flex;
   }
 
 /* About us*/
