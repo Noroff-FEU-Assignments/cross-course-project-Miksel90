@@ -538,7 +538,8 @@ Choose color
 
   .container-payment{
    display: flex;
-   margin-left: 45%;
+   align-items: center;
+
    
   }
 
