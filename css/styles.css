@@ -102,7 +102,8 @@ Vertical lines
 3. Navigation
 ================*/
   nav {
-    background-color: #B6A696; 
+    background-color: #B6A696;
+    padding: 0; 
   }
 
   nav ul{
