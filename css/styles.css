@@ -38,8 +38,6 @@ body {
 }
 
 input {
-  background-color: var(--searchbarColor);
-  color: var(--textColor);
   border-radius: 7px;
   font-weight: 700;
   padding-block: 5px;
