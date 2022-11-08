@@ -631,6 +631,7 @@ margin-bottom: 20px;
   margin: 0 auto;
   margin-top: 10px;
  justify-content: space-evenly;
+ text-align: center;
 }
   .checkoutinfo div {
  flex: 1;
