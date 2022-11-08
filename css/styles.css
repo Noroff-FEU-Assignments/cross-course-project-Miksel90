@@ -130,12 +130,14 @@ align-self: center;
 
   nav ul li{
     padding:10px 20px;
+    display: flex;
   }
 
 nav ul li a{
   color: #f2f2f2;
   text-decoration: none;
   font-size: 30px;
+  align-self: center;
 }
 
 
