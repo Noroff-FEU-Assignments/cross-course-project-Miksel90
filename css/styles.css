@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width:1000px) {
-.nav {
+nav {
   height: 230px;
   flex-direction: column;
   text-align: center;
