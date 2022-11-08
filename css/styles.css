@@ -393,7 +393,8 @@ icons
   max-height: 300px;
   display: flex;
   border-color: black;
-  border-style:groove
+  border-style:groove;
+  background-color: oldlace;
 }
 
 .column2 img{
