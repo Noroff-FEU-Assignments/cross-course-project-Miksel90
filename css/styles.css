@@ -1,9 +1,4 @@
 
-:root {
-  --searchbarColor:white; 
-}
-
-
 /*media quaries*/
 @media screen and (max-width:1200px) {
   .box1,.box2,.box3,.box4{
@@ -29,6 +24,12 @@
   /*==============
 1. Global Values
 ================*/
+
+*{
+  margin: 0;
+  padding:0;
+}
+
 
 h1,h2,h3 {
   text-align: center;
@@ -97,21 +98,25 @@ Vertical lines
 3. Navigation
 ================*/
   .nav {
-    display: center;
-    text-align: center;
-    justify-content: space-evenly;
     background-color: #B6A696; 
-    height: 80px;
   }
 
-.nav a {
-  position: relative;
-  top: 25px;
+  .nav ul{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .nav ul li{
+    padding:10px 20px;
+
+  }
+
+.nav ul li a {
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 50px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 
