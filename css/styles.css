@@ -345,7 +345,7 @@ nav a:hover,.bottom-nav a:hover {
   text-align: center;
 }
 
-.column, .column2{
+.column2{
   text-align: center;
   justify-content: space-evenly;
   margin-left: 30px;
