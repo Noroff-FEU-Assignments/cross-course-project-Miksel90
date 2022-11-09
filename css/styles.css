@@ -285,12 +285,11 @@ nav a:hover,.bottom-nav a:hover {
   color: #fff; 
   background: rgb(0,0,0,0.5);
   padding: 30px;
-  text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
 }
 
 .mw2-actions a{
   background: #B6A696;
-  color:#fff;
+  color:#000;
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
