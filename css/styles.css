@@ -410,7 +410,6 @@ Column img
 ================*/
 
 .column img{
-  margin-left: 40px;
   max-height: 300px;
   display: flex;
   border-color: black;
