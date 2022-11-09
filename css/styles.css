@@ -102,6 +102,11 @@ align-self: center;
     z-index: 10000;
   }
 
+.bottom-nav{
+  background-color: #B6A696;
+  width: 100%;
+}
+
   .bottom-nav{
     display: flex;
     justify-content: space-evenly;
