@@ -662,7 +662,6 @@ margin-bottom: 20px;
   max-width: 700px;
   margin: 0 auto;
   margin-top: 10px;
- justify-content: space-evenly;
  text-align: center;
  gap:20px;
 }
@@ -673,7 +672,7 @@ margin-bottom: 20px;
   .column{
     display: flex;
     justify-content:space-between ;
-    max-width: 100px;
+align-items: ;
   
   }
   .a:link a:visited{
