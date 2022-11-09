@@ -139,7 +139,7 @@ justify-content: space-around;
 
 
 
-@media(min-width:800px){
+@media(min-width:1000px){
   
   .search-input{
     display: block;
@@ -691,6 +691,9 @@ nav ul{
 .box4 {
     display: none;
     width: 50%;
+
+
+
     /* Alt om utseende kan være her */
 } 
 
