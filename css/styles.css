@@ -358,9 +358,16 @@ nav a:hover,.bottom-nav a:hover {
   text-align: center;
   justify-content: space-evenly;
   margin-left: 30px;
+  text-align: center;
 }
 
 
+.column3{
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+  flex-direction: column;
+}
   /*==============
 Sign up section
 ================*/
@@ -678,12 +685,6 @@ margin-bottom: 20px;
  flex: 1;
   }
 
-  .column3{
-    display: flex;
-    justify-content:space-between;
-    text-align: center;
-    flex-direction: column;
-  }
   .a:link a:visited{
     text-decoration: none;
     color: #fff;
