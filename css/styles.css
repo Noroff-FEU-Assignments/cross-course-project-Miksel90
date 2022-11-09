@@ -682,6 +682,7 @@ margin-bottom: 20px;
     display: flex;
     justify-content:space-between;
     text-align: center;
+    flex-direction: column;
   }
   .a:link a:visited{
     text-decoration: none;
