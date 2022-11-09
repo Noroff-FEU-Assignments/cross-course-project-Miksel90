@@ -676,10 +676,10 @@ margin-bottom: 20px;
 
 .checkoutinfo{
   display: flex;
-  max-width: 700px;
+flex-direction: column;
+  max-width: 300px;
   margin: 0 auto;
   margin-top: 10px;
- text-align: center;
  gap:20px;
 }
   .checkoutinfo div {
