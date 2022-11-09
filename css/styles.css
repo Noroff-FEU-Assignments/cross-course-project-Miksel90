@@ -351,12 +351,6 @@ nav a:hover,.bottom-nav a:hover {
   margin-left: 30px;
 }
 
-.column{
-  display: flex;
-  justify-content:space-between ;
-
-}
-
 
   /*==============
 Sign up section
@@ -665,16 +659,22 @@ margin-bottom: 20px;
 
 .checkoutinfo{
   display: flex;
-  max-width: 1200px;
+  max-width: 700px;
   margin: 0 auto;
   margin-top: 10px;
  justify-content: space-evenly;
  text-align: center;
+ gap:20px;
 }
   .checkoutinfo div {
  flex: 1;
   }
 
+  .column{
+    display: flex;
+    justify-content:space-between ;
+  
+  }
   .a:link a:visited{
     text-decoration: none;
     color: #fff;
