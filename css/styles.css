@@ -111,7 +111,8 @@ align-self: center;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    margin-right: 15%;
+    margin-right: 200px;
+    margin-left: 200px;
   }
 
   nav ul li{
