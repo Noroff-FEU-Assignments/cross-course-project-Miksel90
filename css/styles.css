@@ -601,8 +601,10 @@ Choose color
   background-size:contain;
   margin-bottom: 5px;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-evenly;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
