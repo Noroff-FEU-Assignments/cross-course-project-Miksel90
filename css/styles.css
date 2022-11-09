@@ -600,7 +600,6 @@ Choose color
   width: 300x;
   background-size:contain;
   margin-bottom: 5px;
-  background-repeat: no-repeat;
   display: flex;
 }
 
