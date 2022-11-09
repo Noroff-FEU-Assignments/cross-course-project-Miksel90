@@ -588,13 +588,8 @@ Choose color
     font-size: 10px;
   }
 /* About us*/
-.about-us{
-  background-image: url(../images/RainyDays_Logo.png);
-  height: 520px;
-  width: 300x;
-  background-size:contain;
-  margin-bottom: 5px;
-  background-repeat: no-repeat;
+.img {
+  display: flex;
 }
 
 .about-bottom{
