@@ -99,7 +99,7 @@ Vertical lines
 display: flex;
 align-self: center;
   width: 200px;
-  height: 50px;
+  height: 100px;
 }
   nav {
     background-color: #B6A696;
