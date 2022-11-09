@@ -131,7 +131,7 @@ nav ul li a{
 
 nav [type=text]{
   font-size: 18px;
-  color: #427784;
+  color: white;
   max-height: 30px;
   align-self: center;
 }
@@ -154,7 +154,7 @@ justify-content: space-around;
   
 
 nav a:hover,.bottom-nav a:hover {
-  background-color: #fff;
+  background-color: #427784;
   font-weight: bold;
   font-size: 30px;
   border-radius: 5px;
