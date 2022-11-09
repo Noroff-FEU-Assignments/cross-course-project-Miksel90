@@ -75,7 +75,7 @@ Vertical lines
     width: 100%;
   }
 
-  footer{
+  .bot-footer{
     display: center;
     text-align: center;
     justify-content: space-evenly;
