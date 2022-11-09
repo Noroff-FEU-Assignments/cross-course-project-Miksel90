@@ -700,7 +700,7 @@ nav ul{
     /* Alt om utseende kan være her */
 } 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
     .box1,
     .box2,
     .box3,
