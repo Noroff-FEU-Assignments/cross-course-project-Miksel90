@@ -98,8 +98,8 @@ Vertical lines
 .logo img {
 display: flex;
 align-self: center;
-  width: 200px;
-  height: 100px;
+  width: 140px;
+  height: 65px;
 }
   nav {
     background-color: #B6A696;
@@ -112,6 +112,7 @@ align-self: center;
     justify-content: space-evenly;
     list-style: none;
     margin-right: 15%;
+    margin-left: 15%;
   }
 
   nav ul li{
