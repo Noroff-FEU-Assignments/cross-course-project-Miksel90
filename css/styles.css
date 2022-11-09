@@ -421,11 +421,12 @@ Column img
 .column2 img{
   margin-top: 15px;
   margin-left: 125px;
-  max-height: 400px;
+  height: 400px;
   display: flex;
   border-color: black;
   border-style:groove;
   background-color: oldlace;
+  conta
 
 }
 
