@@ -34,10 +34,6 @@ input {
 }
 
 
-.a:link a:visited{
-  text-decoration: none;
-  color: #fff;
-}
 
 .offer-1 {
   background-color: #B6A696;
@@ -685,8 +681,11 @@ margin-bottom: 20px;
   .checkoutinfo div {
  flex: 1;
   }
-
   
+  .a:link a:visited{
+    text-decoration: none;
+    color: #fff;
+  }
 /*media quaries*/
 
 
