@@ -548,9 +548,15 @@ Choose color
   }
 
   .prodinfo img{
-    height: 300px;
-    width: 200px;
+    margin-top: 15px;
+    height: 400px;
+    width: 350px;
     display: flex;
+    border-color: black;
+    border-style:groove;
+    background-color: oldlace;
+    object-fit: contain;
+    align-self: center;
 
   }
 
