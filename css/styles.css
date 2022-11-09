@@ -133,7 +133,7 @@ header{display: flex;
 justify-content: space-around;
 }
 
-.bottom-nav{
+bottom-nav{
   background-color: #B6A696;
   padding:10px 20px;
   color: #427784;
