@@ -552,12 +552,8 @@ Choose color
     height: 400px;
     width: 350px;
     display: flex;
-    border-color: black;
-    border-style:groove;
     background-color: oldlace;
     object-fit: contain;
-    align-self: center;
-
   }
 
   .btn-group button {
