@@ -592,7 +592,7 @@ Choose color
   display: flex;
   justify-content: space-evenly;
   max-width: auto;
-  height: auto;
+  height: 70%;
 }
 
 .about-bottom{
