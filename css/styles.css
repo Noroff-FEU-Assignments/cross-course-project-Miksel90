@@ -141,14 +141,15 @@ justify-content: space-around;
   background-color: #B6A696;
   width: 100%;
   padding:10px 20px;
+  color: #427784;
+text-decoration: none;
+font-size: 30px;
 }
 
 
 
 .bottom-nav ul li a{
-color: #427784;
-text-decoration: none;
-font-size: 30px;
+
 }
 
   .bottom-nav{
