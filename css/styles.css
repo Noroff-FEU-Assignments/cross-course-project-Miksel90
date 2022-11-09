@@ -590,6 +590,7 @@ Choose color
 /* About us*/
 .aboutimg {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .about-bottom{
