@@ -428,6 +428,7 @@ Column img
   border-style:groove;
   background-color: oldlace;
   object-fit: contain;
+  align-self: center;
   
 
 }
