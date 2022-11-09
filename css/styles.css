@@ -98,8 +98,8 @@ Vertical lines
 .logo img {
 display: flex;
 align-self: center;
-  width: 140px;
-  height: 65px;
+  width: 200px;
+  height: 100px;
 }
   nav {
     background-color: #B6A696;
@@ -112,7 +112,6 @@ align-self: center;
     justify-content: space-evenly;
     list-style: none;
     margin-right: 15%;
-    margin-left: 15%;
   }
 
   nav ul li{
@@ -126,8 +125,6 @@ nav ul li a{
   text-decoration: none;
   font-size: 30px;
   align-self: center;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 
@@ -154,6 +151,7 @@ nav a:hover,.bottom-nav a:hover {
   font-weight: bold;
   font-size: 30px;
   border-radius: 5px;
+
 }
 
   /*==============
