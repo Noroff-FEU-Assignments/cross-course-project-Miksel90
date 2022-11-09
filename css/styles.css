@@ -587,6 +587,7 @@ Choose color
   background-size:contain;
   margin-bottom: 5px;
   background-repeat: no-repeat;
+  display: flex;
 }
 
 
