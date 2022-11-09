@@ -550,6 +550,7 @@ Choose color
   .prodinfo img{
     height: 100px;
     display: flex;
+    align-self: center;
   }
 
   .btn-group button {
