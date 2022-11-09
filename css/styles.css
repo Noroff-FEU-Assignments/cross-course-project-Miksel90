@@ -594,16 +594,11 @@ Choose color
   height: 300px;
 }
 
-.about-bottom{
-  background-image: url(../images/About2.jpg);
-  height: 900px;
-  background-size:contain;
-  margin-bottom: 5px;
-  background-repeat: no-repeat;
+.aboutimg2{
   display: flex;
   justify-content: space-evenly;
+  height: 300px;
 }
-
 
 .about-text{
   max-width: 1000px;
