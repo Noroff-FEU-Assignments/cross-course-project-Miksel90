@@ -426,6 +426,7 @@ Column img
   border-color: black;
   border-style:groove;
   background-color: oldlace;
+  max-width: 400px;
 }
 
 
