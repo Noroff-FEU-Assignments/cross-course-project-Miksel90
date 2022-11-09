@@ -598,7 +598,7 @@ Choose color
 .about-bottom{
   background-image: url(../images/About2.jpg);
   height: 900px;
-  background-size:contain;
+  background-size:cover;
   background-repeat: no-repeat;
   display: block;
   margin-left: auto;
