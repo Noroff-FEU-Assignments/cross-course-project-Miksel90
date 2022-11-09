@@ -602,6 +602,7 @@ Choose color
   margin-bottom: 5px;
   background-repeat: no-repeat;
   display: flex;
+  justify-content: space-evenly;
 }
 
 
