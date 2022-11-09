@@ -591,8 +591,6 @@ Choose color
 .aboutimg {
   display: flex;
   justify-content: space-evenly;
-  max-width: 100%;
-  height: auto;
 }
 
 .about-bottom{
