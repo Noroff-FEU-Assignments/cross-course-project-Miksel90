@@ -673,6 +673,7 @@ margin-bottom: 20px;
   .column{
     display: flex;
     justify-content:space-between ;
+    max-width: 100px;
   
   }
   .a:link a:visited{
