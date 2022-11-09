@@ -444,9 +444,7 @@ Column img
   width: 1000px;
   margin-left: -450px; /* -(width-container width)/2 */
 }
-.column2 > span > img {
-  display: inline-block;
-}
+
 
 .btn-3 a{
  font-size: 25px;
