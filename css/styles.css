@@ -140,10 +140,10 @@ justify-content: space-around;
 .bottom-nav{
   background-color: #B6A696;
   width: 100%;
-}
-.bottom-nav ul li{
   padding:10px 20px;
 }
+
+
 
 .bottom-nav ul li a{
 color: #427784;
