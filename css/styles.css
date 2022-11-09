@@ -151,6 +151,7 @@ justify-content: space-around;
 color: #427784;
 text-decoration: none;
 font-size: 30px;
+align-self: center;
 }
 
   .bottom-nav{
@@ -168,7 +169,7 @@ font-size: 30px;
   }
   
 
-nav a:hover {
+nav a:hover,.bottom-nav {
   background-color: #fff;
   font-weight: bold;
   font-size: 30px;
