@@ -606,9 +606,6 @@ Choose color
 
 
 .about-text{
-  position: absolute;
-  top: 800px;
-  left: 400px;
   max-width: 1000px;
   display: flex;
   flex-direction: column;
