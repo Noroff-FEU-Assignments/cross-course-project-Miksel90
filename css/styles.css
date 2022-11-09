@@ -677,11 +677,6 @@ margin-bottom: 20px;
 /*media quaries*/
 
 
-@media screen and (max-width:600px) {
-  .box1,.box2.box3,.box4{
-    width: 90%;
-  }
-}
 
 @media only screen and (max-width:767px) {
 nav ul{
