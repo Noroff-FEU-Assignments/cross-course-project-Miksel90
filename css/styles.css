@@ -303,7 +303,6 @@ nav a:hover {
   height:500px;
   background-image: url(../images/Skier.jpg);
   background-size: cover;
-  background-position: right;
   position: relative;
 }
 
