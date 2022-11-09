@@ -547,6 +547,9 @@ Choose color
  flex: 1;
   }
 
+  .prodinfo img{
+    height: 100px;
+  }
 
   .btn-group button {
     background-color:#B6A696;
