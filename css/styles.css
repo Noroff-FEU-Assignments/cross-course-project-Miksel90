@@ -548,9 +548,10 @@ Choose color
   }
 
   .prodinfo img{
-    height: 100px;
+    height: 300px;
+    width: 200px;
     display: flex;
-    align-self: center;
+
   }
 
   .btn-group button {
