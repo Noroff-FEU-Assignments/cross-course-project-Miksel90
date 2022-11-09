@@ -144,20 +144,16 @@ justify-content: space-around;
   color: #427784;
 text-decoration: none;
 font-size: 30px;
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+margin-right: 15%;
 }
 
-
-
-.bottom-nav ul li a{
-
+.bottom-nav a{
+  text-decoration: none;
 }
 
-  .bottom-nav{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    margin-right: 15%;
-  }
 
 @media(min-width:1000px){
   
