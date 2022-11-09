@@ -431,20 +431,14 @@ Column img
   align-self: center;
 }
 
-.column2 img {
-  border: 1px solid #444;
-  overflow: hidden;
-  width: 100px;
-  height: 100px;
-  margin: 15px;
-  text-align: center;
-}
 .column2 > span {
   display: block;
   width: 1000px;
   margin-left: -450px; /* -(width-container width)/2 */
 }
-
+.column2 > span > img {
+  display: inline-block;
+}
 
 .btn-3 a{
  font-size: 25px;
