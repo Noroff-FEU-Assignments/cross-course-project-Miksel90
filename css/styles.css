@@ -142,10 +142,11 @@ justify-content: space-around;
   width: 100%;
   padding:10px 20px;
   color: #427784;
-text-decoration: none;
-font-size: 30px;
-display: flex;
-justify-content: space-evenly;
+  text-decoration: none;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;¨
+  flex-direction: column;
 }
 
 .bottom-nav a{
