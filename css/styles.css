@@ -109,7 +109,7 @@ align-self: center;
     margin-right: 15%;
   }
 
-  nav ul{
+  .borrom-nav ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
