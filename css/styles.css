@@ -104,6 +104,7 @@ align-self: center;
     background-color: #B6A696;
     width: 100%;
     justify-content: space-evenly;
+    margin-left: 100px;
   }
 
   nav ul{
