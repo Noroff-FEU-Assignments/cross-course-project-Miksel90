@@ -102,18 +102,6 @@ align-self: center;
     z-index: 10000;
   }
 
-.bottom-nav{
-  background-color: #B6A696;
-  width: 100%;
-}
-
-  .bottom-nav{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    margin-right: 15%;
-  }
-
   nav ul{
     display: flex;
     justify-content: space-evenly;
@@ -149,7 +137,29 @@ header{display: flex;
 justify-content: space-around;
 }
 
+.bottom-nav{
+  background-color: #B6A696;
+  width: 100%;
+}
+.bottom-nav ul li{
+  padding:10px 20px;
+  display: flex;
+  align-self: center;
+}
 
+.bottom-nav ul li a{
+color: #427784;
+text-decoration: none;
+font-size: 30px;
+align-self: center;
+}
+
+  .bottom-nav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-right: 15%;
+  }
 
 @media(min-width:1000px){
   
