@@ -611,14 +611,10 @@ Choose color
 
 
 .about-text{
-  max-width: 1000px;
-  display: flex;
   color: #fff; 
   background: rgb(0,0,0,0.5);
   padding: 30px;
   text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
-  align-items: center;
-  justify-content: space-evenly;
   width: 100%;
 }
 
