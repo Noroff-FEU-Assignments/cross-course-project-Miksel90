@@ -46,19 +46,8 @@ input {
 }
 
 
-
-.offer-1 {
-  background-color: #B6A696;
-  color:#000;
-  font-size: 20px;
-  text-align: center;
-  padding: 5px;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
     /*==============
-Vertical lines
+2. Horizontal lines lines
 ================*/
 .rounded{
   color: #427784;
@@ -74,7 +63,7 @@ Vertical lines
     }
 
     /*==============
-2. Small header and footer
+3.  header and footer
 ================*/
   .top-header {
     text-align: center;
@@ -94,7 +83,7 @@ Vertical lines
   }
  
     /*==============
-3. Navigation
+4. Navigation
 ================*/
 
 
@@ -147,8 +136,6 @@ justify-content: space-around;
 }
 
 
-  
-
 nav a:hover,.bottom-nav a:hover {
   background-color: #427784;
   font-weight: bold;
@@ -157,8 +144,10 @@ nav a:hover,.bottom-nav a:hover {
   transition: 0.5s;
 }
 
+
+
   /*==============
-4. Homepage Images, Image Buttons and text
+5. Homepage Images, Image Buttons and text
 ================*/
 
   .welcome{
@@ -213,7 +202,6 @@ nav a:hover,.bottom-nav a:hover {
   display:none;
   position: relative;
 
-    /*add flexbox style*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -247,12 +235,10 @@ nav a:hover,.bottom-nav a:hover {
   display: none;
   position: relative;
 
-    /*add flexbox style*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-flow: wrap;
-
 }
 
 
@@ -265,16 +251,43 @@ nav a:hover,.bottom-nav a:hover {
 }
 
 
+/*5.1 Our Favourites row*/
 
 .row {
   display: flex;
   margin-top: 10px;
-
 }
 
+.row-2 {
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+  justify-content:space-evenly;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.column2{
+  text-align: center;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  text-align: center;
+}
+
+/* 5.2 Sign up section*/
+
+.offer-1 {
+  background-color: #B6A696;
+  color:#000;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
 
   /*==============
-4.2 Men & woman page
+6 Men & woman page
 ================*/
 
 
@@ -350,21 +363,6 @@ nav a:hover,.bottom-nav a:hover {
 5. Homepage Favourites
 ================*/
 
-.row-2 {
-  display: flex;
-  align-items: flex-start;
-  overflow: hidden;
-  justify-content:space-evenly;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.column2{
-  text-align: center;
-  justify-content: space-evenly;
-  margin-left: 30px;
-  text-align: center;
-}
 
 
 .column3{
