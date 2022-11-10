@@ -309,7 +309,7 @@ nav a:hover,.bottom-nav a:hover {
   display: inline-block;
 }
 
-.box3{
+.box3, .box4{
   width: 50%;
   height:500px;
   background-image: url(../images/Skier.jpg);
@@ -330,11 +330,7 @@ nav a:hover,.bottom-nav a:hover {
   display: inline-block;
 }
 .box4{
-  width: 50%;
-  height:500px;
   background-image: url(../images/hikeing.jpg);
-  background-size: cover;
-  position: relative;
 }
 
 .box4 a{
