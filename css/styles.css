@@ -192,7 +192,15 @@ nav a:hover,.bottom-nav a:hover {
  justify-content: space-evenly;
  flex-flow: wrap;
  margin-top: 15px;
+}
 
+.Double-img{
+  width: 100%;
+  height: auto;
+  display: flex;
+ justify-content: space-evenly;
+ flex-flow: wrap;
+ margin-top: 15px;
 }
 
 .box1{
@@ -730,7 +738,7 @@ input[type=submit] {
 }
 
 /* Style the container */
-.container {
+.contact-container {
   border-radius: 5px;
   padding: 20px;
 }
