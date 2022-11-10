@@ -700,15 +700,14 @@ flex-direction: column;
 @media only screen and (max-width:767px) {
 nav ul{
   flex-direction: column;
-  text-align: center;
-}
+  text-align: center;}
+  .prodinfo img{left: 400px;
+    position: relative;}
 }
 
 @media screen and (min-width: 1075px){
   .container{flex-wrap: nowrap;}
   .item{flex: 1 1 auto;}
-  .prodinfo img{left: 400px;
-  position: relative;}
 }
   
 .box1,
