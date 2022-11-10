@@ -715,6 +715,9 @@ flex-direction: column;
 
 /*Contact*/
 
+.Contact-button{
+  display: flex;
+}
 
 .Contactinfo {
   max-width: 1000px;
