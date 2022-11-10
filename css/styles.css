@@ -683,10 +683,10 @@ margin-bottom: 20px;
 
 .checkoutinfo{
   display: flex;
-flex-direction: column;
-  max-width: 300px;
+  justify-content: center;
+  max-width: 400px;
   margin: 0 auto;
- gap:20px;
+  gap:20px;
 }
   .checkoutinfo div {
  flex: 1;
