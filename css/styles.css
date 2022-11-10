@@ -40,7 +40,7 @@ main{
 
 input {
   background-color:#B6A696;
-  color: var(--textColor);
+  color: #000;
   border-radius: 7px;
   font-weight: 700;
   padding-block: 5px;
