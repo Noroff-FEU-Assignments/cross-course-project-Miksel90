@@ -601,13 +601,12 @@ Choose color
 
 .about-bottom{
   background-image: url(../images/About2.jpg);
-  height: 900px;
+  height: 1000px;
   background-size:cover;
   background-repeat: no-repeat;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display: flex;
+  background-position-y: center;
+
 }
 
 
