@@ -730,7 +730,7 @@ flex-direction: column;
  input[type=text], select, textarea{
   width: 100%;
   padding: 12px;
-  border: 1px solid #427784;
+  border: 1px solid #;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
@@ -745,7 +745,6 @@ label {
 /* Style the submit button */
 input[type=submit] {
   background-color:green;
-  background-color: #B6A696;
   color: white;
   padding: 12px 20px;
   border: none;
