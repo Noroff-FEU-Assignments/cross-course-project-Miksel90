@@ -206,6 +206,7 @@ nav a:hover,.bottom-nav a:hover {
   background-image: url(../images/hp2.jpg);
   background-size: cover;
   display:none;
+  position: relative;
 
     /*add flexbox style*/
     display: flex;
@@ -217,7 +218,7 @@ nav a:hover,.bottom-nav a:hover {
 
 .wa2{
   position: absolute;
-  bottom: -450px; 
+  bottom: 100px; 
   color: #fff; 
   background: rgb(0,0,0,0.5);
   padding: 30px;
