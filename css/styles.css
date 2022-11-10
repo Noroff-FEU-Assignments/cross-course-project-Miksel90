@@ -255,15 +255,6 @@ nav a:hover,.bottom-nav a:hover {
 
 
 
-.row-2 {
-  display: flex;
-  align-items: flex-start;
-  overflow: hidden;
-  justify-content:space-evenly;
-  margin-top: 20px;
-  text-align: center;
-}
-
 .column2{
   text-align: center;
   justify-content: space-evenly;
