@@ -702,6 +702,10 @@ nav ul{
 }
 }
 
+@media screen and (max: width 800px) {
+  .container{flex-wrap: nowrap;}
+  .item{flex: :1 1 auto;}
+}
   
 .box1,
 .box2,
@@ -727,3 +731,5 @@ nav ul{
     display: block;
   }
   }
+
+
