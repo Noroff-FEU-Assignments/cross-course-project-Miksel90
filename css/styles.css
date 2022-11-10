@@ -39,7 +39,7 @@ main{
 }
 
 input {
-  background-color: var(--searchbarColor);
+  background-color:#B6A696;
   color: var(--textColor);
   border-radius: 7px;
   font-weight: 700;
