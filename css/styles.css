@@ -46,12 +46,12 @@ input {
 
 
 .offer-1 {
+  display: flex;
   background-color: #B6A696;
   color:#000;
   font-size: 20px;
   text-align: center;
   padding: 5px;
-  height: 250px;
   margin-top: 40px;
   margin-bottom: 30px;
 }
