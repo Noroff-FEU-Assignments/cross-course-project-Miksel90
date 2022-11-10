@@ -409,7 +409,6 @@ margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  display: none;
 }
 
 .icon-checkout{
@@ -712,9 +711,7 @@ nav ul{
     .box1,
     .box2,
     .box3,
-    .box4,
-    .icon-container
-    {
+    .box4,{
         display: block;
     }
 }
