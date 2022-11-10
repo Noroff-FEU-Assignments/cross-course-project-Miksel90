@@ -781,6 +781,9 @@ input[type=submit] {
 nav ul{
   flex-direction: column;
   text-align: center;}
+  .checkoutinfo {
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 1075px){
@@ -811,8 +814,4 @@ nav ul{
   .search-input{
     display: block;
   }
-  .checkoutinfo {
-    flex-direction: column;
   }
-  }
-
