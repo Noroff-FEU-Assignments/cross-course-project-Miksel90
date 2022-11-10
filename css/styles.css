@@ -703,6 +703,7 @@ margin-bottom: 20px;
   flex-wrap: wrap;
   margin: 0 -16px;
   max-width: 300px;
+  gap:20px;
 }
 
 
