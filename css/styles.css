@@ -413,6 +413,11 @@ color: darkgoldenrod;
   color: #04AA6D;
   padding: 10px;
 }
+
+.fa-person-skiing{
+  color: blue;
+  padding: 10px;
+}
 .icon-container{
 margin-top: 20px;
   display: flex;
