@@ -136,18 +136,13 @@ justify-content: space-around;
 }
 
 
-nav a:hover,.bottom-nav a:hover, .btn-group button:hover  {
+nav a:hover,.bottom-nav a:hover {
   background-color: #427784;
   font-weight: bold;
   font-size: 30px;
   border-radius: 5px;
   transition: 0.5s;
 }
-
-btn-group button:hover {
-  background-color:#fff;
-}
-
 
   /*==============
 5. Homepage Images, Image Buttons and text
@@ -567,6 +562,10 @@ Choose color
     float: left; 
     margin-bottom: 10px;
   }
+
+  .btn-group button:hover {
+    background-color:#fff;
+  }
   
   .btn-group button:not(:last-child) {
     border-right: none; 
@@ -668,8 +667,6 @@ margin-bottom: 20px;
  }
 
 /* Checkout*/
-
-
 
 .checkoutinfo{
   display: flex;
