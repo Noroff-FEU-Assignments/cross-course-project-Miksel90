@@ -335,6 +335,7 @@ nav a:hover,.bottom-nav a:hover {
   background-image: url(../images/hikeing.jpg);
   background-size: contain;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .box4 a{
