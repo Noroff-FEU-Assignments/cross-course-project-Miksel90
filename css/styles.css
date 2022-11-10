@@ -723,6 +723,10 @@ flex-direction: column;
   margin-left: 20px;
   text-align: left;
 }
+
+.contact-container{
+  max-width: 1000px;
+}
  /* Style inputs, select elements and textareas */
  input[type=text], select, textarea{
   width: 100%;
