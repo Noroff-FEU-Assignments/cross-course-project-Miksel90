@@ -405,10 +405,13 @@ color: darkgoldenrod;
 
 
 .fa-cloud-sun{
-  color:yellow;
+  color:#933030db;
   height: 20px;
 }
 
+.fa-tree{
+  color: #04AA6D;
+}
 .icon-container{
 margin-top: 20px;
   display: flex;
