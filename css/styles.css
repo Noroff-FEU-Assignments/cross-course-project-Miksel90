@@ -540,6 +540,7 @@ Choose color
   max-width: 1200px;
   margin: 0 auto;
   gap: 100px;
+  justify-content: center;
 }
   .prodinfo div {
  flex: 1;
