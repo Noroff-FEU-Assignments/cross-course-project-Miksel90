@@ -37,19 +37,6 @@ body {
 main{
   flex:1;
 }
-
-input {
-  background-color:#B6A696;
-  color: #000;
-  border-radius: 7px;
-  font-weight: 700;
-  padding-block: 5px;
-  padding-left: 5px;
-  font-size: 15px;
-}
-
-
-
 .offer-1 {
   background-color: #B6A696;
   color:#000;
@@ -694,19 +681,6 @@ margin-bottom: 20px;
  }
 
 /* Checkout*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
