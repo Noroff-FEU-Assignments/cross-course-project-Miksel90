@@ -704,6 +704,8 @@ flex-direction: column;
 
 .contactinfo{
   display: flex;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 /*media quaries*/
