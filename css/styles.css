@@ -713,6 +713,8 @@ flex-direction: column;
 
 .Contactinfo {
   max-width: 1000px;
+  margin-left: 20px;
+  text-align: left;
 }
  /* Style inputs, select elements and textareas */
  input[type=text], select, textarea{
