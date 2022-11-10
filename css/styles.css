@@ -726,6 +726,7 @@ flex-direction: column;
 
 .contact-container{
   max-width: 1000px;
+  text-align: end;
 }
  /* Style inputs, select elements and textareas */
  input[type=text], select, textarea{
