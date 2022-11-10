@@ -275,9 +275,11 @@ nav a:hover,.bottom-nav a:hover {
 
 .mw1{
   background-image: url(../images/Amundensen.jpg);
-  height: 800px;
+  height: 570px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 .mw2-actions{
