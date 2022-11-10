@@ -413,7 +413,8 @@ margin-top: 20px;
 }
 
 .item {
-  flex: 1 1 50%
+  flex: 1 1 50%;
+  margin-bottom: 15px;
 }
 .icon-checkout{
   font-size: 10px;
