@@ -39,8 +39,10 @@ main{
 }
 
 input {
-  font-size: 15px;
-}
+  background-color:#B6A696;
+  color: #000;
+  border-radius: 7px;
+  font-weight: 700;}
 
 
 
