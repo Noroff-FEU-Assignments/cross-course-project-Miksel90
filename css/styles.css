@@ -253,10 +253,7 @@ nav a:hover,.bottom-nav a:hover {
 
 /*5.1 Our Favourites row*/
 
-.row {
-  display: flex;
-  margin-top: 10px;
-}
+
 
 .row-2 {
   display: flex;
