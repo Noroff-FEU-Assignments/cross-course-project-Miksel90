@@ -552,6 +552,8 @@ Choose color
     display: flex;
     background-color: oldlace;
     object-fit: contain;
+    position: relative;
+    left:400px
   }
 
   .btn-group button {
@@ -705,6 +707,7 @@ nav ul{
 @media screen and (min-width: 1075px){
   .container{flex-wrap: nowrap;}
   .item{flex: 1 1 auto;}
+  .prodinfo img{left: 400px;}
 }
   
 .box1,
