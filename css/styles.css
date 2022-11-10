@@ -734,6 +734,7 @@ flex-direction: column;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
+  background-color: #B6A696;
 }
 
 /* Style the label to display next to the inputs */
