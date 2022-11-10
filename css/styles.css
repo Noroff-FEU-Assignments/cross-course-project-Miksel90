@@ -240,6 +240,7 @@ nav a:hover,.bottom-nav a:hover {
   background-size: cover;
   background-position: right;
   display: none;
+  position: relative;
 
     /*add flexbox style*/
     display: flex;
@@ -252,7 +253,7 @@ nav a:hover,.bottom-nav a:hover {
 
 .wa3{
   position: absolute;
-  bottom: -450px; 
+  bottom: 100px; 
   color: #000; 
   background: rgb(0,0,0,0.5);
   padding: 30px;
