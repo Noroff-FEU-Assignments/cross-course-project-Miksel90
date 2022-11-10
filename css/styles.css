@@ -313,7 +313,7 @@ nav a:hover,.bottom-nav a:hover {
   width: 50%;
   height:500px;
   background-image: url(../images/Skier.jpg);
-  background-size: cover;
+  background-size: contain;
   position: relative;
 }
 
@@ -331,7 +331,6 @@ nav a:hover,.bottom-nav a:hover {
 }
 .box4{
   background-image: url(../images/hikeing.jpg);
-  background-size: contain;
 }
 
 .box4 a{
