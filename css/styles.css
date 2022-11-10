@@ -700,6 +700,11 @@ flex-direction: column;
     color: #fff;
   }
 
+/*Contact*/
+
+.contactinfo{
+  display: flex;
+}
 
 /*media quaries*/
 
