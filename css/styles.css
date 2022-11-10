@@ -136,7 +136,7 @@ justify-content: space-around;
 }
 
 
-nav a:hover,.bottom-nav a:hover {
+nav a:hover,.bottom-nav a:hover, .btn-group button:hover  {
   background-color: #427784;
   font-weight: bold;
   font-size: 30px;
@@ -144,6 +144,9 @@ nav a:hover,.bottom-nav a:hover {
   transition: 0.5s;
 }
 
+btn-group button:hover {
+  background-color:#fff;
+}
 
 
   /*==============
@@ -575,12 +578,6 @@ Choose color
     display: table;
   }
   
-
-  .btn-group button:hover {
-    background-color:#fff;
-  }
-
-
 
   .container-payment{
    display: flex;
