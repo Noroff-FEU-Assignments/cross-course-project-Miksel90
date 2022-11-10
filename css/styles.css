@@ -214,7 +214,7 @@ nav a:hover,.bottom-nav a:hover {
 .wa2{
   position: absolute;
   bottom: 50px; 
-  color: #fff; 
+  color: #000; 
   background: rgb(0,0,0,0.5);
   padding: 30px;
 }
