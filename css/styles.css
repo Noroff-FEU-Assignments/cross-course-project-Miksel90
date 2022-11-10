@@ -250,19 +250,22 @@ nav a:hover,.bottom-nav a:hover {
   padding: 30px;
 }
 
+  /*==============
+5.1 Our Favourites row
+================*/
 
-/*5.1 Our Favourites row*/
 
-
-
-.column2{
-  text-align: center;
-  justify-content: space-evenly;
-  margin-left: 30px;
-  text-align: center;
+.column img{
+  max-height: 300px;
+  display: flex;
+  border-color: black;
+  border-style:groove;
+  background-color: oldlace;
 }
+  /*==============
+5.2 Sign up section
+================*/
 
-/* 5.2 Sign up section*/
 
 .offer-1 {
   background-color: #B6A696;
@@ -348,19 +351,40 @@ nav a:hover,.bottom-nav a:hover {
   
 }
   /*==============
-5. Homepage Favourites
+6.2 Product page
 ================*/
-
-
-
-.column3{
-  display: flex;
-  justify-content:space-between;
+.column2{
   text-align: center;
-  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  text-align: center;
 }
+
+
+.column2 img{
+  margin-top: 15px;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  border-color: black;
+  border-style:groove;
+  background-color: oldlace;
+  object-fit: contain;
+  align-self: center;
+}
+
+.column2 > span {
+  display: block;
+  width: 1000px;
+  margin-left: -450px; 
+}
+.column2 > span > img {
+  display: inline-block;
+}
+
+
   /*==============
-Sign up section
+7. Register
 ================*/
 
 .signup a{
@@ -370,8 +394,14 @@ Sign up section
   border-radius: 5px;
 }
 
+.column3{
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+  flex-direction: column;
+}
   /*==============
-icons
+8. all Icons
 ================*/
 
 .fa-brands {
@@ -433,35 +463,6 @@ margin-top: 20px;
   /*==============
 Column img
 ================*/
-
-.column img{
-  max-height: 300px;
-  display: flex;
-  border-color: black;
-  border-style:groove;
-  background-color: oldlace;
-}
-
-.column2 img{
-  margin-top: 15px;
-  height: 400px;
-  width: 350px;
-  display: flex;
-  border-color: black;
-  border-style:groove;
-  background-color: oldlace;
-  object-fit: contain;
-  align-self: center;
-}
-
-.column2 > span {
-  display: block;
-  width: 1000px;
-  margin-left: -450px; 
-}
-.column2 > span > img {
-  display: inline-block;
-}
 
 
 /*  Green Button */
