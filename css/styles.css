@@ -696,15 +696,6 @@ margin-bottom: 20px;
 /* Checkout*/
 
 
-.checkoutinfo {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -16px;
-  max-width: 300px;
-  gap:20px;
-}
 
 
 
@@ -718,7 +709,8 @@ margin-bottom: 20px;
 
 
 
-checkoutinfo{
+
+.checkoutinfo{
   display: flex;
 flex-direction: column;
   max-width: 300px;
