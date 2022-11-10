@@ -634,6 +634,7 @@ Choose color
  background-size: cover;
   margin-bottom: 5px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .cartbox{
