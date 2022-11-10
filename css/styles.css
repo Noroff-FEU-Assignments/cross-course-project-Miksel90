@@ -145,13 +145,6 @@ justify-content: space-around;
 }
 
 
-
-@media(min-width:1000px){
-  
-  .search-input{
-    display: block;
-  }
-  }
   
 
 nav a:hover,.bottom-nav a:hover {
@@ -712,16 +705,22 @@ nav ul{
     display: none;
     width: 50%;
 
-
-
-    /* Alt om utseende kan være her */
 } 
 
 @media screen and (min-width: 800px) {
     .box1,
     .box2,
     .box3,
-    .box4 {
+    .box4,
+    .icon-container
+    {
         display: block;
     }
 }
+
+@media(min-width:1000px){
+  
+  .search-input{
+    display: block;
+  }
+  }
