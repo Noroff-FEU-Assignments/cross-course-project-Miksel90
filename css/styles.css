@@ -65,7 +65,7 @@ input {
     /*==============
 3.  header and footer
 ================*/
-  .top-header {
+  .top-header, .bot-footer {
     text-align: center;
     background: #427784;
     color: white;
@@ -74,7 +74,6 @@ input {
   }
 
   .bot-footer{
-    display: center;
     text-align: center;
     justify-content: space-evenly;
     background: #427784;
@@ -88,8 +87,8 @@ input {
 
 
 .logo img {
-display: flex;
-align-self: center;
+  display: flex;
+  align-self: center;
   width: 200px;
   height: 100px;
 }
@@ -132,7 +131,7 @@ nav [type=text]{
 }
 
 header{display: flex;
-justify-content: space-around;
+ justify-content: space-around;
 }
 
 
@@ -192,9 +191,9 @@ nav a:hover,.bottom-nav a:hover {
   width: 100%;
   height: auto;
   display: flex;
- justify-content: space-evenly;
- flex-flow: wrap;
- margin-top: 15px;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  margin-top: 15px;
 }
 
 
@@ -231,6 +230,8 @@ nav a:hover,.bottom-nav a:hover {
   border-style:groove;
   background-color: oldlace;
 }
+
+
   /*==============
 5.2 Sign up section
 ================*/
