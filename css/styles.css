@@ -471,6 +471,9 @@ Choose color
     background-color:orange;
   }
 
+
+/*jacket specific */
+
 .prodinfo{
   display: flex;
   max-width: 1200px;
@@ -516,13 +519,6 @@ Choose color
   }
   
 
-  .container-payment{
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   margin-left: 30%;
-   margin-right: 30%;
-  }
 
   .container-payment a{
     font-size: 10px;
