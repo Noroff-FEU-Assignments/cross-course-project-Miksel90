@@ -49,6 +49,11 @@ input {
     /*==============
 2. Horizontal lines lines
 ================*/
+
+.productline{
+  width: 100%;
+  margin-right: 5%;
+}
 .rounded{
   color: #427784;
   margin-right: 5%;
@@ -62,11 +67,6 @@ input {
   margin-bottom: 5px;
 }
 
-.productline{
-  width: 100%;
-  margin-right: 5%;
- 
-}
     /*==============
 3.  header and footer
 ================*/
