@@ -63,7 +63,7 @@ input {
 }
 
 .product line{
-  margin-left: 100px;
+ 
 }
     /*==============
 3.  header and footer
@@ -162,11 +162,7 @@ nav a:hover,.bottom-nav a:hover {
 .wa1{
   bottom: 150px; 
 }
-.wa2{
-  bottom: 50px; 
-}
-
-
+.wa2, 
 .wa3{
   bottom: 50px; 
 }
