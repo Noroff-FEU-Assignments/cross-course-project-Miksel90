@@ -640,6 +640,7 @@ Choose color
 
 .contact-container{
   max-width: 1000px;
+  text-align: start;
 }
 
  input[type=text], select, textarea{
