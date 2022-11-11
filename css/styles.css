@@ -395,8 +395,12 @@ color: darkgoldenrod;
   color: blue;
   padding: 10px;
 }
+
+
+/* Bottom icon rox*/
+
 .icon-container{
-margin-top: 20px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -411,26 +415,21 @@ margin-top: 20px;
   font-size: 10px;
 }
 
-  /*==============
-Column img
-================*/
-
-
-/*  Green Button */
+/* Green Button */
 
 .btn-3 a{
- font-size: 25px;
- background-color: green;
- color: white;
- padding: 12px 24px;
- border: none;
- cursor: pointer;
- border-radius: 5px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- margin-bottom: 20px;
- margin-top: 5px;
+  font-size: 25px;
+  background-color: green;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 
@@ -438,7 +437,6 @@ Column img
   margin-top: 15px;
   max-height: 400px;
   display: flex;
- 
   border-color: black;
   border-style:groove
 }
@@ -447,18 +445,6 @@ Column img
   margin-top: 15px;
 }
 
-.btn-big {
-  font-size: 40px;
-   background-color:red;
-   color: white;
-   padding: 12px 24px;
-   border: none;
-   cursor: pointer;
-   border-radius: 5px;
-   text-align: center;
-   text-decoration: none;
-   align-items: center;
-  }
   
     /*==============
 Choose color
