@@ -173,6 +173,11 @@ nav a:hover,.bottom-nav a:hover {
   bottom: 50px; 
 }
 
+
+.wa3{
+  bottom: 50px; 
+}
+
 .welcome-actions a{
   background: #B6A696;
   color:#000;
@@ -183,13 +188,6 @@ nav a:hover,.bottom-nav a:hover {
 }
 
 
-
-
-
-.wa3{
-  bottom: 50px; 
-}
-
 .container{
   width: 100%;
   height: auto;
@@ -199,14 +197,6 @@ nav a:hover,.bottom-nav a:hover {
  margin-top: 15px;
 }
 
-.Double-img{
-  width: 100%;
-  height: auto;
-  display: flex;
- justify-content: space-evenly;
- flex-flow: wrap;
- margin-top: 15px;
-}
 
 .box{
   width: 50%;
