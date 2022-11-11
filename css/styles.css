@@ -449,35 +449,26 @@ color: darkgoldenrod;
     /*==============
 Choose color
 ================*/
+
+.button{
+  border:grey;
+  color: white;
+  padding: 8px;
+  border-radius: 2px;
+}
   .color1 {
     background-color: #04AA6D;
-    border:grey;
-    color: white;
-    padding: 8px;
-    border-radius: 2px;
   }
   .color2 {
     background-color:red;
-    border:grey;
-    color: white;
-    padding: 8px;
-    border-radius: 2px;
   }
 
   .color3 {
     background-color:blue;
-    border:grey;
-    color: white;
-    padding: 8px;
-    border-radius: 2px;
   }
 
   .color4 {
     background-color:orange;
-    border:grey;
-    color: white;
-    padding: 8px;
-    border-radius: 2px;
   }
 
 .prodinfo{
