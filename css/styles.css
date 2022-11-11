@@ -314,6 +314,12 @@ ul{
   /*==============
 6.2 Product page
 ================*/
+.column2{
+  text-align: center;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  text-align: center;
+}
 
 
 .column2 img{
