@@ -164,6 +164,7 @@ nav a:hover,.bottom-nav a:hover {
     color: #fff; 
     background: rgb(0,0,0,0.5);
     padding: 30px;
+    text-decoration: none;
   }
 
 .wa1{
@@ -189,6 +190,7 @@ nav a:hover,.bottom-nav a:hover {
   background: rgb(0,0,0,0.5);
   padding: 30px;
 }
+
 
 
 
