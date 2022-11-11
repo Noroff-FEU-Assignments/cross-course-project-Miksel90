@@ -213,12 +213,14 @@ nav a:hover,.bottom-nav a:hover {
 
 
 .column img{
-  max-height: 300px;
+  height: 400px;
+  width: 350px;
   display: flex;
   border-color: black;
   border-style:groove;
   background-color: oldlace;
   margin-bottom: 12px;
+  object-fit: contain;
 }
 
 ul{
