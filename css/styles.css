@@ -62,6 +62,9 @@ input {
   margin-bottom: 5px;
 }
 
+.product line{
+  margin-left: 100px;
+}
     /*==============
 3.  header and footer
 ================*/
