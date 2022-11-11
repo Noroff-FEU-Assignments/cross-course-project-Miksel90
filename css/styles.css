@@ -224,6 +224,7 @@ nav a:hover,.bottom-nav a:hover {
 
 .producttext{
   color: blue;
+  list-style: none;
 }
 
   /*==============
