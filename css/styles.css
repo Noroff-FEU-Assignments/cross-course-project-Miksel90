@@ -352,8 +352,15 @@ ul{
   flex-direction: column;
 }
   /*==============
-8. Icons
+8. payment and some icons
 ================*/
+.container-payment{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 30%;
+  margin-right: 30%;
+ }
 
 .fa-brands {
   font-size: 50px;
@@ -519,14 +526,6 @@ Choose color
   }
   
 
-  .container-payment{
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   margin-left: 30%;
-   margin-right: 30%;
-  }
-
 /* About us*/
 .aboutimg {
   display: flex;
@@ -565,7 +564,7 @@ Choose color
 .cart-img{
   background-image: url(../images/mountainering.jpg);
   height: 520px;
- background-size: cover;
+  background-size: cover;
   margin-bottom: 5px;
   background-repeat: no-repeat;
   background-position: center;
@@ -578,7 +577,6 @@ Choose color
   gap: 100px;
   margin-top: 15px;
   margin-bottom: 15px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -600,9 +598,9 @@ Choose color
 
  
 .btn-cart {
-margin-top: 10px;
-margin-bottom: 20px;
- }
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
 /* Checkout*/
 
@@ -613,14 +611,15 @@ margin-bottom: 20px;
   margin: 0 auto;
   gap:20px;
 }
-  .checkoutinfo div {
- flex: 1;
-  }
 
-  .a:link a:visited{
-    text-decoration: none;
-    color: #fff;
-  }
+.checkoutinfo div {
+  flex: 1;
+}
+
+.a:link a:visited{
+  text-decoration: none;
+  color: #fff;
+}
 
 /*Contact*/
 
