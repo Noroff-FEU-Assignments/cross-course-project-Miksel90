@@ -55,25 +55,23 @@ input {
   margin-left: 5%;
   margin-top: 10px;
   }
-  .rounded2{
-    color: #427784;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    }
+
+.line2{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
     /*==============
 3.  header and footer
 ================*/
-  .top-header, .bot-footer {
-    text-align: center;
-    background: #427784;
-    color: white;
-    font-size: 15px;
-    width: 100%;
-  }
-
- 
+.top-header, .bot-footer {
+  text-align: center;
+  background: #427784;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+}
     /*==============
 4. Navigation
 ================*/
@@ -85,11 +83,11 @@ input {
   width: 200px;
   height: 100px;
 }
-  nav {
-    background-color: #B6A696;
-    width: 100%;
-    justify-content: space-evenly;
-  }
+nav {
+  background-color: #B6A696;
+  width: 100%;
+  justify-content: space-evenly;
+}
 
   nav ul{
     display: flex;
