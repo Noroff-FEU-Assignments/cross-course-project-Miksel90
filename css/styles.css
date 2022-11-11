@@ -157,7 +157,13 @@ nav a:hover,.bottom-nav a:hover {
     position: relative;
   }
 
+
   .welcome-actions{
+
+  }
+
+
+  .wa2{
     position: absolute;
     bottom: 150px; 
     color: #fff; 
@@ -165,13 +171,39 @@ nav a:hover,.bottom-nav a:hover {
     padding: 30px;
   }
 
-.welcome-actions a{
+.welcome-actions {
   background: #B6A696;
   color:#000;
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
   display: inline-block
+}
+
+.wa2{
+  position: absolute;
+  bottom: 50px; 
+  color: #fff; 
+  background: rgb(0,0,0,0.5);
+  padding: 30px;
+}
+
+.wa2 a, .wa3 a{
+  background: #B6A696;
+  color:#000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block
+}
+
+
+.wa3{
+  position: absolute;
+  bottom: 50px; 
+  color: #fff; 
+  background: rgb(0,0,0,0.5);
+  padding: 30px;
 }
 
 .container{
@@ -208,36 +240,10 @@ nav a:hover,.bottom-nav a:hover {
   background-image: url(../images/hp2.jpg);
 }
 
-
-.wa2{
-  position: absolute;
-  bottom: 50px; 
-  color: #fff; 
-  background: rgb(0,0,0,0.5);
-  padding: 30px;
-}
-
-.wa2 a, .wa3 a{
-  background: #B6A696;
-  color:#000;
-  padding: 5px 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block
-}
-
 .box2{
   background-image: url(../images/hp3.jpg);
 }
 
-
-.wa3{
-  position: absolute;
-  bottom: 50px; 
-  color: #fff; 
-  background: rgb(0,0,0,0.5);
-  padding: 30px;
-}
 
   /*==============
 5.1 Our Favourites row
