@@ -220,11 +220,15 @@ nav a:hover,.bottom-nav a:hover {
   border-color: black;
   border-style:groove;
   background-color: oldlace;
+  margin-bottom: 12px;
 }
 
+ul{
+  list-style-type: none;
+}
 .producttext{
   color: blue;
-  align-items: center;
+  list-style-type: none;
 }
 
   /*==============
