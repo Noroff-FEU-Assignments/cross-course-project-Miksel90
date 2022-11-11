@@ -208,13 +208,13 @@ nav a:hover,.bottom-nav a:hover {
 }
 
   /*==============
-5.1 Our Favourites row
+5.1 Our Favourites
 ================*/
 
 
 .column img{
   height: 300px;
-  max-width: 250x;
+  width: 100px;
   display: flex;
   border-color: black;
   border-style:groove;
