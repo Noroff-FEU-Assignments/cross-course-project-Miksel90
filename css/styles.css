@@ -229,7 +229,7 @@ ul{
 .producttext{
   color: blue;
   list-style-type: none;
-  text-align: none;
+  text-align: left;
 }
 
   /*==============
