@@ -192,18 +192,20 @@ nav a:hover,.bottom-nav a:hover {
  margin-top: 15px;
 }
 
-.box1{
+.box{
   width: 50%;
   height:500px;
-  background-image: url(../images/hp2.jpg);
   background-size: cover;
   display:none;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-flow: wrap;
+.box1{
+  background-image: url(../images/hp2.jpg);
 }
 
 
@@ -225,18 +227,7 @@ nav a:hover,.bottom-nav a:hover {
 }
 
 .box2{
-  width: 50%;
-  height:500px;
   background-image: url(../images/hp3.jpg);
-  background-size: cover;
-  background-position: right;
-  display: none;
-  position: relative;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-flow: wrap;
 }
 
 
