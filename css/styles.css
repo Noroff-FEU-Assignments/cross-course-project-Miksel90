@@ -159,10 +159,16 @@ nav a:hover,.bottom-nav a:hover {
 
 
   .welcome-actions{
-    
+    position: absolute;
+    bottom: 150px; 
+    color: #fff; 
+    background: rgb(0,0,0,0.5);
+    padding: 30px;
   }
 
-
+.wa1{
+  bottom: 150px; 
+}
   .wa2{
     position: absolute;
     bottom: 150px; 
