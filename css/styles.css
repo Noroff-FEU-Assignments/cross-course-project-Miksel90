@@ -646,12 +646,10 @@ Choose color
   background-color: #B6A696;
 }
 
-
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
-
 
 input[type=textarea] {
   color: white;
@@ -673,7 +671,6 @@ input[type=textarea] {
   margin-top: 6px;
 }
 
-
 .col-75 {
   float: left;
   width: 75%;
@@ -685,8 +682,6 @@ input[type=textarea] {
   display: table;
   clear: both;
 }
-
-
 
 /*media quaries*/
 
