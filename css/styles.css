@@ -644,14 +644,12 @@ Choose color
   box-sizing: border-box;
   resize: vertical;
   background-color: #B6A696;
-  font-style: normal;
 }
 
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
-
 
 .contact-container {
   border-radius: 5px;
