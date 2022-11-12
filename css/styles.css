@@ -625,8 +625,10 @@ Choose color
 
 .Contact-img{
   background-image: url(../images/contactimg.jpg) ;
-  height: 2000px;
+  background-size:cover;
   background-repeat: no-repeat;
+  display: flex;
+  background-position-y: center;
 }
 
 .Contact-button{
