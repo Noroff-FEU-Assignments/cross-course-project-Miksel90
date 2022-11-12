@@ -300,6 +300,8 @@ ul{
   display: inline-block;
 }
 .box4{
+  width: 50%;
+  height:500px;
   background-image: url(../images/hikeing.jpg);
   background-size: cover;
   position: relative;
