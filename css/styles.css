@@ -139,6 +139,9 @@ nav a:hover,.bottom-nav a:hover {
   transition: 0.5s;
 }
 
+label{
+  display: none;
+}
   /*==============
 5. Homepage Images, Image Buttons and text
 ================*/
