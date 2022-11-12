@@ -285,6 +285,7 @@ ul{
 .box3{
   background-image: url(../images/Skier.jpg);
   background-size: cover;
+  position: relative;
 }
 
 .box3 a, .box4 a{
@@ -300,8 +301,6 @@ ul{
   display: inline-block;
 }
 .box4{
-  width: 50%;
-  height:500px;
   background-image: url(../images/hikeing.jpg);
   background-size: cover;
   position: relative;
