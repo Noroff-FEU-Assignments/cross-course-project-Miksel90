@@ -627,11 +627,10 @@ Choose color
   background-image: url(../images/contactimg.jpg) ;
   height: 2000px;
   background-repeat: no-repeat;
-  bac
 }
 
 .Contact-button{
-  display: flex;
+  display:flex;
 }
 
 .Contactinfo {
