@@ -255,7 +255,6 @@ ul{
 6 Men & woman page
 ================*/
 
-
 .mw1{
   background-image: url(../images/Amundensen.jpg);
   height: 570px;
@@ -285,7 +284,6 @@ ul{
 
 .box3{
   width: 50%;
-  height:500px;
   background-image: url(../images/Skier.jpg);
   background-size: cover;
   position: relative;
