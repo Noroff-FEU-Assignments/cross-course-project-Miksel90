@@ -623,6 +623,10 @@ Choose color
 
 /*Contact Us */
 
+.Contact-img{
+  background-image: url(../images/contactimg.jpg) ;
+}
+
 .Contact-button{
   display: flex;
 }
