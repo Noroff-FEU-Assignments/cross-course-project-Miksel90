@@ -623,14 +623,6 @@ Choose color
 
 /*Contact Us */
 
-.Contact-img{
-  background-image: url(../images/contactimg.jpg) ;
-  background-size:cover;
-  background-repeat: no-repeat;
-  display: flex;
-  background-position-y: center;
-}
-
 .Contact-button{
   display:flex;
 }
