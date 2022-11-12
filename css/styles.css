@@ -644,6 +644,7 @@ Choose color
   box-sizing: border-box;
   resize: vertical;
   background-color: #B6A696;
+  font-style: normal;
 }
 
 label {
