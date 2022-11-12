@@ -284,6 +284,7 @@ ul{
 
 .box3{
   background-image: url(../images/Skier.jpg);
+  background-size: cover;
 }
 
 .box3 a, .box4 a{
