@@ -543,7 +543,6 @@ Choose color
 
 }
 
-
 .about-text{
   color: #fff; 
   background: rgb(0,0,0,0.5);
@@ -655,7 +654,6 @@ label {
 
 
 input[type=textarea] {
-  background-color:green;
   color: white;
   padding: 12px 20px;
   border: none;
