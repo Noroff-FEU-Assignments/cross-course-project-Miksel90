@@ -500,6 +500,7 @@ Choose color
   display: flex;
   background-color: oldlace;
   object-fit: contain;
+  border: solid 1px;
 }
 
 .btn-group button {
