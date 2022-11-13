@@ -309,6 +309,18 @@ ul{
   position: relative;
 }
 
+
+.box5 img{
+  margin-top: 15px;
+  max-height: 400px;
+  display: flex;
+  border-color: black;
+  border-style:groove
+}
+
+.box6{
+  margin-top: 15px;
+}
   /*==============
 6.2 Product page
 ================*/
@@ -438,21 +450,9 @@ color: darkgoldenrod;
 }
 
 
-.box5 img{
-  margin-top: 15px;
-  max-height: 400px;
-  display: flex;
-  border-color: black;
-  border-style:groove
-}
-
-.box6{
-  margin-top: 15px;
-}
-
   
     /*==============
-Choose color
+Jacket color "buttons"
 ================*/
 
 .button{
