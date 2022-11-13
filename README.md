@@ -2,7 +2,7 @@ Rainydays
 This repository is for my first-year HTML and css project a Noroff. An Online shop selling jackets- 
 
 Live site:
-
+bespoke-kashata-8e6167.netlify.app 
 
 Figma Prototype:
 https://www.figma.com/file/bwv9ixuGjciFpI8SjM7SDd/Rainy-days-v1?node-id=17%3A3003 
