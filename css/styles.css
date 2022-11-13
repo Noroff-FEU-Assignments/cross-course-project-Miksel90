@@ -1,0 +1,726 @@
+
+  /*==============
+1. Global Values
+================*/
+
+h1,h2,h3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1{
+  margin-top:15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+h4{
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(229, 236, 243);
+}
+
+main{
+  flex:1;
+}
+
+input {
+  font-weight: 700;
+  padding-block: 5px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+
+    /*==============
+2. Horizontal lines
+================*/
+
+.rounded{
+  color: #427784;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10px;
+  }
+
+.line2{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.productline{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+    /*==============
+3.  header and footer
+================*/
+.top-header, .bot-footer {
+  text-align: center;
+  background: #427784;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+}
+    /*==============
+4. Navigation
+================*/
+
+
+.logo img {
+  display: flex;
+  align-self: center;
+  width: 200px;
+  height: 100px;
+}
+nav {
+  background-color: #B6A696;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+  nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  nav ul li{
+    padding:10px 10px;
+    display: flex;
+    align-self: center;
+  }
+
+nav ul li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 30px;
+  align-self: center;
+}
+
+
+nav [type=text]{
+  font-size: 18px;
+  color: white;
+  max-height: 30px;
+  align-self: center;
+}
+.search-input{
+  display: none;
+}
+
+header{display: flex;
+ justify-content: space-around;
+}
+
+
+nav a:hover,.bottom-nav a:hover {
+  background-color: #427784;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+  /*==============
+5. Homepage Images, Image Buttons and text
+================*/
+
+.welcome{
+  background-image: url(../images/hp1.jpg);
+  height: 570px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+
+.welcome-actions{
+  position: absolute;
+  bottom: 150px; 
+  color: #fff; 
+  background: rgb(0,0,0,0.5);
+  padding: 30px;
+}
+
+.wa1{
+  bottom: 150px; 
+}
+.wa2, 
+.wa3{
+  bottom: 50px; 
+}
+
+.welcome-actions a{
+  background: #B6A696;
+  color:#000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  margin-top: 15px;
+}
+
+.box{
+  width: 50%;
+  height:500px;
+  background-size: cover;
+  display:none;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.box1{
+  background-image: url(../images/hp2.jpg);
+}
+
+.box2{
+  background-image: url(../images/hp3.jpg);
+}
+
+  /*==============
+5.1 Our Favourites
+================*/
+
+
+.column img{
+  height: 300px;
+  width: 250px;
+  display: flex;
+  border-color: black;
+  border-style:groove;
+  background-color: oldlace;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
+ul{
+  list-style-type: none;
+}
+.producttext{
+  color: #000;
+  list-style-type: none;
+  text-align: left;
+  font-weight: 20px;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+  /*==============
+5.2 Sign up section
+================*/
+
+
+.offer-1 {
+  background-color: #B6A696;
+  color:#000;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+  /*==============
+6 Men & woman page
+================*/
+
+.mw1{
+  background-image: url(../images/Amundensen.jpg);
+  height: 570px;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.mw2-actions{
+  position: absolute;
+  bottom: -950px; 
+  left: 50px;
+  color: #fff; 
+  background: rgb(0,0,0,0.5);
+  padding: 30px;
+}
+
+.mw2-actions a{
+  background: #B6A696;
+  color:#fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.box3{
+  background-image: url(../images/Skier.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.box3 a, .box4 a{
+  background: #B6A696;
+  color:#000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: calc(500px - 80px);
+  left: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.box4{
+  width: 50%;
+  height:500px;
+  background-image: url(../images/hikeing.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+  /*==============
+6.2 Product page
+================*/
+
+.column2 img{
+  margin-top: 15px;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  border-color: black;
+  border-style:groove;
+  background-color: oldlace;
+  object-fit: contain;
+  align-self: center;
+}
+
+.column2 > span {
+  display: block;
+  width: 1000px;
+  margin-left: -450px; 
+}
+.column2 > span > img {
+  display: inline-block;
+}
+
+
+  /*==============
+7. Register
+================*/
+
+.signup a{
+  background:green;
+  color:#fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.column3{
+  flex-direction: column;
+}
+  /*==============
+8. payment and some icons
+================*/
+.container-payment{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 30%;
+  margin-right: 30%;
+ }
+
+.fa-brands {
+  font-size: 50px;
+  padding: 10px
+}
+
+.fa-square-facebook, .fa-cc-visa{
+  color: blue;
+}
+
+.fa-square-instagram{
+  color:indianred;
+}
+
+.fa-square-twitter, .fa-cc-paypal{
+  color:cornflowerblue;
+}
+
+.fa-square-youtube, .fa-cc-amex{
+  color: crimson;
+}
+
+.fa-cc-mastercard{
+color: darkgoldenrod;
+}
+
+
+.fa-cloud-sun{
+  color:#933030db;
+  padding: 10px;
+}
+
+.fa-tree{
+  color: #04AA6D;
+  padding: 10px;
+}
+
+.fa-person-skiing{
+  color: blue;
+  padding: 10px;
+}
+
+
+/* Bottom icon rox*/
+
+.icon-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 50%;
+  margin-bottom: 15px;
+}
+.icon-checkout{
+  font-size: 10px;
+}
+
+/* Green Button */
+
+.btn-3 a{
+  font-size: 25px;
+  background-color: green;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+
+.box5 img{
+  margin-top: 15px;
+  max-height: 400px;
+  display: flex;
+  border-color: black;
+  border-style:groove
+}
+
+.box6{
+  margin-top: 15px;
+}
+
+  
+    /*==============
+Choose color
+================*/
+
+.button{
+  border:grey;
+  color: white;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.color1 {
+  background-color: #04AA6D;
+}
+
+.color2 {
+  background-color:red;
+}
+
+.color3 {
+  background-color:blue;
+}
+
+.color4 {
+  background-color:orange;
+}
+
+
+/*jacket specific */
+
+.prodinfo{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 100px;
+  justify-content: center;
+}
+
+.prodinfo div {
+ flex: 1;
+}
+
+.prodinfo img{
+  margin-top: 15px;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  background-color: oldlace;
+  object-fit: contain;
+  border-color: black;
+  border-style:groove
+}
+
+.btn-group button {
+  background-color:#B6A696;
+  border: 1px solid #427784;
+  color:#000;
+  padding: 10px 24px;
+  cursor: pointer; 
+  float: left; 
+  margin-bottom: 10px;
+}
+
+.btn-group button:hover {
+  background-color:#fff;
+}
+  
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+ 
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  
+
+/* About us*/
+.aboutimg {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-bottom{
+  background-image: url(../images/About2.jpg);
+  height: 1000px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
+  background-position-y: center;
+
+}
+
+.about-text{
+  color: #fff; 
+  background: rgb(0,0,0,0.5);
+  padding: 30px;
+  text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
+  width: 100%;
+  height: 70px;
+}
+
+/* Cart*/
+
+.container.cart{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cart-img{
+  background-image: url(../images/mountainering.jpg);
+  height: 520px;
+  background-size: cover;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cartbox{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  flex-flow: wrap;
+}
+
+
+.btn-cart a{
+  font-size: 12px;
+  background-color: green;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+ }
+
+ 
+.btn-cart {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Checkout*/
+
+.checkoutinfo{
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+  gap:20px;
+}
+
+.checkoutinfo div {
+  flex: 1;
+}
+
+.a:link a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+/*Contact Us */
+
+.Contact-button{
+  display:flex;
+}
+
+.Contactinfo {
+  max-width: 1000px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.contact-container{
+  max-width: 1000px;
+  text-align: start;
+}
+
+ input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #427784;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  background-color: #B6A696;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.contact-container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*media quaries*/
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=textarea] {
+    width: 100%;
+    margin-top: 0;
+  }
+} 
+
+
+@media only screen and (max-width:767px) {
+nav ul{
+  flex-direction: column;
+  text-align: center;}
+  .checkoutinfo {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1075px){
+  .container{flex-wrap: nowrap;}
+  .item{flex: 1 1 auto;}
+}
+  
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: none;
+    width: 50%;
+
+} 
+
+@media screen and (min-width: 811px) {
+    .box1,
+    .box2,
+    .box3,
+    .box4{
+        display: block;
+    }
+}
+
+@media(min-width:1000px){
+  
+  .search-input{
+    display: block;
+  }
+  }
