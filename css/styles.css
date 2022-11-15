@@ -462,6 +462,10 @@ Jacket color "buttons"
   border-radius: 2px;
 }
 
+.button span{
+  display: none;
+}
+
 .color1 {
   background-color: #04AA6D;
 }
