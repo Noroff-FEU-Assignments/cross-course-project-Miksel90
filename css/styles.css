@@ -46,6 +46,16 @@ input {
   font-size: 15px;
 }
 
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
 
     /*==============
 2. Horizontal lines
@@ -462,9 +472,6 @@ Jacket color "buttons"
   border-radius: 2px;
 }
 
-.button span{
-  display: none;
-}
 
 .color1 {
   background-color: #04AA6D;
