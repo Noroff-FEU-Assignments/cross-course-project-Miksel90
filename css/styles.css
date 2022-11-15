@@ -653,6 +653,10 @@ label {
   display: inline-block;
 }
 
+.label1 {
+  display: none;
+}
+
 .contact-container {
   border-radius: 5px;
   padding: 20px;
