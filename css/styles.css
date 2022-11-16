@@ -46,6 +46,9 @@ input{
   font-size: 15px;
 }
 
+.search-input{
+  display: none;
+}
     /*==============
 2. Horizontal lines
 ================*/
@@ -650,7 +653,7 @@ Jacket color "buttons"
 
 label {
   padding: 12px 12px 12px 0;
-  display: none;
+  display: inline-block
 }
 
 .contact-container {
