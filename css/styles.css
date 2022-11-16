@@ -46,7 +46,7 @@ input{
   font-size: 15px;
 }
 
-label[for="searchbar"]{
+.hide-this-label {
   display: none;
 }
     /*==============
