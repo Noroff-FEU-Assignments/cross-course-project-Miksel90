@@ -46,8 +46,8 @@ input{
   font-size: 15px;
 }
 
-.searchbar{
-  display: none
+.search-input {
+	display: none;
 }
     /*==============
 2. Horizontal lines
