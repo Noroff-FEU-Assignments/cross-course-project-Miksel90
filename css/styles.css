@@ -774,6 +774,20 @@ label {
 
 /*media quaries*/
 
+@media screen and (max-width: 400px) {
+  .column img{
+    height: 180px;
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .column img{
+    height: 250px;
+    width: 180px;
+  }
+}
+
 @media screen and (max-width: 530px) {
   .container{flex-wrap: wrap;}
 }
