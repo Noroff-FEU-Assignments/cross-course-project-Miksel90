@@ -76,7 +76,6 @@ console.log("U are the best")
 firstName.addEventListener("keyup", isButtonDisabled);
 surname.addEventListener("keyup", isButtonDisabled);
 address.addEventListener("keyup", isButtonDisabled);
-subject.addEventListener("keyup", isButtonDisabled);
 email.addEventListener("keyup", isButtonDisabled);
 
 
