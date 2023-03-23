@@ -77,12 +77,23 @@
       <section>
         <div class="offer-1">
           <h2> Get news and offers first</h2>
-            <div class="btn-3"><a href="signup.html">Sign me up!</a>
+          <div id="registeredValid"></div>
+          Enter your E-mail
+          <form>
+            <div>
+              <label>
+                  <input name="email" id="email" placeholder="URGr8@awesome.com" />
+              </label>
+              <div class="form-error" id="emailError"> Enter a valid email address</div>
+            </div>
+          </form>
+            <button class="reg-button">Sign me up!</button>
             <p>Stay updated on other gear we think you will like. Sign up to receive Rainydays
-              news, promotions, and other online content,
-              By signing up, you agree to Rainydays Privacy Policy. your personal details are strictly for our use, and you can unsuscribe at any time</p>
+              news, promotions, and other online content,</p>
+              By signing up, you agree to Rainydays Privacy Policy. your personal details are strictly for our use, and you can unsuscribe at any time
           </div>
         </div>
+        <script scr="js/register.js"></script>
       </section>
       <section>
         <hr class="rounded">
