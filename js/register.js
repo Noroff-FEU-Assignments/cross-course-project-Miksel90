@@ -2,7 +2,7 @@
 const form = document.querySelector("form");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
-const button = document.querySelector("reg-button");
+const button = document.querySelector("btn-3");
 
 
 
@@ -25,7 +25,9 @@ function submitForm(event) {
         emailError.style.display = "none";
     } else {
         emailError.style.display = "block";
-    }}
+    }
+    console.log("U are the best")
+}
 
 
     form.addEventListener("submit", submitForm);
