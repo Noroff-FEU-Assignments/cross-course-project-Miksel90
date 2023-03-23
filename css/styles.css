@@ -688,8 +688,9 @@ label {
 /* Register */
 form {
   border-radius: 1rem;
-  max-width: 500px;
+  max-width: 100%;
   margin: 0 auto;
+  margin-bottom: 20px;
 
 }
 
