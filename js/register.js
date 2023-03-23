@@ -2,7 +2,7 @@
 const form = document.querySelector("form");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
-const button = document.querySelector("btn-3");
+const button = document.querySelector("reg-button");
 
 
 
