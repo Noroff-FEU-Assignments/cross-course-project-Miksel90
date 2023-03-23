@@ -694,11 +694,8 @@ form {
 
 }
 
-label {
-  color: blue;
-}
-
 input {
+  width: 300px;
   max-width: 100%;
   margin-top: 2px;
   padding: 10px;
