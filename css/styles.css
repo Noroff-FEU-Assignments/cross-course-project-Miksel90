@@ -643,6 +643,20 @@ Jacket color "buttons"
 
 /*Contact Us */
 
+.contact-background{
+  background-image: url(../images/mountainering.jpg);
+  background-size:cover;
+  background-position-y: center;
+  margin-top: -15px;
+  margin-bottom: -50px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.contact-hue{
+  background: rgb(0,0,0,0.5);
+}
+
 .Contact-button{
   display:flex;
 }
@@ -665,7 +679,7 @@ Jacket color "buttons"
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
-  background-color: #B6A696;
+  background-color: #ffffff;
 }
 
 label {
