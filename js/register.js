@@ -2,7 +2,7 @@
 const form = document.querySelector("form");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
-const button = document.querySelector("btn-3");
+const button = document.querySelector("reg-button");
 
 
 
@@ -27,6 +27,8 @@ function submitForm(event) {
         emailError.style.display = "block";
     }}
 
+
+    form.addEventListener("submit", submitForm);
     email.addEventListener("keyup", isButtonDisabled);
 
     //check if its a valid email
