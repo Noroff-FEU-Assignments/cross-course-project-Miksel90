@@ -175,12 +175,20 @@ nav a:hover,.bottom-nav a:hover {
 }
 
 .welcome-actions a{
-  background: #B6A696;
-  color:#000;
+  background: #427784;
+  color:#ffffff;
+  font-size: 25px;
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
   display: inline-block
+}
+
+.welcome-actions a:hover{
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 5px;
+  transition: 0.9s;
 }
 
 .container{
