@@ -42,41 +42,76 @@
     </ul>
     </nav>
   </header>
-    <h1>Register</h1>
+    <h1>Payment</h1>
     <hr class="rounded">
-  <main>
+  <main> 
+    <div class="formValidation"></div>
+    <div id="messageValid"></div>
+    <form>
     <div class="checkoutinfo">
-      <div Class="column3"><label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname" placeholder="Bear">
+        <div Class="column3"> 
+          <label>
+             First Name
+            <input name="firstName" id="firstName" placeholder="Name" />
+          </label>
+            <div class="form-error" id="firstNameError"> Enter your first name!</div>
+        </div>
+      <div Class="column3">
+          <label>
+          Last Name
+          <input name="surname" id="surname" placeholder="Surname" />
+          </label>
+          <div class="form-error" id="surnameError"> Enter your surname!</div>
+        </div>
       </div>
-      <div Class="column3"><label for="surname">Surname</label>
-        <input type="text" id="surname" name="surname" placeholder="Grillz">
-      </div>
-     </div>
       <div class="checkoutinfo">
-        <div Class="column3"><label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="BigmanGrillz@example.com">
+        <div Class="column3"> 
+          <label>
+            Email
+            <input name="email" id="email" placeholder="E-mail" />
+          </label>
+          <div class="form-error" id="emailError"> Enter a valid email address</div>
+        </div>
+      <div Class="column3">
+          <label>
+         Phone Number
+          <input name="phonenumber" id="phonenumber" placeholder="+47 xxx xx xxx" />
+          </label>
+          <div class="form-error" id="phoneError"> Enter a valid Phone Number</div>
+        </div>
       </div>
-      <div Class="column3"><label for="phonenumber">Number</label>
-        <input type="text" id="phonenumber" name="phonenumber" placeholder="1450 14 1450">
+      <div class="checkoutinfo">
+        <div Class="column3"> 
+          <label>
+            City
+            <input name="city" id="city" placeholder="City" />
+          </label>
+          <div class="form-error" id="cityError"> Enter the name of your city</div>
+        </div>
+      <div Class="column3">
+          <label>
+       Address
+          <input name="adress" id="adress" placeholder="" />
+          </label>
+          <div class="form-error" id="addressError"> Enter a Valid address</div>
+        </div>
       </div>
-    </div>
-    <div class="checkoutinfo">
-      <div Class="column3"><label for="city">City</label>
-        <input type="text" id="city" name="city" placeholder="Longyearbyen">
+      <div class="checkoutinfo">
+        <div Class="column3"> 
+          <label>
+            State
+            <input name="state" id="state" placeholder="Viken" />
+          </label>
+          <div class="form-error" id="stateError"> Enter a State</div>
+        </div>
+      <div Class="column3">
+          <label>
+            Zip-Code
+          <input name="zip" id="zip" placeholder="1450" />
+          </label>
+          <div class="form-error" id="zipError"> Enter a Valid address</div>
+        </div>
       </div>
-      <div Class="column3"><label for="adress"><i class="fa fa-address-card-o"></i>Address</label>
-        <input type="text" id="adress" name="adress" placeholder="Mount Everest road 1">
-      </div>
-    </div>
-    <div class="checkoutinfo">
-      <div Class="column3"><label for="state">State</label>
-        <input type="text" id="state" name="state" placeholder="Viken">
-      </div>
-      <div Class="column3"><label for="zip">Zip</label>
-        <input type="text" id="zip" name="zip" placeholder="1450">
-      </div>
-    </div>
     <hr class="rounded">
     <h2>Payment</h2>
     <h3>We accept these cards</h3>
@@ -84,23 +119,42 @@
       <a><i class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-paypal"></i><i class="fa-brands fa-cc-amex"></i></a>
     </div>
     <div class="checkoutinfo">
-      <div Class="column3"><label for="cardname">Cardholders name</label>
-      <input type="text" id="cardname" name="cardname" placeholder="Bear Grillz">
-      <div Class="column3"><label for="cardnumber">Cardnumber</label>
-      <input type="text" id="cardnumber" name="cardnumber" placeholder="123456789"></div>
-    </div>
-    <div class="checkoutinfo">
-      <div Class="column3"><label for="expirationdate">Expiration Date</label>
-        <input type="text" id="expirationdate" name="expirationdate" placeholder="09/23">
-        <div Class="column3"><label for="cvc">CVC</label>
-        <input type="text" id="cvc" name="cvc" placeholder="XXX"></div>
-        </div>
+      <div Class="column3"> 
+        <label>
+          Cardholders Name
+          <input name="cardname" id="cardname" placeholder="" />
+        </label>
+        <div class="form-error" id="cardnameError"> </div>
+      </div>
+    <div Class="column3">
+        <label>
+          Cardnumber
+        <input name="zip" id="zip" placeholder="1450" />
+        </label>
+        <div class="form-error" id="cardnumberError"> Enter a Valid cardnumber</div>
       </div>
     </div>
-  </main>
+    <div class="checkoutinfo">
+      <div Class="column3"> 
+        <label>
+        Experation Date
+          <input name="expdate" id="expdate" placeholder="09/23" />
+        </label>
+        <div class="form-error" id="expdateError"> </div>
+      </div>
+    <div Class="column3">
+        <label>
+         CVC
+        <input name="cvc" id="cvc" placeholder="XXX" />
+        </label>
+        <div class="form-error" id="cvcError"> Enter a Valid CVC </div>
+      </div>
+    </div>
     <div class="container">
       <div class="btn-3"><a href="Index.html">Register</a></div>
     </div>
+    <script src="js/checkout.js"></script>
+  </main>
   <footer>
     <nav>
      <ul>

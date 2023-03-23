@@ -614,6 +614,7 @@ Jacket color "buttons"
 .checkoutinfo{
   display: flex;
   justify-content: center;
+  width: 100%;
   max-width: 400px;
   margin: 0 auto;
   gap:20px;
@@ -626,6 +627,18 @@ Jacket color "buttons"
 .a:link a:visited{
   text-decoration: none;
   color: #fff;
+}
+
+.checkout-button{
+  background: green;
+  width: 200px;
+  height: 80px;
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 0.2rem;
 }
 
 /*Contact Us */
@@ -695,6 +708,8 @@ form {
 }
 
 input {
+  border-color: #427784;
+  border-style: groove;
   width: 300px;
   max-width: 100%;
   margin-top: 2px;
@@ -705,7 +720,7 @@ input {
 .form-error {
   display: none;
   color: red;
-  font-size: 10px;
+  font-size: 15px;
   margin-top: 2px;
 }
 
@@ -728,6 +743,10 @@ label {
 }
 
 /*media quaries*/
+
+@media screen and (max-width: 530px) {
+  .container{flex-wrap: wrap;}
+}
 
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=textarea] {

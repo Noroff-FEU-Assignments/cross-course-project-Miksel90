@@ -4,19 +4,28 @@ const firstName = document.querySelector("#firstName");
 const firstNameError = document.querySelector("#firstNameError");
 const surname = document.querySelector("#surname");
 const surnameError = document.querySelector("#surnameError");
-const address = document.querySelector("#address");
-const addressError = document.querySelector("#addressError");
-const subject = document.querySelector("#subject");
-const subjectError = document.querySelector("#subjectError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
-const button = document.querySelector("button");
+const phone = document.querySelector("#phonenumber");
+const phoneError = document.querySelector("#phoneError");
+const city = document.querySelector("#city");
+const cityError = document.querySelector("#cityError");
+const address = document.querySelector("#address");
+const addressError = document.querySelector("#addressError");
+const state = document.querySelector("#state");
+const stateError = document.querySelector("#stateError");
+const zip = document.querySelector("#zip");
+const zipError = document.querySelector("#zipError");
+const button = document.querySelector("checkout-button");
 
 
 // Function for the disabled button//
 function isButtonDisabled() {
     // validate the input data
-    if (checkLength(firstName.value, 1) && checkLength(surname.value, 1) && checkLength(address.value, 25) && checkLength(subject.value, 10) && validateEmail(email.value)) {
+    if (checkLength(firstName.value, 1) && checkLength(surname.value, 1)
+    && validateEmail(email.value) && checkLength(phonenumber.value, 10)
+    && checkLength(city.value, 1) && checkLength(address.value, 20) 
+    && checkLength(state.value, 1) && checkLength(zip.value, 4)) {
         button.disabled = false;
     } else {
         message.innerHTML = "";
