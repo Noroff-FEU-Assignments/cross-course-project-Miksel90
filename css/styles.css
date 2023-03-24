@@ -555,28 +555,31 @@ Jacket color "buttons"
   
 
 /* About us*/
-.aboutimg {
-  display: flex;
-  justify-content: space-evenly;
-}
 
-.about-bottom{
+.about-background{
   background-image: url(../images/About2.jpg);
   height: 1000px;
   background-size:cover;
   background-repeat: no-repeat;
-  display: flex;
   background-position-y: center;
+  display: flex;
+}
 
+.about{
+  display: flex;
+  background: rgb(0,0,0,0.5);
 }
 
 .about-text{
   color: #fff; 
-  background: rgb(0,0,0,0.5);
+  font-size: 18px;
   padding: 30px;
+  max-width: 100%;
+}
+
+.contactbottom{
   text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
-  width: 100%;
-  height: 70px;
+  font-size: 40px;
 }
 
 /* Cart*/
