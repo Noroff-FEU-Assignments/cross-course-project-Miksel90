@@ -122,7 +122,6 @@ nav ul li a{
 
 nav [type=text]{
   font-size: 18px;
-  color: white;
   max-height: 30px;
   align-self: center;
 }
@@ -341,8 +340,6 @@ ul{
   margin-top: 15px;
   max-height: 400px;
   display: flex;
-  border-color: black;
-  border-style:groove
 }
 
 .box6{
