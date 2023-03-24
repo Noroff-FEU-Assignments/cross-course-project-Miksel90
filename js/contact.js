@@ -2,8 +2,8 @@
 const form = document.querySelector("form");
 const firstName = document.querySelector("#firstName");
 const firstNameError = document.querySelector("#firstNameError");
-const surname = document.querySelector("#surname");
-const surnameError = document.querySelector("#surnameError");
+const surName = document.querySelector("#surName");
+const surNameError = document.querySelector("#surNameError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 const textArea = document.querySelector("#textArea");
@@ -14,11 +14,10 @@ const button = document.querySelector("reg-button");
 // Function for the disabled button//
 function isButtonDisabled() {
     // validate the input data
-    if (checkLength(firstName.value, 1) && checkLength(surname.value, 1)
-    && validateEmail(email.value) && checkLength(textArea.value, 1)) {
+    if (checkLength(firstName.value, 1) && checkLength(surName.value, 1) && validateEmail(email.value) && checkLength(textArea.value, 1)) {
         button.disabled = false;
     } else {
-        message.innerHTML = "";
+        message.innerHTML = "You suck!";
         button.disabled = true;
     }
 }
@@ -33,11 +32,10 @@ if (checkLength(firstName.value, 1) === true) {
 } else {
     firstNameError.style.display = "block";
 }
-
-if (checkLength(surname.value, 1) === true) {
-    surnameError.style.display = "none";
+if (checkLength(surName.value, 1) === true) {
+    surNameError.style.display = "none";
 } else {
-    surnameError.style.display = "block";
+    surNameError.style.display = "block";
 }
 if (validateEmail(email.value) === true) {
     emailError.style.display = "none";
@@ -50,7 +48,7 @@ console.log("U are the best")
 
 
 firstName.addEventListener("keyup", isButtonDisabled);
-surname.addEventListener("keyup", isButtonDisabled);
+surName.addEventListener("keyup", isButtonDisabled);
 email.addEventListener("keyup", isButtonDisabled);
 textArea.addEventListener("keyup", isButtonDisabled);
 

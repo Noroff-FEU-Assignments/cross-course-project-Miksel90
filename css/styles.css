@@ -155,7 +155,9 @@ nav a:hover,.bottom-nav a:hover {
   margin-bottom: 5px;
   position: relative;
 }
-
+.Favourite-text{
+  font-size: 40px;
+}
 
 .welcome-actions{
   position: absolute;
@@ -664,7 +666,6 @@ Jacket color "buttons"
   background-size:cover;
   background-position-y: center;
   margin-top: -15px;
-  margin-bottom: -50px;
   color: #fff;
   font-size: 18px;
 }
