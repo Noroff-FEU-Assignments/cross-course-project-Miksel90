@@ -1,4 +1,4 @@
-const endpointUrl = "https://rainydays.local/wp-json/wc/store/products";
+const endpointUrl = "http://rainydays.local/wp-json/wc/store/products";
 
 const productGrid = document.getElementById('productGrid');
 const featuredContainer = document.getElementById('featuredProducts');
