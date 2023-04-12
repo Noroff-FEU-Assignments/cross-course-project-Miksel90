@@ -233,7 +233,7 @@ nav a:hover,.bottom-nav a:hover {
 }
 
 .thumbnail img {
-  width: 60%; /* Make the image fill the thumbnail container */
+  max-width: 75%; /* Make the image fill the thumbnail container */
   height: 300px;
 }
 

@@ -1,4 +1,4 @@
-const endpointUrl = "http://rainydays.local/wp-json/wc/store/products";
+const endpointUrl = "https://rainydays.local/wp-json/wc/store/products";
 
 const productGrid = document.getElementById('productGrid');
 const featuredContainer = document.getElementById('featuredProducts');
@@ -9,14 +9,14 @@ async function fetchProducts() {
         const response = await fetch(endpointUrl); 
         const products = await response.json();
 
-        // Showing only the last 4 products
+        // Showing only 4 products
         const lastFourProducts = products.slice(-4);
         
         // Rendering last 4 product data as thumbnails in a grid
         lastFourProducts.forEach(product => {
             const thumbnail = document.createElement('div');
             thumbnail.classList.add('thumbnail');
-            // Render product name and price in thumbnail
+            // Render products in thumbnail
             thumbnail.innerHTML = `<h3>${product.name}</h3><p>Price: ${product.price}</p><img src="${product.images[0].src}" alt="${product.name}">`;
             productGrid.appendChild(thumbnail);
             
