@@ -221,6 +221,25 @@ nav a:hover,.bottom-nav a:hover {
   background-image: url(../images/hp3.jpg);
 }
 
+#productGrid {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to new lines */
+}
+
+.thumbnail {
+  flex: 0 0 25%; /* Set width of each thumbnail to 25% of the container */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.thumbnail img {
+  width: 60%; /* Make the image fill the thumbnail container */
+  height: 300px;
+}
+
+
+
+
   /*==============
 5.1 Our Favourites
 ================*/
@@ -812,6 +831,12 @@ nav ul{
   .checkoutinfo {
     flex-direction: column;
   }
+  #productGrid {
+    flex-wrap: nowrap;
+}
+.thumbnail {
+    flex: 0 0 50%; /* Set width of each thumbnail to 100% of the container */
+}
 }
 
 @media screen and (min-width: 1075px){
