@@ -237,6 +237,11 @@ nav a:hover,.bottom-nav a:hover {
   height: 300px;
 }
 
+.product-detail{
+ display: flex;
+ max-width: 200px;
+ height: 200px;
+}
 
 
 
