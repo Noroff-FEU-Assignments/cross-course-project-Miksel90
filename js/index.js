@@ -7,29 +7,52 @@ const productBase = "/products";
 const fullProductURL = apiBase + woocomBase + productBase; 
 
 //Fetching the products
-async function fetchProducts() {
+async function getProducts() {
     const response = await fetch(fullProductURL); 
     
     const products = await response.json();
 
-    return products
+    return products;
+    //console.log(products);
 }
 
-function createProductHTML(product) {
-    const container =document.querySelector(".container");
 
-    const productContainer =document.createElement("div");
+
+function createProductHTML(product) {
+    const container = document.querySelector(".featured");
+
+    const productContainer = document.createElement("div");
     productContainer.classList.add("product");
     productContainer.id = product.id;
+
+    const title = document.createElement("h2");
+    title.innertext = product.name;
+    productContainer.append(title);
+
+    console.log(product.images)
+
+    for (let i = 0; i <product.images.length; i++) {
+        const imgData = product.images[i];
+        const img = document.createElement("img");
+        img.src = imgData.src;
+        img.alt = imgData.alt;
+        productContainer.append(img)
+        }
+
+    container.append(productContainer)        
 }
 
 function createProductsHTML (products) {
-    for (let i = 0; i<products.length; i++) {
-        const products = products[i];
+    for (let i = 0; i < products.length; i++) {
+        const product = products[i];
         createProductHTML(product)   
     }
 }
 
 async function main() {
-    const products = await fetchProducts()
-}
+    const products = await getProducts()
+    createProductsHTML(products)
+   //  console.log(products[0]); 
+} 
+
+main()
