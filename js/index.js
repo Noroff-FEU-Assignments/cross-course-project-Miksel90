@@ -25,6 +25,16 @@ function createProductHTML(product) {
     productContainer.classList.add("product");
     productContainer.id = product.id;
 
+
+   // Create an anchor element with the href set to jackets-men.html
+   const anchor = document.createElement("a");
+   anchor.href = "jacket-specific.html";
+
+   // Add the click event listener to the anchor element
+   anchor.addEventListener("click", () => {
+       // You can optionally perform additional actions before navigating to the new page
+       console.log("Clicked on product:", product.name);
+   });
     const title = document.createElement("h2");
     title.innerText = product.name;
     productContainer.append(title);
