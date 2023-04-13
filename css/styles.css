@@ -1,0 +1,864 @@
+
+  /*==============
+1. Global Values
+================*/
+
+body {
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+h1,h2,h3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1{
+  margin-top:15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+h4{
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+main{
+  flex:1;
+}
+
+input{
+  font-weight: 700;
+  padding-block: 5px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.hide-this-label {
+  display: none;
+}
+
+    /*==============
+2. Horizontal lines
+================*/
+
+.rounded{
+  color: #427784;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10px;
+  }
+
+.line2{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.productline{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+    /*==============
+3.  header and footer
+================*/
+.top-header, .bot-footer {
+  text-align: center;
+  background: #427784;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+}
+    /*==============
+4. Navigation
+================*/
+
+
+.logo img {
+  display: flex;
+  align-self: center;
+  width: 200px;
+  height: 100px;
+}
+nav {
+  background-color: #B6A696;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+  nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    max-width:1000px;
+    margin: 0 auto; 
+  }
+
+  nav ul li{
+    padding:10px 10px;
+    display: flex;
+    align-self: center;
+  }
+
+nav ul li a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 30px;
+  align-self: center;
+}
+
+
+nav [type=text]{
+  font-size: 18px;
+  max-height: 30px;
+  align-self: center;
+}
+.search-input{
+  display: none;
+}
+
+header{display: flex;
+ justify-content: space-around;
+}
+
+
+nav a:hover,.bottom-nav a:hover {
+  background-color: #427784;
+  font-weight: bold;
+  font-size: 35px;
+  border-radius: 5px;
+  transition: 0.9s;
+}
+
+  /*==============
+5. Homepage Images, Image Buttons and text
+================*/
+
+.welcome{
+  background-image: url(../images/hp1.jpg);
+  height: 570px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5px;
+  position: relative;
+}
+.Favourite-text{
+  font-size: 40px;
+}
+
+.welcome-actions{
+  position: absolute;
+  bottom: 150px; 
+  color: #fff; 
+  background: rgb(0,0,0,0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.wa1{
+  bottom: 150px; 
+}
+.wa2, 
+.wa3{
+  bottom: 50px; 
+}
+
+.welcome-actions a{
+  background: #427784;
+  color:#ffffff;
+  font-size: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block
+}
+
+.welcome-actions a:hover{
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 5px;
+  transition: 0.9s;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  margin-top: 15px;
+}
+
+.box{
+  width: 50%;
+  height:500px;
+  background-size: cover;
+  display:none;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.box1{
+  background-image: url(../images/hp2.jpg);
+}
+
+.box2{
+  background-image: url(../images/hp3.jpg);
+}
+
+
+  /*==============
+5.1 Our Favourites
+================*/
+
+
+.container-featured{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product{
+  flex-basis: calc(25% - 20px);
+  margin: 10px;
+}
+
+.product img{
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+
+.column img{
+  height: 300px;
+  width: 250px;
+  display: flex;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
+ul{
+  list-style-type: none;
+}
+.producttext{
+  color: #000;
+  list-style-type: none;
+  text-align: left;
+  font-weight: 20px;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+  /*==============
+5.2 Sign up section
+================*/
+
+
+.offer-1 {
+  background-color: #B6A696;
+  color:#000;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.offertext{
+  font-size: 16px;
+}
+
+  /*==============
+6 Men & woman page
+================*/
+
+.mw1{
+  background-image: url(../images/Amundensen.jpg);
+  height: 570px;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.mw2-actions{
+  position: absolute;
+  bottom: -950px; 
+  left: 50px;
+  color: #fff; 
+  background: rgb(0,0,0,0.5);
+  padding: 30px;
+}
+
+.mw2-actions a{
+  background: #B6A696;
+  color:#fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.box3{
+  background-image: url(../images/Skier.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.box3 a, .box4 a{
+  background:#427784;
+  color:#ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: calc(500px - 80px);
+  left: 50px;
+  font-size: 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.box3 a:hover, .box4 a:hover{
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 5px;
+  transition: 0.9s;
+  }
+
+.box4{
+  width: 50%;
+  height:500px;
+  background-image: url(../images/hikeing.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+
+.women1{
+  background-image: url(../images/girl-skiing.jpg);
+}
+
+.women2{
+  background-image: url(../images/women-hike.jpg);
+}
+
+
+.box5 img{
+  margin-top: 15px;
+  max-height: 400px;
+  display: flex;
+}
+
+.box6{
+  margin-top: 15px;
+}
+  /*==============
+6.2 Product page
+================*/
+
+.column2 img{
+  margin-top: 15px;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  object-fit: contain;
+  align-self: center;
+}
+
+.column2 > span {
+  display: block;
+  width: 1000px;
+  margin-left: -450px; 
+}
+.column2 > span > img {
+  display: inline-block;
+}
+
+
+  /*==============
+7. Register
+================*/
+
+.signup a{
+  background:green;
+  color:#fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.column3{
+  flex-direction: column;
+}
+  /*==============
+8. payment and some icons
+================*/
+.container-payment{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 30%;
+  margin-right: 30%;
+ }
+
+.fa-brands {
+  font-size: 50px;
+  padding: 10px
+}
+
+.fa-square-facebook, .fa-cc-visa{
+  color: blue;
+}
+
+.fa-square-instagram{
+  color:indianred;
+}
+
+.fa-square-twitter, .fa-cc-paypal{
+  color:cornflowerblue;
+}
+
+.fa-square-youtube, .fa-cc-amex{
+  color: crimson;
+}
+
+.fa-cc-mastercard{
+color: darkgoldenrod;
+}
+
+
+.fa-cloud-sun{
+  color:#933030db;
+  padding: 10px;
+}
+
+.fa-tree{
+  color: #04AA6D;
+  padding: 10px;
+}
+
+.fa-person-skiing{
+  color: blue;
+  padding: 10px;
+}
+
+
+/* Bottom icon rox*/
+
+.icon-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 50%;
+  margin-bottom: 15px;
+}
+.icon-checkout{
+  font-size: 10px;
+}
+
+/* Green Button */
+
+.btn-3 a{
+  font-size: 25px;
+  background-color: green;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+
+  
+    /*==============
+Jacket color "buttons"
+================*/
+
+.button{
+  border:grey;
+  color: white;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+
+.color1 {
+  background-color: #04AA6D;
+}
+
+.color2 {
+  background-color:red;
+}
+
+.color3 {
+  background-color:blue;
+}
+
+.color4 {
+  background-color:orange;
+}
+
+
+/*jacket specific */
+
+.prodinfo{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 100px;
+  justify-content: center;
+}
+
+.prodinfo div {
+ flex: 1;
+}
+
+.prodinfo img{
+  margin-top: 15px;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  background-color: oldlace;
+  object-fit: contain;
+  border-color: black;
+  border-style:groove
+}
+
+.btn-group button {
+  background-color:#B6A696;
+  border: 1px solid #427784;
+  color:#000;
+  padding: 10px 24px;
+  cursor: pointer; 
+  float: left; 
+  margin-bottom: 10px;
+}
+
+.btn-group button:hover {
+  background-color:#fff;
+}
+  
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+ 
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  
+
+/* About us*/
+
+.about-background{
+  background-image: url(../images/About2.jpg);
+  height: 1000px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  display: flex;
+}
+
+.about{
+  display: flex;
+  background: rgb(0,0,0,0.5);
+}
+
+.about-text{
+  color: #fff; 
+  font-size: 18px;
+  padding: 30px;
+  max-width: 100%;
+}
+
+.contactbottom{
+  text-shadow: -1px 0 #427784, 0 1px #427784, 1px 0 #427784, 0 -1px #427784;
+  font-size: 40px;
+}
+
+/* Cart*/
+
+.container.cart{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cart-img{
+  background-image: url(../images/mountainering.jpg);
+  height: 520px;
+  background-size: cover;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cartbox{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  flex-flow: wrap;
+}
+
+
+.btn-cart a{
+  font-size: 12px;
+  background-color: green;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+ }
+
+ 
+.btn-cart {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Checkout*/
+
+.checkoutinfo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  gap:20px;
+}
+
+.checkoutinfo div {
+  flex: 1;
+}
+
+.a:link a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+.checkout-button{
+  background: green;
+  width: 200px;
+  height: 80px;
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+/*Contact Us */
+
+.contact-background{
+  background-image: url(../images/mountainering.jpg);
+  background-size:cover;
+  background-position-y: center;
+  margin-top: -15px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.contact-hue{
+  background: rgb(0,0,0,0.5);
+}
+
+.Contact-button{
+  display:flex;
+}
+
+.Contactinfo {
+  max-width: 1000px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.contact-container{
+  max-width: 1000px;
+  text-align: start;
+}
+
+ input[type=text], select, textarea, aria-label{
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #427784;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  background-color: #ffffff;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block
+}
+
+.contact-container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Register */
+form {
+  border-radius: 1rem;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+
+input {
+  border-color: #427784;
+  border-style: groove;
+  width: 300px;
+  max-width: 100%;
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.reg-button {
+  background: green;
+  width: 200px;
+  height: 80px;
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 0.2rem;
+} 
+
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+/*media quaries*/
+
+@media screen and (max-width: 400px) {
+  .column img{
+    height: 180px;
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .column img{
+    height: 250px;
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .container{flex-wrap: wrap;}
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=textarea] {
+    width: 100%;
+    margin-top: 0;
+  }
+} 
+
+
+@media only screen and (max-width:767px) {
+nav ul{
+  flex-direction: column;
+  text-align: center;}
+  .checkoutinfo {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1075px){
+  .container{flex-wrap: nowrap;}
+  .item{flex: 1 1 auto;}
+}
+  
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: none;
+    width: 50%;
+
+} 
+
+@media screen and (min-width: 811px) {
+    .box1,
+    .box2,
+    .box3,
+    .box4{
+        display: block;
+    }
+}
+
+@media(min-width:1000px){
+  
+  .search-input{
+    display: block;
+  }
+  }
