@@ -226,13 +226,21 @@ nav a:hover,.bottom-nav a:hover {
 5.1 Our Favourites
 ================*/
 
-.product{
+
+.container-featured{
   display: flex;
   flex-wrap: wrap;
-  flex: 0 0 25%;
+}
+
+.product{
+  flex-basis: calc(25% - 20px);
   margin: 10px;
-  height: 200px;
-  width: 100%;
+}
+
+.product img{
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 
 

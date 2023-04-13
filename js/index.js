@@ -13,23 +13,23 @@ async function getProducts() {
     const products = await response.json();
 
     return products;
-    //console.log(products);
+/*     console.log(products); */
 }
 
 
 
 function createProductHTML(product) {
-    const container = document.querySelector(".featured");
+    const container = document.querySelector(".container-featured");
 
     const productContainer = document.createElement("div");
     productContainer.classList.add("product");
     productContainer.id = product.id;
 
     const title = document.createElement("h2");
-    title.innertext = product.name;
+    title.innerText = product.name;
     productContainer.append(title);
 
-    console.log(product.images)
+    /*  console.log(product.images) */
 
     for (let i = 0; i <product.images.length; i++) {
         const imgData = product.images[i];
@@ -38,6 +38,10 @@ function createProductHTML(product) {
         img.alt = imgData.alt;
         productContainer.append(img)
         }
+
+        const price = document.createElement("p"); 
+        price.innerText = "Price: $" + (product.prices.price / 100).toFixed(2); 
+        productContainer.append(price);
 
     container.append(productContainer)        
 }
