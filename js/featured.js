@@ -52,3 +52,8 @@ function renderProductDetail(product) {
 }
 
 fetchProducts();
+
+{/* <div class="featured"></div>
+<div id="productGrid"></div>
+<div id="featuredProducts"></div>
+<div id="productDetail"></div> */}
