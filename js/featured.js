@@ -1,21 +1,25 @@
+
 // Base URL
 const apiBase = "http://rainydays.local";
 const woocomBase = "/wp-json/wc/store";
 const productBase = "/products";
+const featuredQueryParam = "?featured=true"; // Add the featured query parameter
 
-// Full URL
+// Full URL for products and featured products
 const fullProductURL = apiBase + woocomBase + productBase;
+const fullFeaturedURL = apiBase + woocomBase + productBase + featuredQueryParam; // Full URL for featured products
 
-// Fetching the products
-async function getProducts() {
-    const response = await fetch(fullProductURL);
-    const products = await response.json();
-  /*   return products; */
-  console.log(products)
+// Fetching the featured products
+async function getFeaturedProducts() {
+    const response = await fetch(fullFeaturedURL); // Fetch from the featured products URL with query parameter
+    const featuredProducts = await response.json();
+    return featuredProducts;
 }
 
-// Create product HTML
-function createProductHTML(product, container) {
+// Create HTML for featured products
+function createFeaturedProductHTML(product) {
+    const container = document.querySelector(".container-index"); // Target the container-index class
+
     const productContainer = document.createElement("div");
     productContainer.classList.add("product");
     productContainer.id = product.id;
@@ -39,24 +43,18 @@ function createProductHTML(product, container) {
     container.append(productContainer);
 }
 
-// Create products HTML
-function createProductsHTML(products) {
-    const featuredContainer = document.querySelector(".container-featured");
-    featuredContainer.innerHTML = ""; // Clear existing content
-
-    for (let i = 0; i < products.length; i++) {
-        const product = products[i];
-        if (product.featured) {
-            createProductHTML(product, featuredContainer);
+// Fetch featured products and create HTML
+async function main() {
+    const featuredProducts = await getFeaturedProducts();
+    if (featuredProducts.length > 0) {
+        // Check if featured products are available
+        for (let i = 0; i < featuredProducts.length; i++) {
+            const product = featuredProducts[i];
+            createFeaturedProductHTML(product);
         }
+    } else {
+        console.log("No featured products found.");
     }
 }
 
-// Main function
-async function main() {
-    const products = await getProducts();
-    createProductsHTML(products);
-}
-
-// Run the main function
 main();
