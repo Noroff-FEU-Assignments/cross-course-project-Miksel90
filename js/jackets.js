@@ -12,8 +12,8 @@ async function getProducts() {
     
     const products = await response.json();
 
-    return products;
-/*     console.log(products); */
+ return products;
+/* console.log(products); */
 }
 
 
