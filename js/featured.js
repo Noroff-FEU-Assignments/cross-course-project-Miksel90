@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 54e1aeb484cc31872617c0380c47cc534e2ce7e0
 // Base URL
 const apiBase = "http://rainydays.local";
 const woocomBase = "/wp-json/wc/store";
 const productBase = "/products";
+<<<<<<< HEAD
 
 // Full URL
 const fullProductURL = apiBase + woocomBase + productBase; 
@@ -17,6 +22,24 @@ async function getProducts() {
 // Create product HTML
 function createProductHTML(product) {
     const container = document.querySelector(".container-featured");
+=======
+const featuredQueryParam = "?featured=true"; // Add the featured query parameter
+
+// Full URL for products and featured products
+const fullProductURL = apiBase + woocomBase + productBase;
+const fullFeaturedURL = apiBase + woocomBase + productBase + featuredQueryParam; // Full URL for featured products
+
+// Fetching the featured products
+async function getFeaturedProducts() {
+    const response = await fetch(fullFeaturedURL); // Fetch from the featured products URL with query parameter
+    const featuredProducts = await response.json();
+    return featuredProducts;
+}
+
+// Create HTML for featured products
+function createFeaturedProductHTML(product) {
+    const container = document.querySelector(".container-index"); // Target the container-index class
+>>>>>>> 54e1aeb484cc31872617c0380c47cc534e2ce7e0
 
     const productContainer = document.createElement("div");
     productContainer.classList.add("product");
@@ -41,6 +64,7 @@ function createProductHTML(product) {
     container.append(productContainer);
 }
 
+<<<<<<< HEAD
 // Create products HTML
 function createProductsHTML(products) {
     const container = document.querySelector(".container-featured");
@@ -59,3 +83,20 @@ async function main() {
 }
 
 main();
+=======
+// Fetch featured products and create HTML
+async function main() {
+    const featuredProducts = await getFeaturedProducts();
+    if (featuredProducts.length > 0) {
+        // Check if featured products are available
+        for (let i = 0; i < featuredProducts.length; i++) {
+            const product = featuredProducts[i];
+            createFeaturedProductHTML(product);
+        }
+    } else {
+        console.log("No featured products found.");
+    }
+}
+
+main();
+>>>>>>> 54e1aeb484cc31872617c0380c47cc534e2ce7e0
