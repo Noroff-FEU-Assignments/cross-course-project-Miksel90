@@ -1,7 +1,7 @@
 const queryString = window.location.search;
 console.log(queryString);
 
-
+let currentProductId;
 
 if(window.location.pathname.includes("/index.html")) {
     main();

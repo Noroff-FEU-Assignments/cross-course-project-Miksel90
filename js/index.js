@@ -12,12 +12,11 @@ async function getProducts() {
     
     const products = await response.json();
 
- return products;
-/* console.log(products); */
+    return products;
+/*     console.log(products); */
 }
 
 
-//Create HTML 
 function createProductHTML(product) {
     const container = document.querySelector(".container-featured");
 
@@ -32,8 +31,6 @@ function createProductHTML(product) {
 
     /*  console.log(product.images) */
 
-
-    //Looping through the Jsoon 
     for (let i = 0; i <product.images.length; i++) {
         const imgData = product.images[i];
         const img = document.createElement("img");
@@ -56,12 +53,10 @@ function createProductsHTML (products) {
     }
 }
 
-//create the main funcion
 async function main() {
     const products = await getProducts()
     createProductsHTML(products)
    //  console.log(products[0]); 
 } 
 
-//run the entire function
 main()
