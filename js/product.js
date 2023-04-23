@@ -1,12 +1,12 @@
-// Query parameter in the URL
+// parameters in the URL
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const productId = urlParams.get("id");
 
-// URL to fetch product details
+// new URL for product details
 const apiUrl = `http://rainydays.local/wp-json/wc/store/products/${productId}`;
 
-// Fetch product details and update HTML
+// Fetch product details and new HTML
 async function getProductDetails() {
   const response = await fetch(apiUrl);
   const product = await response.json();
@@ -22,12 +22,12 @@ async function getProductDetails() {
   img.alt = product.images[0].alt;
   container.append(img);
 
-
   const price = document.createElement("p");
   price.innerText = "Price: $" + (product.prices.price / 100).toFixed(2);
   container.append(price);
 }
 
+//running function 
 getProductDetails();
 
 
