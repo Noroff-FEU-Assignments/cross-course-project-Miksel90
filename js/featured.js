@@ -41,13 +41,6 @@ const productContainer = document.createElement("a");
   price.innerText = "Price: $" + (product.prices.price / 100).toFixed(2);
   productContainer.append(price);
 
-  /* // Add event listener for click event
-  productContainer.addEventListener("click", (event) => {
-    event.preventDefault();
-    const productId = product.id;
-    window.location.href = "jacket-specific.html?id=" + productId;
-  }); */
-
 
   container.append(productContainer);
 }
