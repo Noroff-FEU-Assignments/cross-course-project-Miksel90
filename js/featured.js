@@ -20,10 +20,10 @@ function createProductHTML(product) {
   const container = document.querySelector(".container-featured");
 /* 
   const productContainer = document.createElement("div"); */
-  const productContainer = document.createElement("a");
+const productContainer = document.createElement("a");
     productContainer.href = "jacket-specific.html?id=" + product.id
-  productContainer.classList.add("product");
-  productContainer.id = product.id;
+    productContainer.classList.add("product");
+    productContainer.id = product.id;
 
   const title = document.createElement("h2");
   title.innerText = product.name;
@@ -40,6 +40,14 @@ function createProductHTML(product) {
   const price = document.createElement("p");
   price.innerText = "Price: $" + (product.prices.price / 100).toFixed(2);
   productContainer.append(price);
+
+  /* // Add event listener for click event
+  productContainer.addEventListener("click", (event) => {
+    event.preventDefault();
+    const productId = product.id;
+    window.location.href = "jacket-specific.html?id=" + productId;
+  }); */
+
 
   container.append(productContainer);
 }

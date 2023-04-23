@@ -244,6 +244,47 @@ nav a:hover,.bottom-nav a:hover {
   object-fit: cover;
 }
 
+/* Example CSS for styling the product details container */
+#product-details-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for screens with max width of 768px or less */
+  #product-details-container {
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+}
+
 
 
 .column img{
