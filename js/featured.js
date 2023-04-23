@@ -18,8 +18,10 @@ async function getProducts() {
 // Create HTML
 function createProductHTML(product) {
   const container = document.querySelector(".container-featured");
-
-  const productContainer = document.createElement("div");
+/* 
+  const productContainer = document.createElement("div"); */
+  const productContainer = document.createElement("a");
+    productContainer.href = "jacket-specific.html?id=" + product.id
   productContainer.classList.add("product");
   productContainer.id = product.id;
 
