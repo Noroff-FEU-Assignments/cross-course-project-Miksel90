@@ -34,7 +34,7 @@ function createProductHTML(product) {
     /*  console.log(product.images) */
 
 
-    //Looping through the Jsoon 
+    //Looping through the Json 
     for (let i = 0; i <product.images.length; i++) {
         const imgData = product.images[i];
         const img = document.createElement("img");

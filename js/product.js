@@ -3,7 +3,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const productId = urlParams.get("id");
 
-// API URL to fetch product details
+// URL to fetch product details
 const apiUrl = `http://rainydays.local/wp-json/wc/store/products/${productId}`;
 
 // Fetch product details and update HTML
@@ -21,6 +21,7 @@ async function getProductDetails() {
   img.src = product.images[0].src; 
   img.alt = product.images[0].alt;
   container.append(img);
+
 
   const price = document.createElement("p");
   price.innerText = "Price: $" + (product.prices.price / 100).toFixed(2);

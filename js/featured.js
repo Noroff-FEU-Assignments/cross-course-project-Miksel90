@@ -18,8 +18,7 @@ async function getProducts() {
 // Create HTML
 function createProductHTML(product) {
   const container = document.querySelector(".container-featured");
-/* 
-  const productContainer = document.createElement("div"); */
+
 const productContainer = document.createElement("a");
     productContainer.href = "jacket-specific.html?id=" + product.id
     productContainer.classList.add("product");
@@ -36,6 +35,13 @@ const productContainer = document.createElement("a");
     img.alt = imgData.alt;
     productContainer.append(img);
   }
+
+    // Create anchor tag button
+    const cartButton = document.createElement("a");
+    cartButton.href = "cart.html";
+    cartButton.classList.add("cart-button");
+    cartButton.innerText = "Add to Cart"; // Change the button text as needed
+    productContainer.append(cartButton);
 
   const price = document.createElement("p");
   price.innerText = "Price: $" + (product.prices.price / 100).toFixed(2);
