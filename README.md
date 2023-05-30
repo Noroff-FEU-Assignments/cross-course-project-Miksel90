@@ -1,19 +1,54 @@
-Rainydays
-This repository is for my first-year HTML and css project a Noroff. An Online shop selling jackets- 
+# Project Exam 1: Bogeys & Bunkers
 
-Live site:
-bespoke-kashata-8e6167.netlify.app 
 
-Figma Prototype:
-https://www.figma.com/file/bwv9ixuGjciFpI8SjM7SDd/Rainy-days-v1?node-id=17%3A3003 
+![image]
 
-Attributes - Rainydays
+A simple overview of the use/purpose of the project.
 
-<a href="https://www.freepik.com/free-photo/couple-trekking-through-rain-highlands_13301104.htm#page=2&query=rain&position=4&from_view=search">Image by rawpixel.com</a> on Freepik
+## Description
+Add a more detailed description of what your project entails and set out to do.
 
-All pictures are from unsplash, except the one above, and I used an image extractor plugin in Figma to get them on my local computer. not sure if i need to add attributes on this CA. 
+You can add some bullet points if you'd like to:
 
-Reflection: 
-I had to make som changes from my prototype. For accessibilty I had to change some colors on most of my text since the white color did not have enough contrast to the brown. I also did not have time to put in all the icons for SOME, or add to favourites buttons. I also changed the nav a bit since I could not get it to look exactly the same. I also changed the layout of my register and checkout pages, as I couldnt get them to look nice on some devices. Overall im quite happy with the result as I thought i would not make the deadline. I know some of my images are above 200kb but that was one of the last criterias I checked and I did not have time to find other fitting images, so i would definatly change that if I had time to searh for the "right" images. I feel like like this task was quite huge and complex for my first project, and it was a lot to wrap my head around so im just hoping im going to pass. I realy have to thank MJphillip who helped me alot along the way and was realy quick with the feedback. I also got a lot of help from www.w3schools.com. 
+List item 1
+List item 2
+List item 3
 
-I tried to clean up the html as much as I could, but there was something left, that i did not understand, like the line I had in my list. It also told med it was a loose /div but when i tried to remove it it destoryed my page. When I checked in  WaVE I did not have labels for the search bar nor the color buttons. not sure how to label the color buttons, but I would look into that when adding Js. like adding some text to show which color it was. 
+## Built With
+You can list a the tech stack that you've used over here
+
+React.js
+Bootstrap
+
+## Getting Started
+### Installing
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+
+1. Clone the repo:
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
+
+2. Install the dependencies:
+npm install
+
+### Running
+Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+
+To run the app, run the following commands:
+
+npm run start
+
+## Contributing
+Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate CONTRIBUTING.md and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+
+## Contact
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+
+My Twitter page
+
+My LinkedIn page
+
+## License
+You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
+
+## Acknowledgments
+This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
