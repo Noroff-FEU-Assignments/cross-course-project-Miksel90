@@ -2,7 +2,7 @@
 
 <img src="images/RainyDays_Logo.png" alt="Rainydays logo">
 
-A simple overview of the use/purpose of the project.
+My first project which we built over our first year at Noroff. The project was to build a website for a brand that wanted to sell jackets for young men and woman that enjoyed doing activetites outside.
 
 ## Description
 
@@ -10,9 +10,9 @@ Add a more detailed description of what your project entails and set out to do.
 
 You can add some bullet points if you'd like to:
 
-List item 1
-List item 2
-List item 3
+- List item 1
+- List item 2
+- List item 3
 
 ## Built With
 
