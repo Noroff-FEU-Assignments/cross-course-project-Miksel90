@@ -40,7 +40,7 @@ const productContainer = document.createElement("a");
     const cartButton = document.createElement("a");
     cartButton.href = "cart.html";
     cartButton.classList.add("cart-button");
-    cartButton.innerText = "Add to Cart"; // Change the button text as needed
+    cartButton.innerText = "Add to Cart"; 
     productContainer.append(cartButton);
 
   const price = document.createElement("p");

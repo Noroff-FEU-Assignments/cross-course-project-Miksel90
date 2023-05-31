@@ -1,6 +1,6 @@
 # Cross-course-Project | Rainydays
 
-![image]url(../images/RainyDays_logo.png);
+<img src="images/RainyDays_Logo.png" alt="Rainydays logo">
 
 A simple overview of the use/purpose of the project.
 
