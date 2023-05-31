@@ -1,6 +1,6 @@
 # Cross-course-Project | Rainydays
 
-![image](C:\Users\mikae\Documents\GitHub\cross-course-project-Miksel90\images\RainyDays_Logo.png)
+![image]url(../images/RainyDays_logo.png);
 
 A simple overview of the use/purpose of the project.
 
