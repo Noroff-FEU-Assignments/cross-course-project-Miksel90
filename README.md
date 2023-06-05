@@ -28,7 +28,7 @@ Things im working on:
 
 - HTML
 - CSS
-- Vanilla JS
+- JavaScript
 
 ## Getting Started
 
