@@ -6,7 +6,16 @@ My first project which we built over our first year at Noroff. The project was t
 
 ## Description
 
-This is my first ever project working with simple coding. The project went over two semesters and I built and rebuilt it as my knowledge of coding improved. In the begining we were only alowed to use HTML and CSS, so the JS has been added over the last couple of months. The project was to create a homepage for company selling jackets targeting young peolpe that enjoyed doing activeties outside regardless of weather.
+This is my first ever project working with simple coding. The project went over two semesters and I built and rebuilt it as my knowledge of design and coding improved. We started of by designing the site in Figma and then and then implement changes after the feedback we reccived. After hvaing our design approved we started coding. We were only alowed to use HTML and CSS, so the JS has been added over the last couple of months. The project was to create a homepage for company selling jackets targeting young peolpe that enjoyed doing activeties outside regardless of weather.
+
+The site had to include: 
+- Index
+- About us
+- contact page
+- Products page
+- product specific page
+
+After the first draft and starting with JS we had to add contact confirmation and fetching the products from Woocommerce (wordpress). My wordpress is set up localy so it does not show any products before I add it to my own hosting site. 
 
 The page is not yet finished as of june 2023, but i will continue to work on it until i think is finished.
 
